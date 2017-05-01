@@ -1,0 +1,285 @@
+──────────────────────────────────
+【白驼山庄简介】
+──────────────────────────────────
+    中原西去大漠千里之外，有一座白驼山庄，庄主“西毒”欧阳锋
+享大名数十年，乃是当代武学的大师。少主欧阳克，名是欧阳锋的侄
+子，实则是他与嫂子私通所生，是他的嫡亲骨肉。欧阳克仗着叔父撑
+腰，横行西域又天生好色，历年派人到各地搜罗美女，收为姬妾，闲
+居之余又教她们学些武功，因此这些姬妾又算得是他女弟子。
+
+    白驼山庄毒蛇成群，都是在白驼山蛇谷中杂交培养而得，毒性猛
+烈，由庄中众多蛇奴负责牧蛇，能够驱使自如，是欧阳锋花上无数时
+光心血所练就，以此与人多势众的全真教、丐帮、大理，桃花岛的奇
+门遁甲之术相抗衡。论到使毒用毒，武林中更无人出西毒之右。
+
+    欧阳锋长住西域，为人狠毒，口蜜腹剑，狡猾之极，武功又是深
+不可测，武林中人人忌惮。此人号称“西毒”，听旁人说他手段毒辣，
+向来不以为忤，反有沾沾自喜之感。但是欧阳锋虽然生性歹毒，却不
+失信于人，不失武学大宗师的身分。
+
+    白驼山庄僻处西域，武功博大精深、自成一家，庄主欧阳锋更是
+五绝之一人称「西毒」。白驼山庄毒虫毒蛇数以万计，武林中人谈之
+色变。
+
+    当年欧阳锋于华山二次论剑一役被黄蓉用计逼疯后，就再也没回
+过西域老家白驼山，十馀年来走遍了天涯海角，只盼能找到自己。近
+年来他脑子已清醒得多，虽然仍是疯疯癫癫，许多旧事却已逐步一一
+记起，只是自己到底是谁，却始终想不起来。
+    欧阳锋的独门绝技蛤蟆功乃是天下武学中的绝顶功夫，其中内功
+变化精微，奥妙无穷；外功掌法则刚中有柔，柔中有刚，招式奇特且
+威力巨大。再加上他将多年来逆练的九阴真经融于当中，使之大逆寻
+常武功，更加怪异无伦。
+
+──────────────────────────────────
+【白驼山庄武功简介】
+──────────────────────────────────
+
+养蛇之技 (yangsheshu)
+招蛇之术 (zhaosheshu)
+
+基本拳法 (cuff)
+基本轻功 (dodge)
+基本内功 (force)
+基本手法 (hand)
+基本招架 (parry)
+基本杖法 (staff)
+基本掌法 (strike)
+基本剑法 (sword)
+驭兽术 (training)
+基本拳脚 (unarmed)
+
+蟾蜍步法 (chanchu-bufa)
+蛤蟆功 (hamagong)
+蛤蟆神功 (hamashengong)
+灵蛇拳 (lingshe-quan)
+灵蛇杖法 (lingshe-zhangfa)
+武学修养 (martial-cognize)
+七弦无形剑 (qixian-wuxingjian)
+神驼雪山掌 (shentuo-zhang)
+蛇形刁手 (shexing-diaoshou)
+西域铁筝音 (xiyu-tiezheng)
+
+─────────────────────────────────────────────────
+【白驼山庄武功学习条件及特殊招式效果】
+─────────────────────────────────────────────────
+【蛤蟆功】(hamagong)
+学习要求：有一定的负神，无性只能学到50
+自动特殊攻击：作为攻击武功时，jifa force hamagong或者使用hamagong的reserve以后
+自动特殊防御：
+
+特殊招式：
+perform：
+hama 蛤蟆功
+要求：jifa force hamagong，max_neili>=1500，neili>=400，jifa strike hamagong
+	strike>=100，后天臂力>=30
+命中与威力相关：force有效等级，先天根骨，neili，hamagong
+
+puji 蛤蟆扑击
+要求：hamagong>=120，jifa force hamagong，neili>600，xiyu-tiezheng>=180，
+	shentuo-zhang>=180，chanchu-bufa>=180，hamashengong>=180，lingshe-quan>=180
+	qixian-wuxingjian>=180，shexing-diaoshou>=180，jifa strike hamagong
+命中与威力相关：hamagong，force有效等级，strike有效等级，dodge有效等级，加力数，neili
+
+tui 推天式
+要求：max_neili>=4000，neili>=1000
+命中与威力相关：force有效等级，max_neili，带白驼的毒，被yiyang-zhi所克
+
+zhen 蟾震九天
+要求：hamagong>=100，jifa force hamagong，neili>600，xiyu-tiezheng>=180，
+	shentuo-zhang>=180，chanchu-bufa>=180，hamashengong>=180，lingshe-quan>=180
+	qixian-wuxingjian>=180，shexing-diaoshou>=180，jifa strike hamagong，max_neili>=1500，
+	后天臂力>=30，strike>=100
+命中与威力相关：force有效等级，neili
+
+exert：
+heal 疗伤
+要求：hamagong>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+qudu 解毒
+要求：hamagong>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：驱除蛇毒蟾蜍毒，不能一次驱除干净
+
+reserve 经脉倒转
+要求：hamagong>=100，neili>=200
+命中与威力相关：hamagong
+
+
+【蟾蜍步法】(chanchu-bufa)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+chanfei 蟾飞九天
+要求：chanchu-bufa>=60，neili>=400
+命中与威力相关：exp，chanchu-bufa
+
+【蛇形刁手】(shexing-diaoshou) 可与shentuo-zhang，lingshe-quan互备
+学习要求：hamagong>=20，max_neili>=100，可以与shentuo-zhang或者lingshe-quan互备
+自动特殊攻击：jifa force hamagong或者使用hamagong的reserve以后
+自动特殊防御：
+
+特殊招式：
+chanshen 蛇形缠身决
+要求：hamagong>=20，shexing-diaoshou>=150，max_neili>=1000，neili>=200，jing>=300
+命中与威力相关：hamagong，shexing-diaoshou
+
+diaoshou 刁手蛇形
+要求： hamagong>=20，shexing-diaoshou>=200，max_neili>=500，neili>=100
+命中与威力相关：shexing-diaoshou
+
+huixuan 蛇形回旋步
+要求：hamagong>=80，shexing-diaoshou>=150，max_neili>=1000，neili>=200，jing>=300
+命中与威力相关：hamagong，shexing-diaoshou
+
+【灵蛇杖法】(lingshe-zhangfa)
+学习要求：max_neili>=70，lingshe-quan>=60，shexing-diaoshou>=60，hamagong>=50
+自动特殊攻击：jifa force hamagong或者使用hamagong的reserve以后
+自动特殊防御：
+
+特殊招式：
+hama 蟾掌毒，hslj专有 
+要求：neili>=2000，neili>=max_neili/7+200，lingshe-zhangfa>=500，hamagong>=500，
+	hamashengong>=500，jifa force hamagong，不能有jiuyin-zhengong
+命中与威力相关：exp，lingshe-zhangfa，force有效等级
+
+huan 云霞幻生
+要求：hamagong>=100，lingshe-zhangfa>=120，dodge有效等级>=180，jifa staff lingshe-zhangfa
+	neili>=200
+命中与威力相关：staff有效等级，带白驼的毒
+
+qianshe 千蛇出洞
+要求：force有效等级>=150，hamagong>=100，neili>=100，jifa foce hamagong
+	lingshe-zhangfa>=120，jifa staff lingshe-zhangfa
+命中与威力相关：lingshe-zhangfa，zhaosheshu，yangsheshu，带白驼的毒
+
+saoluoye 狂风扫落叶
+要求：force有效等级>=180，hamagong>=100，neili>=1200，lingshe-zhangfa>=200
+命中与威力相关：exp，lingshe-zhangfa
+
+shewu 灵蛇缠身
+要求：force有效等级>=80，staff有效等级>=80，lingshe-zhangfa>=280，xiyu-tiezheng>=180，
+	shentuo-zhang>=180，chanchu-bufa>=180，hamashengong>=180，lingshe-quan>=180，
+	qixian-wuxingjian>=180，shexing-diaoshou>=180，neili>=500
+命中与威力相关：staff有效等级，lingshe-zhangfa，zhaosheshu，yangsheshu，带白驼的毒
+
+shoot 喷毒
+要求：hamaggong>=40，lingshe-zhangfa>=40，neili>=400，武器为she zhang
+命中与威力相关：lingshe-zhangfa，带白驼的毒
+
+wuji 横行无忌
+要求：hamagong>=100，force有效等级>=200，neili>=300，lingshe-zhangfa>=150
+	jifa staff lingshe-zhangfa
+命中与威力相关：staff有效等级，
+
+【蛤蟆神功】(hamashengong)
+学习要求：force>=200，hamagong>=100，neili>=1500
+自动特殊攻击：jifa force hamagong或者使用hamagong的reserve以后
+自动特殊防御：
+
+特殊招式：
+hama 蛤蟆功
+要求：hamashengong>=150，jifa strike hamashengong，hamagong>=100
+	max_neili>=2000，neili>=400，strike>=100
+命中与威力相关：exp，hamagong，hamashengong，force有效等级，neili
+
+【西域铁筝音】(xiyu-tiezheng)
+学习要求：hand>=100，hamagong>=xiyu-tiezheng
+自动特殊攻击：jifa force hamagong
+自动特殊防御：
+
+特殊招式：
+shewu 蛇舞
+要求：neili>=500，jing>=50，xiyu-tiezheng>=100
+命中与威力相关：xiyu-tiezheng
+
+【神驼雪山掌】(shentuo-zhang) 可与shexing-diaoshou互备
+学习要求：hamagong>=15，max_neili>=50
+自动特殊攻击：jifa force hamagong或者使用hamagong的reserve以后
+自动特殊防御：
+
+特殊招式：
+nzqk 扭转乾坤
+要求：shentuo-zhang>=180，neili>=200
+命中与威力相关：exp，strike有效等级
+
+rou 柔字诀
+要求：shentuo-zhang>=120，hamagong>=100，neili>=200
+命中与威力相关：exp，strike有效等级，force有效等级，unarmed有效等级，带白驼毒
+
+suo 雪锁千山
+要求： jifa strike shentuo-zhang，shentuo-zhang>=150，neili>=200
+命中与威力相关：strike有效等级，带白驼毒
+
+【七弦无形剑】(qixian-wuxingjian)
+学习要求：force有效等级>=270，max_neili>=3000，unarmed>=180，sword>=180，lingshe-quan>=200
+	shexing-diaoshou>=200，hamagong>=200，hamashengong>=200，sword+100>=qixian-wuxingjian
+自动特殊攻击：jifa force hamagong
+自动特殊防御：
+
+特殊招式：
+shan 七弦黄龙闪
+要求：qixian-wuxingjian>=160，jifa sword qixian-wuxingjian，jifa force hamagong，force有效等级>=250
+	neili>=600
+命中与威力相关：force有效等级，max_neili
+
+yin 七弦无形音
+要求：qixian-wuxingjian>=160，jifa sword qixian-wuxingjian，force有效等级>=250，neili>=600
+命中与威力相关：force有效等级，max_neili
+
+zhu 七弦连环诛
+要求：qixian-wuxingjian>=180，jifa sword qixian-wuxingjian，jifa force hamagong，force有效等级>=300
+	neili>=500
+命中与威力相关：force有效等级，max_neili，qixian-wuxingjian，zhaosheshu，yangsheshu，带白驼毒
+
+【灵蛇拳】(lingshe-quan) 可与shexing-diaoshou互备
+学习要求： hamagong>=30，max_neili>=500，cuff>=lingshe-quan
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+biliwuxing 霹雳无形
+要求：neili>=100，lingshe-quan>=20，hamagong>=50，force>=100
+命中与威力相关：lingshe-quan
+
+lei 雷霆万钧
+要求：lingshe-quan>=120，hamagong>=50，neili>=400
+命中与威力相关：strike有效等级，lingshe-quan，带白驼毒
+
+rou 柔字诀
+要求：shentuo-zhang>=120，hamagong>=100，neili>=200
+命中与威力相关：unarmed有效等级，force有效等级，带白驼毒
+
+──────────────────────────────────
+【白驼山庄拜师指南】
+──────────────────────────────────
+「西毒」欧阳峰
+拜师条件：exp>=100000
+
+欧阳克
+拜师条件：exp>=10000
+
+李教头
+拜师条件： 无
+
+────────────────────────────────────────────────────
+【白驼山庄门派任务】
+────────────────────────────────────────────────────
+有关白驼山庄的门派任务，参见
+
+〖baituojob  〗 白驼讨债任务（exp>100k）
+〖btjob2     〗 白驼牧蛇任务（无限制）
+
+──────────────────────────────────
+【白驼山庄解密指南】
+──────────────────────────────────
+白驼山庄有个花盆可以随意移动
+张妈的女儿金花被山贼抢走了
+蛤蟆神功可以去黑石围子练
+白驼的神蛇认得回家的路
+

@@ -1,0 +1,284 @@
+──────────────────────────────────
+【华山派简介】
+──────────────────────────────────
+
+    五岳剑派共由江湖中的五大门派组成，即：华山派、恒山派、嵩山派、衡
+山派及泰山派。势力庞大，隐然可与少林武当分庭抗礼。华山派原为五岳剑派
+中势力最强的一派，但华山两位前辈岳肃和蔡子峰因时机巧合，得以一窥当世
+无上武学密籍「葵花宝典」；但却又因见解不同，一人主张以修气为本，教导
+弟子重修气，另一人却以为因当以剑法为主而教导弟子重剑法，华山派至此竟
+分裂为剑、气二宗。二宗各持己见，终于水火不容，同门操戈！高手伤亡怠尽，
+华山因此式微。
+
+────────────────────────────────────────
+【华山派武功简介】
+────────────────────────────────────────
+正气诀 (zhengqijue)                      
+紫氲吟 (ziyunyin)                        
+
+基本刀法 (blade)                         
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+
+冲灵剑法 (chongling-jian)                
+反两仪刀法 (fanliangyi-dao)              
+飞燕回翔 (feiyan-huixiang)               
+华山内功 (huashan-neigong)               
+华山剑法 (huashan-sword)                 
+混元掌 (hunyuan-zhang)                   
+狂风快剑 (kuangfeng-jian)                
+独孤九剑 (lonely-sword)                  
+劈石破玉拳 (poyu-quan)                   
+紫霞神功 (zixia-shengong)                
+
+────────────────────────────────────────
+【华山派武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【华山内功】(huashan-neigong)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求： neili>=50，eff_qi>max_qi/2
+命中与威力相关： force有效等级
+
+lifeheal 救人
+要求：huashan-neigong>=20，max_neili>=300，neili>=100，目标eff_qi>max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关： force有效等级
+
+【紫霞神功】(zixia-shengong)
+学习要求：无性只能学到50，force>=10，一定量的正气
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+heal 疗伤 
+要求：zixia-shengong>=20，neili>=50，eff_qi>max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力 
+要求：neili>=100
+命中与威力相关：force有效等级
+
+
+【冲灵剑法】(chongling-jian)
+学习要求：max_neili>=100，huashan-sword>=100，fanliangy-dao>=100，poyu-quan>=100，
+	hunyuan-zhang>=100，feiyan-huixiang>=100，kuangfeng-jian>=100，sword>=chongling-jian
+自动特殊攻击：jifa force zixia-shengong
+自动特殊防御：
+
+特殊招式：
+ai 爱意之剑
+要求： zixia-shengong>=60，chongling-jian>=155，jing>=100，neili>=400
+命中与威力相关：zixia-shengong，chongling-jian
+
+hebi 双剑合壁
+要求：男女搭配，jifa force zixia-shengong，男女双方chongling-jian均>=160，zixia-shengong均>=160，
+	neili均>=500，均jifa sword chongling-jian
+命中与威力相关：双方的chongling-jian
+
+【反两仪刀法】(fanliangyi-dao)
+学习要求：max_neili>=50，zixia-shengong>=10，jifa force zixia-shengong，blade>=fanliangyi-dao
+自动特殊攻击：jifa force zixia-shengong
+自动特殊防御：
+
+特殊招式：
+makearray 双刀合壁 
+要求：fanliangyi-dao>=30，max_neili>=50，两个人使用，jifa force zixia-shengong，
+	jifa blade fanliangyi-dao
+命中与威力相关：fanliangyi-dao
+
+sanshen 华岳三神峰
+要求：zixia-shengong>=80 ， blade有效等级>=50， neili>=100，jifa blade fanliangyi-dao
+命中与威力相关：blade有效等级
+
+【飞燕回翔】(feiyan-huixiang)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+huiyanfeiwu 回燕飞舞 
+要求：feiyan-huixiang>=60，neili>=400
+命中与威力相关：exp，feiyan-huixiang
+
+【华山剑法】(huashan-sword)
+学习要求：jifa force zixia-shengong，max_neili>=50 
+自动特殊攻击：jifa force zixia-shengong
+自动特殊防御：
+
+特殊招式：
+jianzhang 剑掌五连环
+要求：huashan-sword>=50，sword>=50， neili>=100，jifa sword huashan-sword
+命中与威力相关：huashan-sword
+
+jie 截手式
+要求：huashan-sword>=30，neili>=60，jifa sword huashan-sword
+命中与威力相关：huashan-sword
+ 
+jm 剑芒
+要求：huashan-sword>=90 ，sword>=90， 后天臂力>=25 后天身法>=25 ，zixia-shengong>=80
+	max_neili>=500，neili>=200，jifa sword huashan-sword
+命中与威力相关：exp，dodge有效等级，force有效等级，huashan-sword，zixia-shengong，sword
+
+wudui 无双无对
+要求：huashan-sword>=100，zixia-shengong>=60，sword>=100，max_neili>=800
+	jifa sword huashan-sword，neili>=500，与poyu-quan的雷动九天冲突
+命中与威力相关：huahan-sword
+
+xian 夺命连环三仙剑
+要求：huashan-sword>=120，dodge>=160，neili>=300，jifa sword huashan-sword
+命中与威力相关：sword有效等级
+
+【混元掌】(hunyuan-zhang) 可与poyu-quan互备,
+学习要求：zixia-shengong>=20 ，max_neili>=100
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+wuji 混元无极
+要求：hunyuan-zhang>=60，poyu-quan>=60
+命中与威力相关：hunyuan-zhang
+
+【狂风快剑】(kuangfeng-jian)
+学习要求：max_neili>=300，force>=60，dodge>=60，后天身法>=25
+自动特殊攻击：jifa force zixia-shengong
+自动特殊防御：
+
+特殊招式：
+feilong 天外飞龙
+要求：huashan-neigong>=200，kuangfeng-jian>=200， max_neili>=600，neili>=500
+命中与威力相关：exp
+
+kuangfeng 狂风快剑
+要求：huashan-neigong>=150 ，kuangfeng-jian>=150， neili>=1300，jing>=500
+命中与威力相关：固定提升攻击力，sword有效等级
+
+kuanglong 天外狂龙
+要求：huashan-neigong>=120 ，kuangfeng-jian>=150 ，max_neili>=600，neili>=400
+	jifa sword kuangfeng-jian
+命中与威力相关：
+
+sao 风扫落叶
+要求：neili>=180，kuangfeng-jian>=100，dodge>=100
+命中与威力相关：sword有效等级
+
+【独孤九剑】(lonely-sword)
+学习要求：max_neili>=600 只能向风清扬学习到120级，zixia-shengong>=100，lonely-sword<=huashan-sword+150
+	lonely-sword<=kuangfeng-jian+150，lonely-sword<=poyu-quan+200，lonely-sword<=hunyuan-zhang+200
+	lonely-sword<=feiyan-huixiang+200，lonely-sword<=zixia-shengong+200，lonely-sword<=huashan-neigong+200
+自动特殊攻击：jifa force zixia-shengong
+自动特殊防御：jifa sword lonely-sword，jifa force zixia-shengong，jifa parry lonely-sword
+
+特殊招式：
+jiushi 九式合一
+要求：lonely-sword>=250 ，zixia-shengong>=100，max_neili>=2000，neili>=800
+命中与威力相关：exp，lonely-sword，sword，zixia-shengong，
+	zixia-shengong>=lonely-sword时为直接伤害，反之为物理伤害
+
+po 总决式
+要求：lonely-sword >=20 ，与其他某些非华山的剑法冲突，neili>=170，eff_qi>=170，jing>=170
+	jing>=先天悟性-45，zixia-shengong>=100，lonely-sword<=huashan-sword+150
+	lonely-sword<=kuangfeng-jian+150，lonely-sword<=poyu-quan+200，lonely-sword<=hunyuan-zhang+200
+	lonely-sword<=feiyan-huixiang+200，lonely-sword<=zixia-shengong+200，lonely-sword<=huashan-neigong+200
+命中与威力相关：用于增加lonely-sword级数
+
+poanqi 破箭式
+要求： lonely-sword>=50 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+pobian 破鞭式 
+要求：lonely-sword>=50 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+podao 破刀式
+要求： lonely-sword>=50 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+pojian 破剑式
+要求： lonely-sword>=50 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+poqi 破气式
+要求： lonely-sword>=170  ，zixia-shengong>=100，neili>=250
+命中与威力相关：lonely-sword，sword有效等级
+
+poqiang 破枪式
+要求： lonely-sword>=50 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+posuo 破索式
+要求：lonely-sword>=60 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，sword有效等级
+
+pozhang 破掌式
+要求： lonely-sword>=70 ，zixia-shengong>=100，neili>=50
+命中与威力相关：lonely-sword，exp
+
+pozhao 破招式
+要求：lonely-sword>=200 ，zixia-shengong>=100，neili>=300
+命中与威力相关：lonely-sword，exp，可令对方暂时失明
+
+wanjian 万剑归一
+要求：lonely-sword>=250，chongling-jian>=250，内力>=2000，huashan-sword>=100，feiyan-huixiang>=100
+		zixia-shengong>=100，fanliangyi-dao>=100，hunyuan-zhang>=100，poyu-quan>=100，
+		kuangfeng-jian>=100，max_neili>=2000，neili>=980
+命中与威力相关：zixia-shengong，lonely-sword，sword有效等级
+
+xinjian 心剑发，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，lonely-sword>=500，zixia-shengong>=500，
+	huashan-sword>=500，jifa force zixia-shengong，不能有jiuyin-zhengong
+命中与威力相关：exp，lonely-sword，zixia-shengong，sword
+
+zongjue 
+要求： lonely-sword>=150 ，zixia-shengong>=100，max_neili>=500，neili>=200
+命中与威力相关：exp，lonely-sword
+
+【劈石破玉拳】(poyu-quan) 可与hunyuan-zhang互备
+学习要求：zixia-shengong>=10，max_neili>=50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+leidong 雷动九天
+要求： poyu-quan>=200，zixia-shengong>=50，neili>=500
+命中与威力相关：poyu-quan，先天臂力
+
+──────────────────────────────────
+【华山派拜师指南】
+──────────────────────────────────
+岳不群
+拜师条件：先天悟性>=20
+
+高矮两长老
+拜师条件：dodge，force，feiyan-huixiang，zixia-shengong均>=80，zhengqi>=50000
+
+风清扬
+拜师条件：没叛过师，zixia-shengong>=180   
+	dodge>=80 ，huashan-sword>=180，force>=80 ，literate>=80
+	sword>=80 ，后天悟性>=20，feiyan-huixiang>=180 zhengqi>50000
+
+────────────────────────────────────────────────────
+【华山派门派任务】
+────────────────────────────────────────────────────
+有关华山派的门派任务，参见
+
+〖huashanjob 〗 华山巡山任务（exp>100k）
+〖zhuamonkey 〗 华山抓小猴任务（无限制）
+
+──────────────────────────────────
+【华山派解密指南】
+──────────────────────────────────
+田伯光最近在华山，得到风清扬的指点才能打败他
+华山上有个隐秘的山洞，传说是金蛇郎君所在
+

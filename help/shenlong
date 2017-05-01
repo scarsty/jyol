@@ -1,0 +1,298 @@
+──────────────────────────
+【神龙教介绍】
+──────────────────────────
+
+    神龙教为明末清初江湖一邪教，乃教主洪安通一手所创
+。起事时共有一千零二十三名教众，目的是为了一统江湖，
+由神龙教来领导整个武林。历经数十载，此千余名旧部或命
+丧敌手，或被教主诛戮，剩下已不足一百。然神龙教不断吐
+故纳新，先后共有数万教众赴汤蹈火，终成气候。
+
+    神龙教总舵现设于辽东蛇岛（神龙岛），海路由西至塘
+沽口，西连京师、山海关，北至旅顺口，北连长白山、雅克
+萨，南达舟山、全州港。辖下分为青、白、黑、黄、赤五龙
+，分别由五名五龙使掌管。原白龙使钟志灵叛教被诛，因此
+白龙使的位置一直空着。其他四名五龙使除了负责管辖本门
+神龙教弟子以外，还兼管教中特殊使命。青龙使许雪亭定期
+下达惩罚武林界与神龙教为敌的武林人士任务，黑龙使张淡
+月侦察敌对势力的动向和武林中各种宝物的下落，黄龙使殷
+锦巡逻神龙岛严惩冒然闯入神龙岛的武林人士，赤龙使无根
+道人追杀叛教者。
+    神龙教教址在辽东神龙岛（蛇岛），海路由西至塘沽口，
+西连京师、山海关，北至旅顺口，北连长白山、雅克萨。辖
+下分为青、白、黑、黄、赤五龙，分别由五龙使掌管，另有
+若干武功高强的教众，陆高轩负责疗伤疗毒。
+
+    神龙教宗旨：神龙教一统江湖。
+
+    要想在神龙教拜师，先要入教（在有资格接引的人面前
+表示决心：join shenlongjiao ），然后洪教主和胖瘦二头
+陀可以拜师。叛教就找苏荃。如果已经在神龙教拜师了，则
+要先叛师，才能退教。
+
+──────────────────────────
+【神龙教武功简介】
+──────────────────────────
+
+养蛇之技 (yangsheshu)                    
+招蛇之术 (zhaosheshu)                    
+
+基本爪法 (claw)                          
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本腿法 (leg)                           
+基本招架 (parry)                         
+基本杖法 (staff)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+
+神龙帝王拳 (diwangquan)                  
+毒龙神爪功 (dulong-shenzhua)             
+化骨绵掌 (huagu-mianzhang)               
+青蛇剑法 (qingshe-sword)                 
+蛇岛奇功 (shedao-qigong)                 
+神龙八式 (shenlong-bashi)                
+神龙腿法 (shenlong-tuifa)                
+神龙心法 (shenlong-xinfa)                
+玄冥神掌 (xuanming-zhang)                
+意形步法 (yixingbu)                      
+──────────────────────────────────────────────────
+【神龙教武功学习条件及特殊招式效果】
+──────────────────────────────────────────────────
+【神龙心法】(shenlong-xinfa)
+学习要求：无性只能学到50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：shenlong-xinfa>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+jiedu 解毒
+要求：shenlong-xinfa>=90，neili>=500
+命中与威力相关：解毒神龙教相关的毒
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+shougong 收功
+要求：先运功wudi才能收功
+命中与威力相关：
+
+wudi 无敌大法
+要求：shenlong-xinfa>=100，neili>=600，eff_qi>=max_qi/2
+命中与威力相关：force有效等级，max_neili
+
+【神龙帝王拳】(diwangquan) 可与xuanming-zhang或者dulong-shenzhua互备
+学习要求：max_neili>=1200，shelong-xinfa>=180，shelong-tuifa>=180，dulong-shenzhua>=180
+	huagu-mianzhang>=180，shediao-qigong>=180，shelong-bashi>=180，xuanming-zhang>=180
+	yixingbu>=180，qingshe-sword>=180
+自动特殊攻击：jifa force shelong-xinfa
+自动特殊防御：
+
+特殊招式：
+sanzhao 夺命三连招 
+要求：jifa force shenlong-xinfa，shelong-xinfa>=200，diwangquan>=200，diwangquan- shelong-xinfa>=diwangquan/4
+	neili>=600，jing>=300
+命中与威力相关：shenlong-xinfa，diwangquan
+
+sheshen 舍身
+要求：diwangquan>=250，neili<800或者qi<300，shelong-xinfa>=250，jifa force shelong-xinfa
+	exp>=1500000
+命中与威力相关：exp，zhengqi
+
+superbashi 神龙八式
+要求：shenlong-xinfa>=180，neili>500，jing>500
+命中与威力相关：diwangquan
+
+sxbb 神形百变
+要求：shenlong-xinfa>=100，neili>500，jing>500
+命中与威力相关：exp，max_qi
+
+【毒龙神爪功】(dulong-shenzhua) 可与xuanming-zhang或者diwangquan互备
+学习要求：force>=50，max_neili>=550，shenlong-xinfa>=85，huagu-mianzhang>=125，claw>=dulong-shenzhua
+自动特殊攻击：jifa force shenlong-xinfa
+自动特殊防御：
+
+特殊招式：
+bao 蛟龙抱
+要求：dulong-shenzhua>=80，jifa claw dulong-shenzhua，dodge有效等级>=150
+	shenlong-xinfa>=85，neili>=200
+命中与威力相关：dulong-shenzhua，dodge，exp
+
+ju 真龙聚
+要求：dulong-shenzhua>=130，jifa claw dulong-shenzhua，jifa force shelong-xinfa
+	shenlong-xinfa>=85，force有效等级>=180，neili>=300
+命中与威力相关：force有效等级，claw有效等级，dulong-shenzhua
+
+【化骨绵掌】(huagu-mianzhang) 可与shenlong-bashi互备
+学习要求：shenlong-xinfa>=huagu-mianzhang/2，force>=50，max_neili>=300
+自动特殊攻击：jifa force shenlong-xinfa
+自动特殊防御：
+
+特殊招式：
+bujue 绵绵不绝
+要求：huagu-mianzhang>=100，neili>=100，shenlong-xinfa>=100
+命中与威力相关：jiali，huagu-mianzhang
+
+hua 辣手化骨
+要求：shenlong-xinfa>=50，huagu-mianzhang>=40，neili>=300
+命中与威力相关：exp
+
+lianhuan 连环
+要求：shenlong-xinfa>=150，huagu-mianzhang>=40，neili>300，jing>=150
+命中与威力相关：exp，huagu-mianzhang
+
+【青蛇剑法】(qingshe-sword)
+学习要求：max_neili>=500，shelong-xinfa>=80，shelong-tuifa>=80，dulong-shenzhua>=80
+	huagu-mianzhang>=80，shediao-qigong>=80，shelong-bashi>=80，xuanming-zhang>=80
+	yixingbu>=80
+自动特殊攻击：jifa force shenlong-xinfa
+自动特殊防御：
+
+特殊招式：
+jiang 神龙天降
+要求：qingshe-sword>=100，shenlong-xinfa>=100，neili>=600，jifa force shenlong-xinfa
+命中与威力相关：qingshe-sword，sword，force
+
+psxf 萍水相逢
+要求：qingshe-sword>=70，neili>=300
+命中与威力相关：qingshe-sword
+
+qscd 千蛇出洞
+要求：qingshe-sword>=50，neili>=300
+命中与威力相关：qingshe-sword
+
+slj 神龙剑
+要求：qingshe-sword>=200，neili>=600，
+命中与威力相关：exp，qingshe-sword
+
+【蛇岛奇功】(shedao-qigong)
+学习要求：shenlong-xinfa>=30，force>=30，shenlong-bashi>=30，shenlong-xinfa>=shediao-qigong
+自动特殊攻击：jifa force shenlong-xinfa
+自动特殊防御：
+
+特殊招式：
+chang 唱仙法
+要求：shedao-qigong>=100，shenlong-xinfa>=10，neili>=300
+命中与威力相关：固定
+
+chang2 唱仙法
+要求：shedao-qigong>=150，shenlong-xinfa>=10，neili>=1200
+命中与威力相关：固定
+
+chang3 唱仙法
+要求：shedao-qigong>=100，shenlong-xinfa>=10，neili>=500
+命中与威力相关：neili
+
+cui 摧心断肠
+要求：shedao-qigong>=120，shenlong-xinfa>=50，neili>=250
+命中与威力相关：sword有效等级或者staff有效等级
+
+fei 飞仙术
+要求：neili>=150，force有效等级>=100，shedao-qigong>=180，shenlong-xinfa>=50
+命中与威力相关：shedao-qigong
+
+wanshe 龙形八打
+要求：shedao-qigong>=200，shenlong-xinfa>=200，jifa force shenlong-xinfa，neili>=400
+命中与威力相关：exp，dodge有效等级，force有效等级，shedao-qigong，zhaosheshu，yangsheshu
+
+xian 神龙再现
+要求： shedao-qigong>=120，shenlong-xinfa>=50，neili>=200
+命中与威力相关：sword有效等级或者staff有效等级
+
+【神龙八式】(shenlong-bashi)
+学习要求： shelong-xinfa>=25，force>=25，max_neili>=150，shenlong-xinfa>=shenlong-bashi
+自动特殊攻击：jifa force shenlong-xinfa
+自动特殊防御：
+
+特殊招式：
+bada 龙形八打 
+要求：shenlong-bashi>=60，shenlong-xinfa>=60，neili>=50
+命中与威力相关：exp
+
+flower 彩蝶念花
+要求：zhaosheshu>=150，shenlong-bashi>=250，shenlong-xinfa>=150，neili>=500
+命中与威力相关：shenlong-bashi，exp，force有效等级，dodge有效等级
+
+meinu 美女三招
+要求：女性，huagu-mianzhang>=50，shenlong-tuifa>=50，shenlong-tuifa>=60，neili>=200
+	shenlong-bashi>=70，force>=80
+命中与威力相关：shenlong-xinfa，force有效等级，dodge有效等级，neili，exp
+
+shenlongtuwu 神龙吐珠
+要求：zhaosheshu>=150，shenlong-bashi>=150，neili>=300
+命中与威力相关：shenlong-bashi，zhaosheshu，yangsheshu，exp
+
+shewu 魔龙舞 
+要求：有效内力>=2000，有效内力>=最大内力/7+200，shenlong-bashi>=500，shedao-qigong>=500，
+	shenlong-xinfa>=500，jifa force shenlong-xinfa，不能有jiuyin-zhengong
+命中与威力相关：exp，shenlong-xinfa，shedao-qigong
+
+yingxiong 英雄三式
+要求：男性，huagu-mianzhang>=50，shenlong-tuifa>=50，neili>=200，shenlong-bashi>=70
+	shelong-xinfa>=60，force>=60
+命中与威力相关：shenlong-xinfa，dodge有效等级，exp，force有效等级，shedao-qigong，hand有效等级
+	strike有效等级，shenlong-bashi
+
+【神龙腿法】(shenlong-tuifa)
+学习要求：max_neili>=100，shenlong-xinfa>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式： 
+zhuiming 神龙追命腿
+要求：shenlong-tuifa>=150，shenlong-xinfa>=150，neili>=1000，jifa force shenlong-xinfa
+命中与威力相关：dodge，shenlong-tuifa
+
+【玄冥神掌】(xuanming-zhang) 可与dulong-shenzhua或者diwangquan互备
+学习要求：force有效等级>=200，先天根骨>=28，shenlong-xinfa>=25，shenlong-tuifa>=100
+	max_neili>=1000，strike>=100，strike>=xuanming-zhang
+自动特殊攻击：jifa force xuanming-zhang
+自动特殊防御：
+
+特殊招式：
+lang 惊涛骇浪
+要求：shenlong-xinfa>=165，jifa force shenlong-xinfa，xuanming-zhang>=220，max_neili>=300
+	neili>=800
+命中与威力相关：xuanming-zhang，strike有效等级，force有效等级
+
+ying 如影相随
+要求：xuanming-zhang>=100，jifa strike xuanming-zhang，dodge有效等级>=180，neili>=200
+命中与威力相关：strike有效等级，exp
+
+zhe 只手遮天
+要求：xuanming-zhang>=150，shenlong-xinfa>=165，jifa force shenlong-xinfa，max_neili>=2000
+	neili>=500
+命中与威力相关：xuanming-zhang，strike有效等级，force有效等级
+
+【意形步法】(yixingbu)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+shewu  神龙
+要求：shenlong-xinfa>=100，yixingbu>=100，neili>=400
+命中与威力相关：exp
+
+──────────────────────────────────
+【神龙教拜师指南】
+──────────────────────────────────
+胖头陀，瘦头陀
+拜师条件： zhengqi<=0，加入神龙教
+
+洪安通
+拜师条件： shenlong-xinfa>=80，shedao-qigong>=80，zhengqi<=-10000
+
+────────────────────────────────────────────────────
+【神龙教门派任务】
+────────────────────────────────────────────────────
+有关神龙教的门派任务，参见
+
+〖shenlongjob〗 神龙寻42章经任务(exp>100k)
+〖sldjob2    〗 神龙钓鱼任务（无限制）

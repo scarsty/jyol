@@ -1,0 +1,376 @@
+──────────────────────────────────
+【灵鹫宫介绍】
+──────────────────────────────────
+    灵鹫宫一直以来都是武林中的一个最大的神秘组织。灵鹫宫有一
+种阴损的武功--生死符，中者无不生不如死，痛苦万分，只能永远臣
+服于灵鹫宫。由于灵鹫宫弟子行事隐秘，武功高强，招式狠毒，所中
+者轻则缺手断腿，重则残废。所以武林中人对灵鹫宫闻风丧胆。
+
+    由于灵鹫宫的创始人天山童姥是逍遥派掌门逍遥子的师姐，所以
+两派武功相通之处甚多。灵鹫宫灵药很多，另外还藏有一块天山之巅
+的千年玄冰据说在上面打坐可以事半功倍。
+
+	灵鹫宫是逍遥派的一个分支，由天山童姥所创。后由于童姥断腿受伤，
+将灵鹫宫尊主之位传给了虚竹。灵鹫宫经常在一些武林人士身上中下“
+生死符”必须向灵鹫宫进贡才能解毒。
+
+    灵鹫宫一直是武林中的一个的神秘组织，只收女弟子。灵鹫宫有一
+种阴损的武功──生死符，中者无不生不如死，痛苦万分，只能永远臣服
+于灵鹫宫。由于灵鹫宫弟子行事隐秘，武功高强，招式狠毒，所中者轻
+则缺手断腿，重则残废。所以武林中人对灵鹫宫闻风丧胆。
+    灵鹫宫的创始人天山童姥是逍遥派掌门逍遥子的师姐，所以两派武
+功相通之处甚多。
+
+────────────────────────────────────────
+【灵鹫宫武功简介】
+────────────────────────────────────────
+
+土木机关 (construction)                  
+梨园旧艺 (dramaturgy)                    
+纹枰手谈 (goplaying)                     
+园艺莳花 (horticulture)                  
+绕梁琴艺 (luteplaying)                   
+济世之术 (medicine)                      
+泼墨丹青 (painting)                      
+美容术 (yangyanshu)                      
+
+基本爪法 (claw)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本暗器 (throwing)                      
+基本拳脚 (unarmed)                       
+
+八荒六合唯我独尊功 (bahuang-gong)        
+天山六阳掌 (liuyang-zhang)               
+流月剑舞 (liuyue-jian)                   
+攀阳掌 (panyang-zhang)                   
+青云手 (qingyun-shou)                    
+天羽奇剑 (tianyu-qijian)                 
+五展梅 (wuzhan-mei)                      
+月影舞步 (yueying-wubu)                  
+天山折梅手 (zhemei-shou)                 
+幽冥鬼爪(youming-guizhao)
+────────────────────────────────────────
+【灵鹫宫武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【八荒六合唯我独尊功】(bahuang-gong)
+学习要求：force>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式： exert
+duzun 唯我独尊
+要求：bahuang-gong>=160，neili>=400
+命中与威力相关：bahuang-gong
+
+heal 疗伤
+要求：bahuang-gong>=20 ，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+shield 护体真气
+要求：neili>=100，bahuang-gong>=50
+命中与威力相关：force有效等级
+
+【天山折梅手】(zhemei-shou)
+学习要求：qingyun-shou>=80 ，panyang-zhang>=80 ，max_neili>=50
+自动特殊攻击：jifa force bahuang-gong或者jifa force beiming-shengong
+自动特殊防御：jifa force bahuang-gong
+
+特殊招式：
+duo 空手入白刃 
+要求：zhemei-shou>=50 ，beiming-shengong 或者bahuang-gong>=50，neili>=50
+命中与威力相关：zhemei-shou
+
+hai 海渊式
+要求：zhemei-shou>=130， force有效等级>=200 ，neili>=300
+命中与威力相关：hand有效等级
+
+hua 化妖功 
+要求：beiming-shengong或者xiaowuxiang 或者 bahuang-gong>=220 ，zhemei-shou>=220 ，
+	neili>=800 ，max_neili>=4000，zhougong-jian>=150 ，wuliang-jian>=150 ，
+	pidi-shenzhen>=150 ，wudoumi-shengong>=150 
+命中与威力相关：exp，hand有效等级
+
+jiubu 九部式 
+要求：zhemei-shou>=120 ，force>=200 ，neili>=100 ， jifa hand zhemei-shou
+命中与威力相关：hand有效等级，先天臂力
+
+tanmei 弹梅.落雪.散花香 
+要求：bahuang-gong>=150 ，force>=150， zhemei-shou>=120， neili>=500 
+		max_neili>=2000 ，jing>=200，jifa hand zhemei-shou
+命中与威力相关：exp，zhemei-shou
+
+zhe 折梅式 
+要求：zhemei-shou>=80， force有效等级>=120 ，neili>=200
+命中与威力相关：hand有效等级，zhemei-shou
+
+zhemei 折梅展
+要求：zhemei-shou>=80， beiming-shengong 或者bahuang-gong>=120，neili>=350
+命中与威力相关：exp，zhemei-shou，force有效等级
+
+【天山六阳掌】(liuyang-zhang)
+学习要求：qingyun-shou>=80， panyang-zhang>=80 ，max_neili>=50
+自动特殊攻击：jifa force beiming-shengong或者jifa force bahuang-gong
+自动特殊防御：jifa force bahuang-gong
+
+特殊招式：
+baihong 白虹掌力 
+要求：strike>=120 ，force>=120， neili>=500， max_neili>=1500， jing>=200，
+	jifa force beiming-shengong或者xiaowuxiang或者bahuang-gong
+命中与威力相关：strike有效等级
+
+huanyang 寰阳式 
+要求：force>=200， liuyang-zhang>=130 ，neili>=300
+命中与威力相关：strike有效等级
+
+jie 解生死符 
+要求：liuyang-zhang>=40， beiming-shengong 或者 bahuang-gong>=40 需携带酒袋
+命中与威力相关：
+
+jiutian 九天式
+要求：liuyang-zhang>=120， force有效等级>=300 ，neili>=300
+命中与威力相关：strike有效等级
+
+lianzhong 连种生死符
+要求：liuyang-zhang>=200 ，beiming-shengong或者 bahuang-gong>=200
+命中与威力相关：exp，bahuang-gong，liuyang-zhang，带生死符毒
+
+po 破神诀 
+要求：bahuang-gong或者beiming-shengong>=220 ，liuyang-zhang>=220
+	neili>=800， max_neili>=3500，jifa force bahuang-gong或者beiming-shengong
+命中与威力相关：strike有效等级，force有效等级
+
+zhen 一掌震天
+要求：liuyang-zhang>=200 ，strike>=180 ，force>=220 ，bahuang-gong>=240 ，
+	后天臂力>=38 ，后天根骨>=38 ，zhougong-jian>=50 ，wuliang-jian>=50 ，
+	wudoumi-shengong>=50，pidi-shenzhen>=50， neili>=2000 ，max_neili>=4000
+	jiali>=50
+命中与威力相关：strike有效等级，先天根骨
+
+zhong 种生死符
+要求：liuyang-zhang>=40， beiming-shengong或者 bahuang-gong>=40
+命中与威力相关：exp，bahuang-gong，liuyang-zhang
+
+【青云手】(qingyun-shou)
+学习要求：force有效等级>=20 ，max_neili>=50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+zhuo  捕风捉影 
+要求：force有效等级>=100， qingyun-shou>=50 ，neili>=100
+命中与威力相关：exp，strike有效等级
+
+【攀阳掌】(panyang-zhang)
+学习要求：force有效等级>=20 ，max_neili>=50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+pan  攀阳邀月
+要求：force有效等级>=100， panyang-zhang>=60 ，neili>=100
+命中与威力相关：exp，strike有效等级
+
+【流月剑舞】(liuyue-jian)
+学习要求：force有效等级>=120， sword有效等级>=80 ，max_neili>=1000 ，
+	sword>=liuyue-jian
+自动特殊攻击：jifa force beiming-shengong
+自动特殊防御：
+
+特殊招式：
+liu 流月剑诀 
+要求：force有效等级>=180， liuyue-jian>=120 ，neili>250， 
+	jifa sword liuyue-jian 
+命中与威力相关：sword有效等级
+
+sheng 天升剑诀 
+要求：force有效等级>=150， liuyue-jian>=150， neili>=300， 
+	jifa sword liuyue-jian 
+命中与威力相关：sword有效等级
+
+xiao 剑气冲霄 
+要求：force有效等级>=120 ，iuyue-jian>=140 ，neili>=300， 
+	jifa sword liuyue-jian
+命中与威力相关：sword有效等级
+
+【月影舞步】(yueying-wubu)
+学习要求：女性
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+yueguangruying 月光如影
+要求：yueying-wubu>=40，bahuang-gong>=60，neili>=400
+命中与威力相关：exp，yueying-wubu
+
+【天羽奇剑】(tianyu-qijian)
+学习要求：max_neili>=50，qingyun-shou>=80，panyang-zhang>=80，liuyue-jian >=80
+自动特殊攻击：perform zhu或者jifa force bahuang-gong或者beiming-shengong
+自动特殊防御：jifa force bahuang-gong
+
+特殊招式：
+huan 幻剑诀
+要求：tianyu-qijian>=120，force有效等级>=160，neili>=300
+命中与威力相关：tianyu-qijian
+
+ju 聚剑诀
+要求：tianyu-qijian>=130，force有效等级>=180，neili>=200
+命中与威力相关：sword有效等级
+
+jue 闪剑诀
+要求：tianyu-qijian>=60，force有效等级>=90，neili>=300，jifa sword tianyu-qijian
+命中与威力相关：
+
+kuangwu 天羽狂舞
+要求：tianyu-qijian>=200，neili>=400，bahuang-gong>=160或者beiming-shengong>=160
+命中与威力相关：tianyu-qijian，exp，dodge有效等级，force有效等级
+
+pori 九弧破日
+要求：jifa sword tianyu-qijian，jifa parry tianyu-qijian，tianyu-qijian>=160，sword>=140
+	zhougong-jian>=50，wuliang-jian.=50，pidi-shenzhen>=50，wudoumi-shengong>=50
+	jifa force bahuang-gong，bahuang-gong>=140，后天臂力>=28，后天身法>=30，max_neili>=2000
+	neili>=1000
+命中与威力相关：tianyu-qijian，exp，sword，bahuang-gong，neili，max_neili
+
+qing 清思剑
+要求：tianyu-qijian>=70，force有效等级>=100，neili>=300，jifa sword tianyu-qijian
+命中与威力相关：sword有效等级
+
+san 天女散花
+要求：tianyu-qijian>=50，bahuang-gong>=50或者beiming-shengong>=50，neili>=300
+命中与威力相关：tianyu-qijian
+
+shan 闪剑诀
+要求：tianyu-jian>=60，force有效等级>=100，neili>=100
+命中与威力相关：tianyu-qijian
+
+shandian 闪电惊虹
+要求：tianyu-qijian>=150，bahuang-gong>=150，force有效等级>=150，后天臂力>=30
+	max_neili>=1000，neili>=500
+命中与威力相关：tianyu-qijian，sword，exp
+
+yumei 雨激梅花半瓣香
+要求：bahuang-gong>=100，neili>=300，tianyu-qijian>=100
+命中与威力相关：exp，bahuang-gong
+
+yushijufen 玉石俱焚
+要求：tianyu-qijian>=180，beiming-shengong>=100或者bahuang-gong>=100，eff_qi<=100
+	或者eff_qi<max_qi/2.5
+命中与威力相关：exp
+
+zhu 九羽天诛
+要求：neili>=400，max_neili>=1000，tianyu-qijian>=100，sword>=100，jiali>=1
+	zhougong-jian>=50，wuliang-jian>=50，pidi-shenzhen>=50，wudoumi-shengong>=50
+	bahuang-gong>=100，
+命中与威力相关：tianyu-qijian，sword，lingboweibu
+
+piaomiao 飘渺刺
+要求：neili>=2000，neili>=max_neili/7+200，tianyu-qijian>=500，bahuang-gong>=500，
+	zhemei-shou>=500，jifa force bahuang-gong，不能有jiuyin-zhengong
+命中与威力相关：exp，tianyu-qijian，后天臂力，sword，zhemei-shou
+
+【周公剑】(zhougong-jian)
+学习要求：force>=100， sword>=100 ，max_neili>=1200 ，
+	zhougong-jian<=sword，zhougong-jian<=force
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+mang 剑芒
+要求：force有效等级>=200，zhougong-jian>=140 ，neili>500， max_neili>2200
+命中与威力相关：sword有效等级
+
+【辟地神针】(pidi-shenzhen)
+学习要求：throwing>=40，pidi-shenzhen<=throwing
+自动特殊攻击：有
+自动特殊防御：
+
+特殊招式：
+huan 幻遁寒星 
+要求：暗器数量>=20，pidi-shenzhen>=140，force有效等级>=200，neili>=100
+命中与威力相关：exp，pidi-shenzhen
+
+【五斗米神功】(wudoumi-shengong)
+学习要求：先天根骨>=24，force>=50，unarmed=50，max_neili>=500
+	force>=wudoumi-shengong
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+exert：
+powerup 提升攻击力
+要求：neili>100
+命中与威力相关：force有效等级
+
+perform：
+gui 归去来兮
+要求：force有效等级>=200，neili>800，wudoumi-shengong>=140
+	jifa force wudoumi-shengong，jifa unarmed wudoumi-shengong
+命中与威力相关：wudoumi-shengoong，先天根骨，force有效等级
+
+【无量剑法】(wuliang-jian)
+学习要求：force有效等级>=30， sword>=20 ，max_neili>=200 ，
+	wuliang-jian<=sword
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+qian 乾坤无量
+要求：force有效等级>=150，wuliang-jian>=100 ，neili>300
+命中与威力相关：sword有效等级
+
+【幽冥鬼爪】(youming-guizhao)
+学习要求：claw>=50，pidi-shenzhen>=50，wudoumi-shengong>=50
+	wuliang-jian>=50，zhougong-jian>=50，max_neili>=1000
+自动特殊攻击：jifa force beiming-shengong
+自动特殊防御：
+
+特殊招式：
+guizhao 亡魂鬼爪
+要求：force>=180，youming-guizhao>=180，claw>180， max_neili>1000
+	xiaowuxiang>=180或者beiming-shengong>=180或者bahuang-gong>=180
+	jifa force xiaowuxiang或者beiming-shengong或者bahuang-gong，neili>=800
+命中与威力相关：claw有效等级，exp
+
+youming 幽冥鬼影
+要求：youming-guizhao>=120，claw>120， max_neili>1000
+	xiaowuxiang>=100或者beiming-shengong>=100或者bahuang-gong>=100
+	jifa force xiaowuxiang或者beiming-shengong或者bahuang-gong，neili>=800
+	jifa claw youming-guizhao，bei youming-guizhao
+命中与威力相关：claw有效等级
+
+──────────────────────────────────
+【灵鹫宫拜师指南】
+──────────────────────────────────
+梅剑
+拜师条件：女性
+
+虚竹
+拜师条件：女性，bahuang-gong>=50
+
+天山童姥
+拜师条件：女性，bahuang-gong>=160，后天根骨>=30
+
+李秋水
+拜师条件：机缘巧合
+────────────────────────────────────────────────────
+【灵鹫宫门派任务】
+────────────────────────────────────────────────────
+有关灵鹫宫的门派任务，参见
+
+〖lingjiujob 〗 灵鹫救援任务（exp>100k）
+〖ljjob2     〗 灵鹫师门任务（无限制）
+
+──────────────────────────────────
+【灵鹫宫解密指南】
+──────────────────────────────────
+虚竹手下三十六洞，七十二岛的武林异士有一些精深的武学可以学习
+西夏国里还有一位逍遥派的前辈李秋水，机缘巧合可以拜师

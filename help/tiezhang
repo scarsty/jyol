@@ -1,0 +1,255 @@
+──────────────────────────────────
+【铁掌帮介绍】
+──────────────────────────────────
+ 铁掌帮总坛位于离湖南沪溪六十余里远的铁掌峰。铁掌峰在当地，一般都
+称之猴爪山。据说那猴爪山共有五个山峰，就像猴儿的手掌一般，那五座山峰
+排列得就和五根手指一模一样，中间的最高，两旁顺次矮下来。最奇的是每座
+山峰又分三截，就如手指的指节一般。沪溪虽小，猴爪山风景绝丽。但当地人
+都传说那猴爪山里住着一群凶神恶煞，任谁走近离山五里，休想保得性命。
+
+    铁掌帮现任第十四代帮主是裘千仞。他和裘千丈是同胞挛生兄弟，幼时两
+人性情容貌，全无分别。到十三岁上，裘千仞无意之间救了铁掌帮上代帮主上
+官剑南的性命。那上官帮主感恩图报，将全身武功倾囊相授。裘千仞到得二十
+四岁时，功夫浸寻有青出于蓝之势，次年上官帮主逝世，临终时将铁掌帮帮主
+之位传了给他，嘱咐其抗金卫民，发扬光大铁掌一帮。这裘千仞非但武功惊人，
+而且极有才略，数年之间，将原来一个小小帮会整顿得好生兴旺，自从“铁掌
+歼衡山”一役将衡山派打得一蹶不振之后，铁掌水上飘的名头威震江湖。当年
+华山论剑，王重阳等曾邀他参与。裘千仞以铁掌神功尚未大成，自知非王重阳
+敌手，故而谢绝赴会，十余年来隐居在铁掌峰下闭门苦练，有心要在二次论剑
+时夺取“武功天下第一”的荣号。此时裘千丈的生性与兄弟已全然不同，一个
+武艺日进，一个自愧不如之余，愈来愈爱吹牛骗人。一个隐居深山，一个乘势
+打起兄弟的招牌在外招摇。
+
+    铁掌山中指峰是铁掌帮历代帮主埋骨之所在，帮主临终时自行上峰待死。
+帮中有一条极严厉的帮规，任谁进入中指峰第二指节的地区以内，决不能再活
+着下峰。若是帮主丧命在外，必由一名帮中弟子负骨上峰，然后自刎殉葬，帮
+中弟子都认是极大荣耀。
+
+    铁掌帮每代帮主临终之时，必带着他心爱的宝刀宝剑、珍物古玩上峰，一
+代又复一代，石室中宝物自是不少。
+
+    铁掌帮以铁掌驰名天下，掌力浑厚恶毒，与降龙十八掌、黯然销魂掌并称
+天下。
+
+──────────────────────────────────
+【铁掌帮武功简介】
+──────────────────────────────────
+
+基本斧法 (axe)                           
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本锤法 (hammer)                        
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本拳脚 (unarmed)                       
+
+断云斧 (duanyun-fu)                      
+归元吐纳法 (guiyuan-tunafa)              
+流氓神拳 (liumang-quan)                  
+水上飘 (shuishangpiao)                   
+铁雪锤法 (tiexue-hammer)                 
+铁掌掌法 (tiezhang-zhangfa)              
+通臂六合掌 (tongbi-zhang)                
+轩辕斧法 (xuanyuan-axe)                  
+────────────────────────────────────────
+【铁掌帮武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【归元吐纳法】(guiyuan-tunafa)
+学习要求：force>=10，和buddhism，taoism冲突
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：guiyuan-tunafa>=35，max_neili>=300，neili>=100，目标eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+【断云斧】(duanyun-fu)
+学习要求：force>=20，max_neili>=150，guiyuan-tunafa+100>=duanyun-fu
+	shuishangpiao+100>=duanyun-fu，tiexue-hammer+100>=duanyun-fu
+自动特殊攻击：jifa force guiyuan-tunafa
+自动特殊防御：有
+
+特殊招式：
+cuo 错字诀
+要求：duanyun-fu>=70，force有效等级>=120，max_neili>=800，neili>=100
+命中与威力相关：exp，duanyun-fu
+
+duan 断云斩
+要求：duanyun-fu>=70，guiyuan-tunafa>=50，neili>=400
+命中与威力相关：duanyun-fu
+
+hongtianza 轰天砸
+要求：duanyun-fu>=40，guiyuan-tunafa>=50，neili>=100
+命中与威力相关：duanyun-fu
+
+tiaoyan 挑眼式
+要求：guiyuan-tunafa>=50，neili>=300
+命中与威力相关：exp，duanyun-fu
+
+【流氓神拳】(liumang-quan) 可与tiezhang-zhangfa互备
+学习要求：guiyuan-tunafa+100>=iumang-quan，tongbi-zhang+100>=iumang-quan
+	shuishangpiao+100>=iumang-quan
+自动特殊攻击：jifa force guiyuan-tunafa
+自动特殊防御：
+
+特殊招式：
+guguoshenyou 故国神游
+要求：liumang-quan>=50，neili>=600
+命中与威力相关：liumang-quan
+
+luori 落日
+要求：liumang-quan>=100，neili>=600
+命中与威力相关：liumang-quan
+
+pofuchenzhou 破釜沉舟
+要求：liumang-quan>=190，neili>=600
+命中与威力相关：liumang-quan
+
+【水上飘】(shuishangpiao)
+学习要求： 
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式： 
+piaowu  铁掌漂舞
+要求：guiyuan-tunafa>=100，shuishangpiao>=100，neili>=400
+命中与威力相关：exp
+
+wu 水上漂
+要求：guiyuan-tunafa>=100，shuishangpiao>=100，neili>=400
+命中与威力相关：shuishangpiao
+
+【铁雪锤法】(tiexue-hammer)
+学习要求：force>=50，max_neili>=150
+自动特殊攻击：jifa force guiyuan-tunafa
+自动特殊防御：
+
+特殊招式：
+fanzhuan 反转流星
+要求：tiexue-hammer>=50，guiyuan-tunafa>=50，neili>=400
+命中与威力相关：tiexue-hammer
+
+【铁掌掌法】(tiezhang-zhangfa) 可与liumang-quan互备
+学习要求：guiyuan-tunafa>=10，max_neili>=1000，guiyuan-tunafa+100>=tiezhang-zhangfa
+tongbi-zhang+100>=tiezhang-zhangfa，shuishangpiao+100>=tiezhang-zhangfa
+自动特殊攻击：jifa force guiyuan-tunafa
+自动特殊防御：
+
+特殊招式：
+dao 五指刀
+要求：tiezhang-zhangfa>=80，jifa unarmed tiezhang-zhangfa，bei strike.tiezhang-zhangfa
+	force有效等级>=280，max_neili>=2800，neili>=400
+命中与威力相关：exp，tiezhang-zhangfa
+
+mieshen 灭神掌 
+要求：neili>=2000，neili>=max_neili/7+200，tiezhang-zhangfa>=500，shuishangpiao>=500，
+	guiyuan-tunafa>=500，jifa force guiyuan-tunafa，不能有jiuyin-zhengong
+命中与威力相关：tiezhang-zhangfa，guiyuan-tunafa，先天臂力，force有效等级，exp，可能打掉对方兵器
+
+tianlei 天雷气
+要求：guiyuan-tunafa>=119，neili>=600，tiezhang-zhangfa>=119，jifa unarmed tiezhang-zhangfa
+	bei strike.tiezhang-zhangfa
+命中与威力相关：tiezhang-zhangfa，guiyuan-tunafa，先天臂力，可能打掉对方兵器
+
+tiezhangxianglong 铁掌降龙
+要求：neili>=600，guiyuan-tunafa>=60，tiezhang-zhangfa>=40，jifa unarmed tiezhang-zhangfa
+	bei strike.tiezhang-zhangfa
+命中与威力相关：tiezhang-zhangfa，guiyuan-tunafa
+
+yin 阴阳磨
+要求：tiezhang-zhangfa>=200，jifa unarmed tiezhang-zhangfa，force有效等级>=300
+	bei strike.tiezhang-zhangfa，max_neili>=3500，neili>=500
+命中与威力相关：tiezhang-zhangfa，先天臂力
+
+ying 无影掌
+要求：tiezhang-zhangfa>=100，jifa unarmed tiezhang-zhangfa，bei strike.tiezhang-zhangfa
+	neili>=100
+命中与威力相关：tiezhang-zhangfa
+
+zhangdao 掌刀
+要求：neili>=500，tiezhang-zhangfa>=120，force有效等级>=140，后天臂力>=25，
+	guiyuan-tunafa>=120，jifa unarmed tiezhang-zhangfa，bei strike.tiezhang-zhangfa
+命中与威力相关：tiezhang-zhangfa
+
+【通臂六合掌】(tongbi-zhang)
+学习要求：max_neili>=200，force有效等级>=20
+自动特殊攻击：jifa force guiyuan-tunafa
+自动特殊防御：
+
+特殊招式：
+chu 孤雁出群
+要求：tongbi-zhang>=80，force有效等级>=80，neili>=120
+命中与威力相关：exp，strike
+
+juesha 九穹绝刹掌
+要求：max_neili>=2200，neili>=500，tongbi-zhang>=280，force有效等级>=300
+	jifa strike tongbi-zhang
+命中与威力相关：tongbi-zhang，exp
+
+tui 破甲推山
+要求：tongbi-zhang>120，force有效等级>=80，neili>=200
+命中与威力相关：tongbi-zhang
+
+zhui 穿心锥
+要求：tongbi-zhang>90，force有效等级>=150，neili>=200
+命中与威力相关：tongbi-zhang
+
+【轩辕斧法】(xuanyuan-axe)
+学习要求：force>=20，max_neili>=250，guiyuan-tunafa+100>=xuanyuan-axe
+	tongbi-zhang+100>=xuanyuan-axe，shuishangpiao+100>=xuanyuan-axe
+	tiexue-hammer+100>=xuanyuan-axe，duanyun-fu+100>=xuanyuan-axe
+	axe+100>=xuanyuan-axe，tiezhang-zhangfa+100>=xuanyuan-axe
+	liumang-quan+100>=xuanyuan-axe
+自动特殊攻击：jifa force xuanyuan-axe
+自动特殊防御：有
+
+特殊招式：
+jiuqipoxiao 九气破霄
+要求：xuanyuan-axe>=250，guiyuan-tunafa>=50，neili=600
+命中与威力相关：xuanyuan-axe
+
+kaitianpidi 开天辟地
+要求：xuanyuan-axe>=30，guiyuan-tunafa>=50，neili=600
+命中与威力相关：xuanyuan-axe
+
+sanbanfu 三板斧
+要求：xuanyuan-axe>=30，guiyuan-tunafa>=50，neili=600
+命中与威力相关：xuanyuan-axe
+
+──────────────────────────────────
+【铁掌帮拜师指南】
+──────────────────────────────────
+铁掌帮第十三代帮主  上官剑南
+拜师条件：解密，zhengqi>=50000，guiyuan-tunafa>=140，tiezhang-zhangfa>=140
+
+铁掌帮第十四代帮主  裘千仞
+拜师条件：zhengqi<=-10000
+
+铁掌帮第十四代弟子  裘千丈
+拜师条件：zhengqi<=0
+
+──────────────────────────────────
+【铁掌帮门派任务】
+──────────────────────────────────
+有关铁掌帮的门派任务，参见
+
+〖tiezhangjob〗 铁掌送劝降书任务(exp>100k）
+〖tzjob2     〗 铁掌守山任务(无限制）
+
+──────────────────────────────────
+【铁掌帮解密提示】
+──────────────────────────────────
+听说山上闹鬼
+上官剑南藏了不少宝贝在铁掌帮
+
+ 

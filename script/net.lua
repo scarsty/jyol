@@ -1,0 +1,143 @@
+JY.Area={
+
+		[1]={--湖北
+				name='湖北';
+				nextArea={4,13,11,2,9,12};
+				nextScene={};
+			};
+		[2]={--湖南
+				name='湖南';
+				nextArea={11,1,9,10,8,7};
+				nextScene={};
+			};
+		[3]={--河北
+				name='河北';
+				nextArea={6,4,5,15};
+				nextScene={};
+			};
+		[4]={--河南
+				name='河南';
+				nextArea={5,13,1,12,6,3};
+				nextScene={};
+			};
+		[5]={--山东
+				name='山东';
+				nextArea={3,4,13,14};
+				nextScene={};
+			};
+		[6]={--山西
+				name='山西';
+				nextArea={};
+				nextScene={12,4,3};
+			};
+		[7]={--广东
+				name='广东';
+				nextArea={21,11,2,8};
+				nextScene={};
+			};
+		[8]={--广西
+				name='广西';
+				nextArea={7,2,10,20};
+				nextScene={};
+			};
+		[9]={--四川
+				name='四川';
+				nextArea={1,2,10,20,19,23,17,12};
+				nextScene={};
+			};
+		[10]={--贵州
+				name='贵州';
+				nextArea={2,9,20,8};
+				nextScene={};
+			};
+		[11]={--江西
+				name='江西';
+				nextArea={13,1,2,7,21,22};
+				nextScene={};
+			};
+		[12]={--陕西
+				name='陕西';
+				nextArea={16,17,9,1,4,6};
+				nextScene={};
+			};
+		[13]={--安徽
+				name='安徽';
+				nextArea={14,5,4,1,11,22};
+				nextScene={};
+			};
+		[14]={--江苏
+				name='江苏';
+				nextArea={5,13,22};
+				nextScene={};
+			};
+		[15]={--辽宁
+				name='辽宁';
+				nextArea={3};
+				nextScene={};
+			};
+		[16]={--宁夏
+				name='宁夏';
+				nextArea={17,12};
+				nextScene={};
+			};
+		[17]={--甘肃
+				name='甘肃';
+				nextArea={18,23,9,12,16};
+				nextScene={};
+			};
+		[18]={--新疆
+				name='新疆';
+				nextArea={19,23,17};
+				nextScene={};
+			};
+		[19]={--西藏
+				name='西藏';
+				nextArea={20,9,23,18};
+				nextScene={};
+			};
+		[20]={--云南
+				name='云南';
+				nextArea={8,10,9,19};
+				nextScene={};
+			};
+		[21]={--福建
+				name='福建';
+				nextArea={22,11,7};
+				nextScene={};
+			};
+		[22]={--浙江
+				name='浙江';
+				nextArea={14,13,11,21};
+				nextScene={};
+			};
+		[23]={--青海
+				name='青海';
+				nextArea={17,9,19};
+				nextScene={};
+			};
+		};
+JY.Scene={};
+
+
+
+
+
+
+--[[
+区域之间移动时，可能会有如下事件
+遇到山贼劫道
+发现富商，抢劫
+打把势卖艺
+路遇小偷
+山中采药
+参观名胜
+道路不通，返回
+路边捡到包袱
+XX弟子行凶
+五岳斗日月
+镖车被劫
+算卦先生
+野兽伤人
+遇到某人
+官兵作恶
+]]--

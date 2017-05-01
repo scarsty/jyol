@@ -1,0 +1,65 @@
+SceneEvent[9]={};
+SceneEvent[9]={
+				[1]=function()	--狄云对话
+				end,
+				[200]=function()
+					JY.SubScene=7;
+					JY.Base["人X1"],JY.Base["人Y1"]=31,7;
+					lib.ShowSlow(50,1);
+					Init_SMap(1);
+				end,
+				[201]=function()
+					--JY.SubSceneX,JY.SubSceneY=0,0;
+					MoveScene(0,0);
+				end,
+				[202]=function()
+					--JY.SubSceneX,JY.SubSceneY=5,5;
+					MoveScene(5,5);
+				end,
+				[203]=function()
+					--JY.SubSceneX,JY.SubSceneY=-5,-5;
+					MoveScene(-5,-5);
+				end,
+				[204]=function()
+					JY.SubScene=2;
+					for i=0,63 do
+						for j=0,63 do
+							SetS(JY.SubScene,i,j,0,-1);
+							SetS(JY.SubScene,i,j,1,-1);
+							SetS(JY.SubScene,i,j,2,-1);
+							SetS(JY.SubScene,i,j,3,-1);
+							SetS(JY.SubScene,i,j,4,0);
+							SetS(JY.SubScene,i,j,5,0);
+						end
+					end
+					migong(30,30);
+					JY.Base["人X1"],JY.Base["人Y1"]=32,32;
+					lib.ShowSlow(50,1);
+					Init_SMap(1);
+					--[[Timer[1].status='start';
+					Timer[1].t=60;
+					Timer[1].event=SceneEvent[2][200];
+					Timer[2].status='start';
+					Timer[2].t=5;
+					Timer[2].event=SceneEvent[2][201];]]--
+				end,
+				[205]=function()
+					for i=48,58 do
+						SetS(9,26,i,3,-1);
+					end
+					say('３如此幽静的地方，怎么好像有打斗的声音？过去看看。');
+					local x,y=JY.Base["人X1"],JY.Base["人Y1"];
+					MoveSceneTo(12,51);
+					DrawStrBoxWaitKey("狄云和戚芳练剑的动画",C_WHITE,CC.Fontbig);
+					say('３师哥，你擦擦汗。',12,0);
+					say('３嗯，师妹，你觉得今天我们这几招练得怎么样？',11,4);
+					say('３师哥，我记得爹爹曾经说这两招“忽听喷惊风，连山若布逃”应该是让剑势象一匹布一样逃了开去。',12,0);
+					say('３嗯，这样说来我这两招确实没有练到。师妹，看来我们还得好好的练，不懂的地方等师傅回来再问他老人家。',11,4);
+					say('３师哥，爹爹每次出门都要好几个月甚至一二年，不知他什么时候才回来。',12,0);
+					say('３总之我们在家好好种菜就是了，再练好这套“躺尸剑法”，师傅回来了肯定高兴。',11,4);
+					say('３嗯，我们先进屋吧，我去做饭。',12,0);
+					say('３好，师妹，那我去喂大黑它们。',11,4);
+					say('３（原来是一对兄妹在这里练剑。“躺尸剑法”这名字还真有意思，不知道他们所说的那套剑法究竟怎样，以后有机会不妨过来看一看。）');
+					MoveScene(5,5);
+				end,
+			}

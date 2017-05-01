@@ -1,0 +1,261 @@
+──────────────────────────────────
+【明教简介】
+──────────────────────────────────
+    焚我残躯 熊熊圣火 生亦何欢 死亦何苦
+　　明教源于波斯国，唐时传至中土。当时称为祆教。唐皇在各处敕
+建大云兴明寺，为明教的寺院。明教教义是行善去恶，众生平等，若
+有金银财物，须当救济贫众，不茹荤酒，崇拜明尊。明尊即是火神，
+也即是善神。
+
+北宋期间四大寇之一的方腊便是当时明教教主。在南宋建炎年间，
+王宗石教主在信州起事。绍定年间有余五婆教主在衢州起事，理宗绍
+定年间有张三枪教主在江西、广东一带起事。只因明教教素来和朝廷
+官府作对，朝廷官府便说明教是“魔教”，严加禁止，明教在官府的
+逼迫之下为求生存，作事不免隐秘诡怪，以避官府的耳目。
+
+正大门派和明教积怨成仇，更是势如水火。明教这么大的一个教，
+教众之中也不免偶有不自检点、为非作歹之徒，仗着武功了得，滥杀
+无辜者有之，奸淫掳掠者有之，所以明教的声誉便如江河之日下。自
+从大宋亡于蒙古鞑子之手后，明教更成了朝廷之死敌，明教更把驱除
+胡虏为已任。明教教主阳顶天同全真祖师王重阳一般，都全心于抗元
+事业，可惜阳顶天教主不明死因而亡后，明教群龙无守，教中诸高手
+为争教主之位，闹得自相残杀，四分五裂，终于有的洗手归隐，有的
+另立门派，自任教主，教规一堕之后，与名门正派结的怨更深，之后
+才有六大门派围攻光明顶之事。
+
+武当祖师张三丰的弟子张翠山与明教白眉鹰王殷天正之女殷素素
+相爱，却遭正派人士唾弃及追杀，双双陨命，遗下孤儿张无忌。张无
+忌虽然天性软弱仁慈，却是一位武学奇才，加上连番奇遇，练就了独
+步天下的不世武功，并成为明教众孚所望的第三十三代教主。在张无
+忌教主的带领之下，明教不仅击退了正派围攻，更是大大施恩于名门
+正派，与正派人士尽释前嫌，明教此后全力投入抗元事业，明教成员
+朱元璋不久即篡夺明教大权，并最终建立大明王朝。
+
+要想成为明教弟子，首先必须加入明教（在各个坛主面前表示：join mingjiao
+即可得到推荐），成为明教教众。要退教则可以找小昭，ask her about 退教。
+已经成为明教弟子的必须叛出师门后才能叛教。
+
+──────────────────────────────────
+【明教武功简介】
+──────────────────────────────────
+基本刀法 (blade)                         
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+
+
+寒冰绵掌 (hanbing-mianzhang)             
+九阳神功 (jiuyang-shengong)              
+乾坤大挪移 (qiankun-danuoyi)             
+青蝠身法 (qingfu-shenfa)                 
+七伤拳 (qishang-quan)                    
+圣火令法 (shenghuo-ling)                 
+圣火神功 (shenghuo-shengong)             
+搜骨鹰爪功 (sougu)                       
+
+────────────────────────────────────
+【明教武功学习条件及特殊招式效果】
+────────────────────────────────────
+【九阳神功】(jiuyang-shengong)
+学习要求：force>=10
+自动特殊攻击：jifa force jiuyang-shengong
+自动特殊防御：jifa force jiuyang-shengong
+
+特殊招式：
+exert：
+jingheal 疗伤
+要求：max_neili>=300，对方max_neili>=300，neili>=max_neili/9
+	对方neili>=max_neili/9
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：明教弟子，neili>=100
+命中与威力相关：force有效等级
+
+roar 狮子吼
+要求：明教弟子，neili>=600，jiuyang-shengong>=20
+命中与威力相关：force有效等级
+
+shield 护体神功
+要求：neili>=200，jiuyang-shengong>=40
+命中与威力相关：force有效等级
+
+tisha 踢沙
+要求：shenghuo-ling>=180，jiuyang-shengong>=120，解密九阳
+	qiankun-danuoyi>=180，max_neili>=2500，jing>=100，neili>=500
+	jifa force jiuyang-shengong，jifa parry qiankun-danuoyi，jifa sword shenghuo-ling
+命中与威力相关：exp，jiuyang-shengong，shenghuo-ling
+
+perform：
+hun 混沌一阳
+要求：jifa force jiuyang-shengong，jifa unarmed jiuyang-shengong，jiuyang-shengong>=180
+	neili>=300
+命中与威力相关：force有效等级，先天根骨
+
+jiu 九曦混阳
+要求：max_neili>=6000，jiuyang-shengong>=200，jifa force jiuyang-shengong，neili>=500
+	jifa unarmed jiuyang-shengong
+命中与威力相关：force有效等级，先天根骨
+
+pi 骄阳劈天
+要求：jiuyang-shengong>=220，force>=260，blade>=260，max_neili>=5500，neili>=400
+	jifa blade jiuyang-shengong
+命中与威力相关：force有效等级，force
+
+po 金阳破岭
+要求：jiuyang-shengong>=220，force>=260，blade>=260，max_neili>=5500，neili>=400
+	jifa sword jiuyang-shengong
+命中与威力相关：force有效等级，force
+
+ri 魔光日无极
+要求：max_neili>=8000，jiuyang-shengong>=250，jifa force jiuyang-shengong
+	jifa unarmed jiuyang-shengong，neili>=2000
+命中与威力相关：force，unarmed，jiuyang-shengong，先天根骨
+
+【圣火神功】(shenghuo-shengong)
+学习要求：force>=9
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：shenghuo-shengong>=30，neili>=50，eff_qi>=max_qi/7
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：max_neili>=300，neili>=100，eff_qi>max_qi/5
+命中与威力相关：force有效等级
+
+【青蝠身法】(qingfu-shenfa)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+ruyingruhuan 如影如幻
+要求：qingfu-shenfa>=50，neili>=400
+命中与威力相关：jiuyang-shengong，exp，qingfu-shenfa
+
+【寒冰绵掌】(hanbing-mianzhang) 可与sougu互备
+学习要求：max_neili>=100
+自动特殊攻击：有寒毒
+自动特殊防御：jifa force shenghuo-shengong或者jifa force jiuyang-shengong
+
+特殊招式：
+xixueqingfu 吸血青蝠
+要求：neili>=300，hanbing-mianzhang>=60，dodge>=150
+命中与威力相关：exp，jiuyang-shengong，hanbing-mianzhang
+
+【搜骨鹰爪功】(sougu) 可与hanbing-mianzhang互备
+学习要求：max_neili>=100
+自动特殊攻击：
+自动特殊防御：jifa force jiuyang-shengong或者jifa force shenghuo-shengong
+
+特殊招式：
+muyeyingyang 牧野鹰扬
+要求：后天臂力>=30，sougu>=150，neili>=800
+命中与威力相关：jiuyang-shengong，exp，sougu
+
+【乾坤大挪移】(qiankun-danuoyi)
+学习要求：无性只能学到100，force>=100，明教弟子，max_neili>=1500
+	qiankun-danuoyi<=force，qiankun-danuoyi<=jiuyang-shengong，max_neili/15>=qiankun-danuoyi
+	qingfu-shenfa>=80，sougu>=80，hanbing-mianzhang>=80，qi>=qiankun-danuoyi，
+	jing>=qiankun-danuoyi，neili>=qiankun-danuoyi
+自动特殊攻击：
+自动特殊防御：jifa force jiuyang-shengong
+
+特殊招式：
+yi  移字诀
+要求：jiuyang-shengong>=100，jifa parry qiankun-danuoyi，qiankun-danuoyi>=120
+	neili>=800，force有效等级>=200
+命中与威力相关：qiankun-danuoyi
+
+【七伤拳】(qishang-quan)
+学习要求：jiuyang-shengong>=80，sougu>=80，hanbing-mianzhang>=80，max_neili>=50
+自动特殊攻击：jifa force jiuyang-shengong
+自动特殊防御：jifa force jiuyang-shengong
+
+特殊招式：
+hunpofeiyang 魂魄飞扬
+要求：neili>=500，cuff有效等级>=150，qishang-quan>=60，jiuyang-shengong>=40
+命中与威力相关：qishang-quan，force有效等级，exp
+
+youyouhunduan 幽幽魂断
+要求：neili>=700，qishang-quan>=200，shenghuo-shengong>=150
+命中与威力相关：qishang-quan，force
+
+【圣火令法】(shenghuo-ling)
+学习要求：sougu>=80，hanbing-mianzhang>=80，shenghuo-shengong>=30
+自动特殊攻击：hanbing-mianzhang>=1，寒毒
+自动特殊防御：jifa force jiuyang-shengong
+
+特殊招式：
+can 残血令
+要求：shenghuo-ling>=220，force有效等级>=350，max_neili>=5000，neili>=400
+	jifa sword shenghuo-ling
+命中与威力相关：sword有效等级，shenghuo-ling
+
+chuangong 传功
+要求：neili>=500，force有效等级>=150，shenghuo-shengong>=100，max_neili>=1000
+	对方shenghuo-shengong>=130，jing>=500，qi>=300
+命中与威力相关：force有效等级
+
+duo 吸焰令
+要求：shenghuo-ling>=50，neili>=100
+命中与威力相关：exp，shenghuo-ling
+
+hua 光华令
+要求：shenghuo-ling>=140，max_neili>=1500，neili>=340
+命中与威力相关：sword有效等级，force有效等级
+
+lian 敛心令
+要求：shenghuo-ling>=150，max_neili>=1600，neili>=350
+	jifa sword shenghuo-ling
+命中与威力相关：sword有效等级
+
+tougu 透骨针
+要求：shenghuo-ling>=40，shenghuo-shengong>=100，force>=100，neili>=500，jing>=100
+命中与威力相关：qiankun-danuoyi，shenghuo-ling，force有效等级
+
+xiyanling 吸焰令
+要求：shenghuo-ling>=40，neili>=100
+命中与威力相关：exp，shenghuo-ling
+
+yanggang 刚阳飑，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，shenghuo-ling>=500，jiuyang-shengong>=500，
+	qishang-quan>=500，jifa force beiming-shengong，不能有jiuyin-zhengong
+命中与威力相关：jiuyang-shengong，exp，sword有效等级，force有效等级
+
+yinfeng 阴风刀
+要求：shenghuo-shengong>=130，shenghuo-ling>=130，force>=130，neili>=500，max_neili>=1200
+	jing>=100
+命中与威力相关：force有效等级，chuangong
+
+──────────────────────────────────
+【明教拜师指南】
+──────────────────────────────────
+护教法王
+拜师条件：先加入明教               
+
+张无忌
+拜师条件： 先天悟性>=20，  zhengqi>15000 
+
+────────────────────────────────────────────────────
+【明教门派任务】
+────────────────────────────────────────────────────
+有关明教的门派任务，参见
+
+〖mjjob      〗 明教保卫光明顶任务（exp>100k）
+〖mjjob2     〗 明教练兵反元任务.(无限制)
+
+──────────────────────────────────
+【明教解密指南】
+──────────────────────────────────
+九阳神功是昆仑山上解密来的
+乾坤大挪移可以去明教密道找
+

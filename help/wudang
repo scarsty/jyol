@@ -1,0 +1,290 @@
+──────────────────────────────────
+【武当派简介】
+──────────────────────────────────
+
+    武当派乃元末明初兴起的一个武林门派，创派祖师张君宝，本是少林寺藏
+经阁的一个打杂小厮，从其师觉远大师处学得部分九阳神功心法，后昆仑三圣
+何足道挑战少林高手，张君宝凭借深厚neili将其击败，但也因为一身的武功令
+少林高僧起疑，而被逐出少林。张君宝避至武当山，勤修武功，十余年间竟然
+neili大进，其后多读道藏，于道家练气之术更深有心得。某一日在山间闲游，
+仰望浮云，俯视流水，张君宝若有所悟，在洞中苦思七日七夜，猛地里豁然贯
+通，领会了武功中以柔克刚的至理，他以自悟的拳理、道家冲虚圆通之道和九
+阳真经中所载的内功相发明，创出了辉映后世、照耀千古的武当一派武功。后
+来北游宝鸣，见到三峰挺秀，卓立云海，于武学又有所悟，乃自号三丰，便是
+中国武学史上不世出的奇人张三丰。
+
+　　武当派武功虽然源出少林，但与少林武功大有不同。少林长于博，武当长
+于精，武当派武功自来便以少而精著称。入门比较困难，起初进展缓慢，直到
+登堂入室以后融会贯通，就很容易进步了。这也是正派武功的一般特点。
+
+　　身为武当弟子，立身必须要正，对道学心法和太极神功必须苦下工夫。
+
+──────────────────────────────────
+【武当派武功简介】
+──────────────────────────────────
+基本阵法 (array)                         
+道学心法 (taoism)                        
+
+基本爪法 (claw)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+
+三阴绝户手 (juehu-shou)                  
+两仪剑法 (liangyi-jian)                  
+排云推手 (paiyun-shou)                   
+绕指柔剑 (raozhi-roujian)                
+神门十三剑 (shenmen-jian)                
+太极剑法 (taiji-jian)                    
+太极拳 (taiji-quan)                      
+太极神功 (taiji-shengong)                
+梯云纵 (tiyunzong)                       
+四象两仪阵 (wudang-array)                
+武当绵掌 (wudang-mianzhang)              
+倚天屠龙功 (yitian-tulong)               
+倚天屠龙掌 (yitian-zhang)                
+────────────────────────────────────────
+【武当派武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【太极神功】(taiji-shengong)
+学习要求：非僧非尼，无性只能学到50，force>=10，大量的正气
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：taiji-shengong>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升战斗力
+要求：neili>=150
+命中与威力相关：force有效等级
+
+taiji 运太极
+要求：taiji-shengong>=100，taiji-quan>=100 ，neili>=1200
+	jifa force taiji-shengong，jifa parry taiji-quan
+命中与威力相关：taiji-quan
+
+【梯云纵】(tiyunzong)
+学习要求：无
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+zong 梯云纵
+要求：taiji-shengong>=120 ，tiyunzong>=120 ，后天身法>=20 ，dodge>=120
+	jifa dodge tiyunzong
+命中与威力相关：后天身法，tiyunzong
+
+【太极拳】(taiji-quan)
+学习要求：taiji-shengong>=20，max_neili>=100
+自动特殊攻击：有
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+ji 挤字诀
+要求：neili>=500 ，jing>=100
+命中与威力相关：force有效等级，unarmed有效等级
+
+zhan 粘字诀
+要求：neili>=500
+命中与威力相关：exp，taiji-quan
+
+zhen 神功震敌
+要求：太级拳>=30 ，taiji-shengong>=30， neili>=100
+命中与威力相关：force有效等级，taiji-shengong
+
+zhenup 神功震敌
+要求：neili>=1000
+命中与威力相关：force有效等级
+
+tu 太极图
+要求：taiji-quan>=250 ，taiji-jian>=200， raozhi-roujian>=200 ，yitian-zhang>=200 ，paiyun-shou>=200，
+	shenmen-jian>=200 ，taiji-shengong>= 300 ，taoism>=300 ，jing>=1000，neili>=1000
+ 	jifa unarmed taiji-quan，jifa parry taiji-quan
+命中与威力相关：taiji-quan，taoism，taiji-shengong
+
+yingyang 显阴阳，hslj专有
+要求：有效内力>=2000，有效内力>=最大内力/7+200，taiji-quan>=500，taiji-shengong>=500，
+	taiji-jian>=500，jifa force taiji-shengong，不能有jiuyin-zhengong
+命中与威力相关：exp，taiji-quan，taiji-jian，taiji-shengong
+
+【太极剑法】(taiji-jian)
+学习要求：taiji-shengong>=20， taiji-quan>=20，max_neili>=100
+自动特殊攻击：有
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+lian 连
+要求：太级神功>=60 ，太级剑法>=50 ，neili>=400
+命中与威力相关：taiji-jian，taiji-shengong
+
+sui 随
+要求：太级剑法>=40，taiji-shengong>=40 ，neili>=300
+命中与威力相关：taiji-jian，taiji-shengong
+
+chan 缠
+要求：太级剑法>=40 ，taiji-shengong>=40，neili>=100
+命中与威力相关：exp，taiji-jian
+
+chanup 牵制攻击
+要求：taiji-jian>=100 ，太级神功>=100 ，max_neili>=700 ，jifa force taiji-shengong，jifa sword taiji-jian
+	neili>=500
+命中与威力相关：taiji-jian，exp
+
+sanhuan 三环套月
+要求：taiji-jian>=120 ，太级神功>=120 ，max_neili>=1500 ，jifa force taiji-shengong，jifa sword taiji-jian
+	neili>=500
+命中与威力相关：taiji-jian，jiali数
+
+raozhi 绕指柔剑
+要求：taiji-jian>=200 ，太级神功>=200 ，max_neili>=3000 ，jifa force taiji-shengong，jifa sword taiji-jian
+	neili>=1000
+命中与威力相关：sword有效等级
+
+zhenwu 真武除邪
+要求：taiji-jian>=290，taiji-shengong>=250，raozhi-roujian>=200，yitian-zhang>=200，paiyun-shou>=200，
+	shenmen-jian>=200，force>=250，neili>=2000，jifa sword taiji-jian
+命中与威力相关：正气，sword有效等级
+
+【武当绵掌】(wudang-mianzhang)
+学习要求：taiji-shengong>=80，max_neili>=450
+自动特殊攻击：
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+jin 劲力
+要求：strike>=120，wudang-mianzhang>=120，max_neili>=500，正气>=50000，
+	jifa成unarmed和parry，taiji-shengong>=120，taoism>=100，neili>=1000	
+	jifa force taiji-shengong
+命中与威力相关：exp，strike，wudang-mianzhang，force的等级
+
+bingdi 花开并蒂
+要求：strike>=120，wudang-mianzhang>=120，max_neili>=2000，taiji-shengong>=120，jing>=500
+	neili>=700
+命中与威力相关：wudang-mianzhang，jiali数
+
+【绕指柔剑】(raozhi-roujian)
+学习要求：taiji-shengong>=100，wudang-mianzhang>=100，max_neili>=100，
+	force有效等级>=20，sword>=raozhi-roujian
+自动特殊攻击：
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+chuan 柔月穿空
+要求： force有效等级>=150，taiji-shengong>=180，raozhi-roujian>=100
+	jifa sword raozhi-roujian，neili>=250
+命中与威力相关：raozhi-roujian，taiji-shengong，sword有效等级
+
+raozhi 绕指柔剑
+要求：taiji-shengong>=180，raozhi-roujian>=200，sword>=200，jifa sword raozhi-roujian
+	neili>=500
+命中与威力相关：sword有效等级
+
+【三阴绝户手】(juehu-shou)
+学习要求：taiji-shengong>=40，wudang-mianzhang>=100，raozhi-roujian>=20，max_neili>=100
+自动特殊攻击：
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+juehu 绝户神抓
+要求：taiji-shengong>=180，正气>=10000，juehu-shou>=120，jifa成claw和parry，neili>=300
+命中与威力相关：juehu-shou，taiji-shengong，unarmed有效等级，可能将对方男性变成无性
+
+luanhuan 乱环诀
+要求：exp>=500000，juehu-shou>=150，taiji-shengong>=150，max_neili>=2000，jing>=100
+	neili>=200，jifa force taiji-shengong
+命中与威力相关：juehu-shou，force有效等级，后天悟性
+
+【倚天屠龙功】(yitian-tulong)
+学习要求：taiji-shengong>=200，与anranxiaohun-zhang冲突，taiji-quan>=200，
+	juehu-shou>=200，wudang-mianzhang >=200，raozhi-roujian>=200，只能学300级
+自动特殊攻击：
+自动特殊防御：jifa force taiji-shengong
+
+特殊招式：
+yitian 倚天
+要求：yitian-tulong>=120，max_neili>=1200，tiyunzong>=120，dodge>=120，后天身法>=28，
+	taiji-shengong>=140，neili>400+yitian-tulong* 3，jing>120+yitian-tulong* 2，jifa dodge tiyunzong
+	jifa sword yitian-tulong，jifa force taiji-shengong
+命中与威力相关：yitian-tulong ，tiyunzong，taiji-shengong，sword有效等级，force有效等级，dodge有效等级，exp
+
+tulong 屠龙
+要求：后天臂力>=30，yitian-tulong>=200，与anranxiaohun-zhang冲突，taiji-shengong>=250
+	neili>=800
+命中与威力相关：yitian-tulong，exp
+
+【神门十三剑】(shenmen-jian)
+学习要求：force有效等级>=60，raozhi-roujian >=30，taiji-jian>=30，shenmen-jian<=sword
+自动特殊攻击：有
+自动特殊防御：有
+
+特殊招式：
+ci 神门刺
+要求：shenmen-jian>=160，neili>=200
+命中与威力相关：sword有效等级
+
+【排云推手】(paiyun-shou)
+学习要求：force有效等级>=40，max_neili>=250
+自动特殊攻击：有
+自动特殊防御：
+
+特殊招式：
+leiting 雷霆一击
+要求：paiyun-shou>=100，force有效等级>=120，neili>=500
+命中与威力相关：paiyun-shou，force有效等级，先天臂力
+
+mian 绵绵不绝
+要求：paiyun-shou>=120，max_neili>=1100，neili>=500，
+	jifa成hand并且bei paiyun-shou成hand
+命中与威力相关：paiyun-shou
+
+【倚天屠龙掌】(yitian-zhang)
+学习要求： force有效等级>=120，max_neili>=750，strike>=80，yitian-zhang<=strike
+自动特殊攻击：有
+自动特殊防御：
+
+特殊招式：
+zheng 谁与争锋
+要求：yitian-zhang>=120，jifa 成strike，bei成strike，neili>=500
+命中与威力相关：strike有效等级，force有效等级
+
+【四象两仪阵】(wudang-array)
+学习要求： 
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+yanyuqingxin 烟雨清心
+要求：队伍首领，jifa array wudang-array
+命中与威力相关：wudang-array
+
+────────────────────────────────────────────
+【武当派拜师指南】　　　　　　　　　　　　　　　　　　　　　　　　　
+────────────────────────────────────────────
+谷虚道长
+拜师条件：zhengqi>=0
+
+宋远桥
+拜师条件：zhengqi>=100
+
+张三丰
+拜师条件：zhengqi>=2000，taiji-shengong>=60，taoism>=80，守山门次数>=5
+	后天悟性>=30
+────────────────────────────────────────────────────
+【武当派门派任务】
+────────────────────────────────────────────────────
+有关武当派的门派任务，参见
+
+〖wudangjob  〗 武当守护任务（exp>100k）  
+〖wdzhixiang 〗 武当制香任务（无限制） 
+
+─────────────────────────────────
+【武当派解密指南】　　　　　　　　　　　　　　　　　　　　　　　　　
+─────────────────────────────────
+武当山上有个真武剑阵
+张三丰有把真武剑

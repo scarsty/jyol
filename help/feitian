@@ -1,0 +1,224 @@
+────────────────────────────────────────────────────
+【飞天御剑流简介】
+────────────────────────────────────────────────────
+据传飞天御剑流自战国时期就出先了，该派是直系相传，当
+下代弟子功夫学成名声大振时，师傅都不见了。直到诽村剑
+心着一代才开始外传，学会此技的人都担负着拯救乱世的责
+任，飞天御剑流更是被人称为神技。
+
+────────────────────────────────────────────────────
+【飞天御剑流武功简介】
+────────────────────────────────────────────────────
+忍术 (ninjitsu)                         
+杀意 (shayi)                            
+
+基本刀法 (blade)                        
+基本拳法 (cuff)                         
+基本轻功 (dodge)                        
+基本内功 (force)                        
+基本手法 (hand)                         
+基本招架 (parry)                        
+基本拳脚 (unarmed)                      
+
+合气道 (aikido)                         
+陆奥圆明流拳术 (enmeiryu)               
+神谷活心流 (huoxinliu-jianfa)           
+一刀流剑术 (ittouryu)                   
+杀意心法 (shayi-xinfa)                  
+日本古剑术 (shiren-jianfa)              
+日本古武术 (shiren-quanfa)              
+五行遁 (wuxing-dun)                     
+喧哗流拳法 (xuanhualiu-quanfa)          
+
+────────────────────────────────────────
+【飞天御剑流武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【杀意心法】(shayi-xinfa)
+学习要求：force>=30
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+berserk 狂杀
+要求：ninjitsu>150，neili>=300，qi>=150
+命中与威力相关：ninjitsu
+
+durup
+要求：ninjitsu>150，neili>=300，jing>=250
+命中与威力相关： ninjitsu
+
+heal 疗伤
+要求：shayi-xinfa>=100，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=150
+命中与威力相关：force有效等级
+
+qudu 驱毒
+要求：neili>=50，shayi-xinfa>=150，eff_qi>=max_qi/2
+命中与威力相关：
+
+shayi 杀意
+要求：shayi-xinfa>=180，jifa force shayi-xinfa，neili>=600，max_neili>=2000
+命中与威力相关：shayi-xinfa
+
+shenzu 神足
+要求：shayi-xinfa>=180，jifa force shayi-xinfa，neili>=600，max_neili>=2000
+命中与威力相关：shayi-xinfa
+
+wakeup 救人
+要求：max_neili>=1000，neili>=1000，shayi-xinfa>=250
+命中与威力相关：force有效等级
+
+【合气道】(aikido)
+学习要求：shayi-xinfa>=30
+自动特殊攻击：jifa force shayi-xinfa
+自动特殊防御：
+
+特殊招式：
+niu 合气道.扭
+要求：shayi-xinfa>=30，max_neili>=30，neili>=200
+命中与威力相关：exp，aikido
+
+qin 合气道.擒
+要求：shayi-xinfa>=30，max_neili>=30，neili>=200
+命中与威力相关：exp，aikido
+
+yaozhan 腰斩
+要求：max_neili>=200，neili>=200，shayi-xinfa>=30
+命中与威力相关：aikido
+
+【陆奥圆明流拳术】(enmeiryu) 可与xuanhualiu-quanfa互备
+学习要求：aikido>=enmeiryu，xuanhualiu-quanfa>=10，shayi-xinfa>=10，ninjitsu>=100，
+	max_neili>=50
+自动特殊攻击：jifa force shayi-xinfa
+自动特殊防御：
+
+特殊招式：
+chuyao 荡魔除妖
+要求：enmeiryu>=50，neili>=300
+命中与威力相关：enmeiryu
+
+linfengguilong 落日
+要求：enmeiryu>=60，neili>=300
+命中与威力相关：enmeiryu
+
+mukuha 无空波
+要求：enmeiryu>=50，neili>=300
+命中与威力相关：exp，enmeiryu
+
+shiden 紫电四连脚
+要求：enmeiryu>=100，neili>=300
+命中与威力相关：enmeiryu 
+
+shimon 四门-朱雀
+要求：neili.=300，qi<=max_qi *0.3 或者eff_qi<=max_qi*0.3，enmeiryu>=200
+命中与威力相关：exp，enmeiryu
+
+【神谷活心流】(huoxinliu-jianfa)
+学习要求：max_neili>=300，force有效等级>=30，blade>=huoxinliu-jianfa，jifa force shayi-xinfa
+自动特殊攻击：jifa force shayi-xinfa
+自动特殊防御：
+
+特殊招式：
+chaodao 抄刃止刃
+要求：shayi-xinfa>=60，huoxinliu-jianfa>=60，blade有效等级>=30，解密chaodao
+	neili>=200
+命中与威力相关：exp，huoxinliu-jianfa
+
+【一刀流剑术】(ittouryu)
+学习要求：aikido>=100，xuanhualiu-quanfa>=100，shayi-xinfa>=100，ninjitsu>=100
+	enmeiryu>100，max_neili>=100
+自动特殊攻击：shayi-xinfa
+自动特殊防御：
+
+特殊招式： 
+daoshen 刀神
+要求：ittouryu>=100，neili>=600
+命中与威力相关：ittouryu
+
+gobankiri 棋盘切
+要求：ittouryu>=100 ，neili>=600
+命中与威力相关：exp，ittouryu
+
+hyakki 百鬼夜狂
+要求：ittouryu>=150 ，neili>=600
+命中与威力相关：blade有效等级
+
+shiwanshenmo 十万神魔
+要求：ittouryu>=50，neili>=600
+命中与威力相关：ittouryu
+
+【日本古剑术】(shiren-jianfa)
+学习要求：max_neili>=500，shayi-xinfa>=200，huoxinliu-jianfa>=shiren-jianfa
+	feitian-yujianliu>=shiren-jianfa，wuxing-dun>=shiren-jianfa，jifa force shayi-xinfa
+自动特殊攻击：
+自动特殊防御：jifa parry shiren-jianfa
+
+特殊招式：无
+
+【日本古武术】(shiren-quanfa)
+学习要求：max_neili>=500，shayi-xinfa>=200，xuanhualiu-quanfa>=shiren-quanfa
+	aikido>=shiren-quanfa，wuxing-dun>=shiren-quanfa，jifa force shayi-xinfa
+自动特殊攻击：
+自动特殊防御：jifa parry shiren-quanfa
+
+特殊招式：无
+
+【五行遁】(wuxing-dun)
+学习要求：shayi-xinfa>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+break 五遁绝杀
+要求：wuxing-dun>=50，max_neili>=200，qi>=200，neili>=max_neili/2
+	shayi-xinfa>=30，dodge有效等级>=50
+命中与威力相关：wuxing-dun
+
+【喧哗流拳法】(xuanhualiu-quanfa) 可与enmeiryu互备
+学习要求：aikido>=xuanhualiu-quanfa，shayi-xinfa>=10，max_neili>=50
+自动特殊攻击：jifa force shayi-xinfa
+自动特殊防御：
+
+特殊招式：
+sanchong 三重劲
+要求：xuanhualiu-quanfa>=200，jifa unarmed xuanhualiu-quanfa，shayi-xinfa>=100
+	max_neili>=2000，解密sanchong，neili>=400，cuff>=170，shayi-xinfa>=80
+命中与威力相关：force有效等级，exp，xuanhualiu-quanfa，shayi-xinfa
+
+──────────────────────────────────
+【飞天御剑流拜师指南】
+──────────────────────────────────
+弥彦
+拜师条件：
+
+神古熏
+拜师条件：shayi-xinfa>=100
+
+绯村剑心
+拜师条件：huoxinliu-jianfa>=180，shayi-xinfa>=120，aikido>=120
+	wuxing-dun>=120，shayi>=120，zhengqi>=200000，后天悟性>=30
+
+天枫十四郎，
+拜师条件：exp>=1000000，huoxinliu-jianfa>=200，shayi-xinfa>=200，aikido>=200
+	wuxing-dun>=200，shayi>=200
+
+────────────────────────────────────────────────────
+【飞天御剑流门派任务】
+────────────────────────────────────────────────────
+有关飞天御剑流的门派任务，参见
+
+〖ftyaojob   〗 飞天御剑流药店任务(无限制）
+〖ftshouwei  〗 飞天御剑流守卫任务(exp>500k)
+
+──────────────────────────────────
+【飞天御剑流解密指南】
+──────────────────────────────────
+据说剑心为跟志志雄真实决一死战正在树林中的瀑布边静修.
+但好象已被十刃暗杀部队盯上了.
+相乐左之助自创了一套拳法厉害无比,而且经明王传授习的
+了一套厉害的绝招.
+修炼室里可以练习武功
+飞天的绝招都是要领悟的

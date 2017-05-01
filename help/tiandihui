@@ -1,0 +1,278 @@
+───────────────────────────
+【天地会简介】
+───────────────────────────
+
+
+    天地会的创始祖师，便是国姓爷。国姓爷，原姓郑，大名
+上成下功。当年得明朝皇帝赐姓为朱，因此人们尊称他为「国
+姓爷」。郑成功在江浙闽粤一带声名极响，他於康熙元年去世。
+当初国姓爷率领义师，进攻江南，围困江宁，功败垂成，在退
+回台湾之前，接纳军师陈永华的创议，设立了这个天地会，留
+在中土，联络国姓爷的旧部。凡是曾随国姓爷攻打江浙的兵将，
+自然都成为会中兄弟，不必由人接引，也不须察看。但若外人
+要入会，就得查察明白，以防有奸细混入。
+    陈永华化名陈近南成为天地会的总舵主。江湖人称“为人
+不识陈近南，便称英雄也枉然”。天地会共有十堂，前五房五
+堂，后五房五堂。前五房莲花堂，洪顺堂、家后堂、参太堂、
+宏化堂。后五房青木堂、赤火堂、西金堂、玄水堂、黄土堂。
+各堂的香主，都是国姓爷军中校尉士卒。
+    入会需设香堂。香堂上供著两个灵牌：中间是「大明天子
+之位」，侧边是「大明延平郡主、招讨大将军郑之位」，供奉
+一个猪头，一个羊头，一只鸡，一尾鱼，插著七枝香。接引人
+需带宣誓词：
+    「天地万有，回复大明，灭绝胡虏。吾人当同生同死，仿
+桃园故事，约为兄弟，姓洪名金兰，合为一家。拜天为父，拜
+地为母，日为兄，月为姊妹，复拜五祖及始祖万云龙为洪家之
+全神灵。吾人以甲寅七月二十五日丑时为生时。凡昔二京十三
+省，当一心同胡虏剿灭之天兆。吾人当行陈近南之命令，历五
+湖四海，以求英雄豪杰。焚香设誓，顺天行道，恢复明朝，报
+仇雪耻。歃血誓盟，神明降鉴。」
+    天地会，又称为洪门，洪就是明太祖的年号洪武。（洪门
+的洪字，其实就是汉人的『汉』字，汉人的江山给鞑子占了，
+没了土地，『汉』字中去了个『土』字，便是『洪』字了。）
+姓洪名金兰，就是洪门兄弟的意思。洪门尊万云龙为始祖，那
+万云龙，就是国姓爷了。一来国姓爷真姓真名，兄弟们不敢随
+便乱叫；二来如果鞑子的鹰爪们听了诸多不便，所以兄弟之间，
+称国姓爷为万云龙。『万』便是千千万万人，『云龙』是云从
+龙。千千万万人保定大明天子，恢复我锦绣江山。七月二十五
+日丑时，是本会创立的日子时辰。本会五祖，乃是这军在江宁
+殉难的五位大将。
+    会中有三十六条誓词，十禁十刑，二十一条守则，大抵是
+忠心义气，孝顺父母，和睦乡党，兄弟一家，患难相助等等。
+若有泄漏机密，扳连兄弟，投降官府，奸淫掳掠，欺侮孤弱，
+言而无信，吞没公款等情由，轻则割耳、责打，重则大解八块，
+断首分尸。
+    天地会众主要分布在北京城中。前往总舵的秘道相当秘密
+复杂。如果想要拜入云龙门，首先要找到天地会中合适的人，
+加入天地会(join tiandihui)。然后天地会的师傅才能收你为
+徒，成为云龙门弟子。目前只有陈近南、玄贞道人和马超兴会
+收徒弟。想要退会，可以找总舵主，ask 陈近南 about 退会。
+当然，已经成为云龙门弟子的，需要先叛师才能退会。
+
+──────────────────────────────────
+【天地会武功简介】
+──────────────────────────────────
+
+云龙心法 (yunlong-xinfa)                 
+
+基本刀法 (blade)                         
+基本爪法 (claw)                          
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+百花错拳 (baihua-cuoquan)                
+八阵八卦掌 (bazhen-zhang)                
+猴拳 (houquan)                           
+五虎断门刀 (wuhu-duanmendao)             
+云龙鞭法 (yunlong-bian)                  
+云龙剑 (yunlong-jian)                    
+云龙身法 (yunlong-shenfa)                
+云龙神功 (yunlong-shengong)              
+云龙手 (yunlong-shou)                    
+云龙爪 (yunlong-zhua)                    
+────────────────────────────────────────
+【天地会武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【云龙神功】(yunlong-shengong)
+学习要求：无性只能学到50，force>=20，100以内需要相应的yunlong-xinfa
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：yunlong-shengong>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+qingshen 轻身
+要求：yunlong-shengong>=100，neili>=200
+命中与威力相关：yunlong-shengong
+
+qudu 驱毒
+要求：neili>=50，eff_qi>=max_qi/2，yunlong-shengong>=40
+命中与威力相关：驱除蛇毒，蝎毒，星宿毒
+
+【百花错拳】(baihua-cuoquan) 可与houquan或者bazhen-zhang互备
+学习要求：先天悟性>=22，先天身法>=20，max_neili>=3000，force有效等级>=250
+	unarmed=150，cuff>=100，claw>=100，houquan+100>=baihua-cuoquan
+	yunlong-zhua+100>=baihua-cuoquan，yunlong-shou+200>=baihua-cuoquan
+	yunlong-shengong+200>=baihua-cuoquan，yunlong-shenfa+200>=baihua-cuoquan
+自动特殊攻击：
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+hong 战神轰天诀
+要求：baihua-cuoquan>=250，max_neili>=5000，jifa unarmed baihua-cuoquan
+	yunlong-shengong>=100，neili>=800，
+命中与威力相关：unarmed有效等级，force有效等级
+
+luan 百花错乱
+要求：baihua-cuoquan>=120，neili>=200，yunlong-shengong>=100，jifa unarmed baihua-cuoquan
+命中与威力相关：unarmed有效等级，
+ 
+yi 百花错易
+要求： max_neili>=3000，force有效等级>=280，baihua-cuoquan>=150，yunlong-shengong>=100
+	jifa unarmed baihua-cuoquan，neili>=500
+命中与威力相关：unarmed有效等级，先天臂力
+
+【八阵八卦掌】(bazhen-zhang) 可与baihua-cuoquan互备
+学习要求：houquan>=120，yunlong-zhua>=120，yunlong-shou>=120，yunlong-shengong>=120
+	yunlong-shenfa>=120，baihua-cuoquan>=120，yunlong-jian>=120，wuhu-duanmendao>=120
+	yunlong-bian>=120，max_neili>=1200，strike>=bazhen-zhang
+自动特殊攻击：有
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+bafang 威镇八方
+要求：force有效等级>=300，bazhen-zhang>=200，neili>=700，jifa strike bazhen-zhang
+命中与威力相关：strike有效等级，先天臂力
+
+baxianzuijiu 八仙醉酒
+要求：neili>=100，bazhen-zhang>=100
+命中与威力相关：bazhen-zhang
+
+jueming 绝命连击
+要求：bazhen-zhang>=150，yunlong-shengong>=120，max_neili>=800，neili>=800
+命中与威力相关：force有效等级，parry有效等级，bazhen-zhang
+
+【猴拳】(houquan) 可与baihua-cuoquan互备
+学习要求：force>=30，max_neili>=200
+自动特殊攻击：jifa force yunlong-shengong
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+pofuchenzhou 破釜沉舟
+要求：houquan>=200，neili>=800，yunlong-shengong>=100
+命中与威力相关：houquan
+
+zhen 震字诀
+要求：houquan>=40，neili>=100，yunlong-shengong>=50
+命中与威力相关：force有效等级，force
+
+【五虎断门刀】(wuhu-duanmendao)
+学习要求：blade>=20，max_neili>=100
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+duan 断字决
+要求：neili>=250，blade有效等级>=60，jifa blade wuhu-duanmendao
+命中与威力相关：wuhu-duanmendao
+
+【云龙鞭法】(yunlong-bian)
+学习要求：max_neili>=200，yunlong-shengong>=40
+自动特殊攻击：有
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+chan 缠字诀
+要求：yunlong-bian>=50，yunlong-shengong>=50，neili>=300
+命中与威力相关：exp，yunlong-bian
+
+【云龙剑】(yunlong-jian)
+学习要求：max_neili>=200，yunlong-shengong>=20，yunlong-xinfa>=20，force>=40
+	baihua-cuoquan+200>=yunlong-jian，yunlong-zhua+100>=yunlong-jian
+	wuhu-duanmendao+200>=yunlong-jian，yunlong-shengong+200>=yunlong-jian
+	yunlong-shenfa+200>=yunlong-jian
+自动特殊攻击：jifa force yunlong-shengong
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+duoming 夺命连环剑
+要求：yunlong-jian>=200，neili>=500，yunlong-shengong>=150
+命中与威力相关：yunlong-jian，yunlong-shengong，可能有15剑的必杀效果
+
+guang 神光再现
+要求：yunlong-jian>=150，yunlong-shengong>=150，jifa sword yunlong-jian
+	force有效等级>=200，neili>=150
+命中与威力相关：yunlong-jian
+
+jueming 绝命剑，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，yunlong-jian>=500，yunlong-shengong>=500，
+	yunlong-zhua>=500，jifa force yunlong-shengong，不能有jiuyin-zhengong
+命中与威力相关：exp，先天臂力，yunlong-zhua，yunlong-jian，yunlong-shengong，可能有15剑的必杀效果
+
+shen 五神朝元势
+要求：yunlong-shengong>=150，yunlong-jian>=150，jifa sword yunlong-jian
+	force>=220，dodge>=200，max_neili>=5500，neili>=500
+命中与威力相关：yunlong-jian，force，parry
+
+slj 神龙剑决
+要求：yunlong-jian>=250，yunlong-shengong>=150，bazhen-zhang>=120，houquan>=120
+	yunlong-zhua>=120，yunlong-shuo>=120，yunlong-shenfa>=120，baihua-cuoquan>=120
+	yunlong-bian>=120，neili>=800
+命中与威力相关：yunlong-jian，sword有效等级，force有效等级
+
+xian 云龙三现
+要求：yunlong-jian>=50，yunlong-shengong>=50，neili>=300
+命中与威力相关：exp，yunlong-jian，yunlong-shengong，dodge有效等级，force有效等级
+
+xunlei 迅雷剑
+要求：neili>=800，yunlong-jian>=200，yunlong-shengong>=150
+命中与威力相关：yunlong-jian
+
+【云龙身法】(yunlong-shenfa) 
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【云龙手】(yunlong-shou) 可与yunlong-zhua互备
+学习要求：yunlong-shengong>=50，force>=50，max_neili>=250，claw>=30
+	yunlong-xinfa*2>=yunlong-shou
+自动特殊攻击：
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+fuxue 拈花拂穴
+要求：后天臂力>=25，yunlong-shou>=100，hand有效等级>=100，neili>=300，yunlong-shengong>=50
+命中与威力相关：exp，yunlong-shou
+
+【云龙爪】(yunlong-zhua) 可与yunlong-shou互备
+学习要求：yunlong-shengong>=50，force>=50，max_neili>=350，claw>=40
+	houquan+200>=yunlong-zhua，baihua-cuoquan+200>=yunlong-zhua，yunlong-shou+100>=yunlong-zhua
+	yunlong-shengong+200>=yunlong-zhua，yunlong-shenfa+200>=yunlong-zhua
+自动特殊攻击：jifa force yunlong-shengong
+自动特殊防御：jifa force yunlong-shengong
+
+特殊招式：
+ji 疾电
+要求：jifa claw yunlong-zhua，yunlong-zhua>=250，yunlong-shengong>=150，force有效等级>=150
+	max_neili>=2000，neili>=500
+命中与威力相关：yunlong-zhua
+
+ningxue 凝血神抓
+要求：yunlong-shengong>=70，yunlong-zhua>199，neili>=600
+命中与威力相关：yunlong-shengong，yunlong-zhua，先天臂力，exp，force有效等级
+
+──────────────────────────────────
+【天地会拜师指南】
+──────────────────────────────────
+陈近南
+拜师条件：yunlong-shengong>=50，weiwang>=60，zhengqi>=5000
+	加入天地会
+
+马超兴
+拜师条件：shenlong-xinfa>=60，男性，加入天地会
+
+玄贞道长
+拜师条件：加入天地会
+
+──────────────────────────────────
+【天地会门派任务】
+──────────────────────────────────
+有关天地会的门派任务，参见
+
+〖yunlongjob 〗 云龙救反清义士任务.(exp>100k)
+〖yljob2     〗 云龙宣传反清任务.(无限制)

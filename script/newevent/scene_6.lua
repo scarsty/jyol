@@ -1,0 +1,15 @@
+SceneEvent[6]={};
+SceneEvent[6]={
+				[200]=function()
+					JY.SubScene=7
+					JY.Base["人X1"],JY.Base["人Y1"]=31,59
+					lib.ShowSlow(50,1);
+					Init_SMap(1);
+				end,
+				[201]=function()
+					JY.SubScene=8
+					JY.Base["人X1"],JY.Base["人Y1"]=4,27
+					lib.ShowSlow(50,1);
+					Init_SMap(1);
+				end,
+			}

@@ -1,0 +1,234 @@
+────────────────────────────────────────
+【凌霄城简介】
+────────────────────────────────────────
+
+ 凌霄城位于西域苦寒之地，东接成都南部,由当年凌霄城祖师凌霄子所创。
+至今已传七代。现任掌门为五代弟子“威德先生”白自在，其为人正直刚
+硬，却又十分狂妄自大。凌霄城内外遍植梅花，当年雪山派祖师又生性爱
+梅，是以凌霄城山武功中夹杂了不少梅花、梅萼、梅枝、梅干的形态，古
+朴飘逸，兼而有之。梅树枝干以枯残丑拙为贵，梅花梅萼以繁密浓聚为尚，
+是以诸如种种，皆体现于凌霄城武功之中。凌霄城上临白云，下接深渊，
+雄踞绝顶，俯视群山，‘凌霄’两字，名副其实。自创派以来，凌霄城以
+精绝剑术，在江湖上傲视群雄，是以习武之人，无人不知凌霄城大名。可
+惜，凌霄城虽剑术超群，其他武功却并无特长，内功方面，更比不上一些
+创派几百年的名门大派，但掌门白自在却因缘巧合，在雪山之上吸食了一
+条怪蛇之血，内力大增，甚至超越了少林、武当的一些高手。凌霄弟子也
+可四处寻觅，如福缘深厚，或许能有所收获也未可知。
+
+────────────────────────────────────────
+【凌霄城武功简介 】
+────────────────────────────────────────
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+冰雪心法 (bingxue-xinfa)                 
+寒天神手 (doom-hand)                     
+寒山掌法 (hanshan-strike)                
+明玉功 (mingyu-gong)                     
+飞雪映梅掌 (snow-zhang)                  
+梅雪飘香 (snowstep)                      
+寒雪鞭法 (snowwhip)                      
+雪山剑法 (xueshan-sword)                 
+
+
+────────────────────────────────────────
+【凌霄城武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【冰雪心法】(bingxue-xinfa)
+学习要求：force>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式： exert
+heal 疗伤
+要求：bingxue-xinfa>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：bingxue-xinfa
+
+【寒天神手】(doom-hand) 可与hanshan-strike互备
+学习要求：jifa force bingxue-xinfa，max_neili>=100
+自动特殊攻击：凌霄弟子，jifa force bingxue-xinfa
+自动特殊防御：
+
+特殊招式：
+hantian 九重寒天掌
+要求：bingxue-xinfa>=150，snow-zhang>=150，doom-hand>=100
+命中与威力相关：bingxue-xinfa，doom-hand
+
+【寒山掌法】(hanshan-strike) 可与doom-hand互备
+学习要求：jifa force bingxue-xinfa，max_neili>=100
+自动特殊攻击：凌霄弟子，jifa force bingxue-xinfa或者doom-hand>=1
+自动特殊防御：jifa force bingxue-xinfa
+
+特殊招式：
+siji 飞扬四季
+要求：hanshan-strike>=100，bingxue-xinfa>=150，snow-zhang>=150
+	max_neili>=1500，neili>=800
+命中与威力相关：hanshan-strike，exp
+ 
+zhangjian 掌剑
+要求：hanshan-strike>=90，bingxue-xinfa>=150，snow-zhang>=150
+命中与威力相关：exp，hanshan-strike
+
+【明玉功】(mingyu-gong)
+学习要求：先天悟性>=30，max_neili>=3000，bingxue-xinfa>=280，snow-zhang>=150
+	hanshan-strike>=150，doom-hand>=150，snowwhip>=150，xueshan-sword>=150
+	jinwu-blade>=150，snowstep>=280，force>=200，force+100>=mingyu-gong
+	unarmed+100>=mingyu-gong
+自动特殊攻击：jifa force mingyu-ging，jifa unarmed mingyu-gong
+自动特殊防御：有
+
+特殊招式：
+perform：
+gua 冰河倒挂
+要求：mingyu-gong>=300，bingxue-xinfa>=150，sword>=300，neili>=500
+	jifa sword mingyu-gong
+命中与威力相关：sword有效等级
+
+moqi 魔气血杀
+要求：mingyu-gong>=500，bingxue-xinfa>=150，force>=500，neili>=1000
+	jifa force mingyu-gong
+命中与威力相关：force有效等级，mingyu-gong
+
+qiong 琼楼玉宇
+要求：neili>=400，max_neili>=1000，mingyu-gong>=200，unarmed=200，jiali>=1
+	jifa force mingyu-gong，jifa parry mingyu-gong，jifa unarmed mingyu-gong
+命中与威力相关：mingyu-gong，unarmed，force
+
+exert：
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+shield 提升防御力
+要求：neili>=100，mingyu-gong>=40
+命中与威力相关：force有效等级
+
+zu 气足
+要求：neili>=1000，mingyu-gong>=160，bingxue-xinfa>=150
+命中与威力相关：mingyu-gong
+
+【飞雪映梅掌】(snow-zhang)
+学习要求：max_neili>=100
+自动特殊攻击：凌霄弟子，jifa force bingxue-xinfa
+自动特殊防御：jifa force bingxue-xinfa
+
+特殊招式：
+lang 惊涛骇浪
+要求：bingxue-xinfa>=100，snow-zhang>=100，max_neili>=3000，neili>=800
+命中与威力相关：snow-zhang，force有效等级 ，strike有效等级，寒毒
+
+yanxue 烟雪春梅
+要求：bingxue-xinfa>=100，snow-zhang>=100，neili>=400
+命中与威力相关：exp，snow-zhang，bingxue-xinfa，寒毒
+
+ying 如影相随
+要求：dodge有效等级>=180，neili>=200
+命中与威力相关：strike有效等级，exp
+
+zhe 只手遮天
+要求：max_neili>=2000，neili>=500
+命中与威力相关：snow-zhang，force有效等级，dodge有效等级，max_neili，寒毒可能会反噬
+
+【梅雪飘香】(snowstep)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+snowfly 飘雪
+要求：bingxue-xinfa>=100，snowstep>=100，neili>=400
+命中与威力相关：exp，snowstep
+
+snowwu 雪舞
+要求：bingxue-xinfa>=100，snowstep>=100，neili>=400
+命中与威力相关：后天身法
+
+【寒雪鞭法】(snowwhip)
+学习要求：jifa force bingxue-xinfa，max_neili>=150
+自动特殊攻击：凌霄弟子，jifa force bingxue-xinfa
+自动特殊防御：jifa force bingxue-xinfa
+
+特殊招式：
+snake 灵蛇
+要求：max_neili>=500，neili>=500，jing>=200，snow-zhang>=150，hanshan-strike>=150
+	doom-hand>=150，snowwhip>=150，bingxue-xinfa>=150
+命中与威力相关：snowwhip
+
+【雪山剑法】(xueshan-sword)
+学习要求：max_neili>=50，jifa force bingxue-xinfa
+自动特殊攻击：有
+自动特殊防御：jifa force bingxue-xinfa
+
+特殊招式：
+fengxue 风雪回剑
+要求：bingxue-xinfa>=150，xueshan-sword>=150，neili>=220
+命中与威力相关：sword，xueshan-sword，dodge
+
+wanmei 万梅飘零
+要求：bingxue-xinfa>=80，xueshan-sword>=80，neili>=200
+命中与威力相关：exp，xueshan-sword，sword
+
+xuehua 雪花六出
+要求：neili>=450，bingxue-xinfa>=50，xueshan-sword>=50，sword>=50
+	jifa sword xueshan-sword
+命中与威力相关：xueshan-sword
+
+xuemei 雪梅笑
+要求：neili>=2000，neili>=max_neili/7+200，xueshan-sword>=500，bingxue-xinfa>=500，
+	jinwu-blade>=500，jifa force bingxue-xinfa，不能有jiuyin-zhengong
+命中与威力相关：xueshan-sword，exp，sword，有寒毒
+
+【金乌刀法】(jinwu-blade)
+学习要求：max_neili>=500，xueshan-sword>=80
+自动特殊攻击：有
+自动特殊防御：jifa force bingxue-xinfa
+
+特殊招式：
+jinwu 金乌堕地
+要求：jinwu-blade>=100，bingxue-xinfa>=100，neili>=700
+命中与威力相关：exp，xueshan-sword，jinwu-blade，bingxue-xinfa，先天臂力，后天臂力，max_neili
+	blade，unarmed，是否叛师
+
+──────────────────────────────────
+【凌霄城拜师指南】
+──────────────────────────────────
+柯万钧，耿万钟，花万紫
+拜师条件：
+
+封万里
+拜师条件： bingxue-xinfa>=50，xueshan-sword>=50，sword>=50
+                  后天悟性>=25， zhengqi>=10000                   
+
+白万剑
+拜师条件：bingxue-xinfa>=60， xueshan-sword>=70，sword>=70
+                 后天悟性>=28，  zhengqi>=20000 
+
+白自在
+ 拜师条件：bingxue-xinfa>=80，xueshan-sword>=100， sword>=100
+                  后天悟性>=30， zhengqi>=50000，max_neili>=800
+                  
+────────────────────────────────────────────────────
+【凌霄城门派任务】
+────────────────────────────────────────────────────
+有关凌霄城的门派任务，参见
+
+〖lingxiaojob〗 凌霄城扫雪任务(exp>10000)
+〖lxhuweijob 〗 凌霄城护城任务(exp>100000)）
+
+──────────────────────────────────
+【凌霄城解密指南】
+──────────────────────────────────
+白自在把自己关在地牢里
+云海石上可以学dodge
+阿绣和史婆婆那里有好东西
+

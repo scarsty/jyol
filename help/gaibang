@@ -1,0 +1,290 @@
+──────────────────────────────────
+【丐帮简介】
+──────────────────────────────────
+
+    丐帮向为天下第一大帮，其帮众子弟遍及大江南北。丐帮弟子平素行侠仗
+义，虽是乞丐，却也为武林中人所尊敬，名声颇佳。南宋年间，丐帮高举抗金
+义旗，利用自身优势，为南宋官兵传递军情，狙杀金国大将，其功不可没。乱
+世出英豪，丐帮武功亦于此时达巅峰境界，先后出现萧峰，洪七公，黄蓉等武
+林绝顶高手，洪七公更名列天下武学五高手之位，凭着一套出神入化的降龙十
+八掌和精妙绝伦的打狗棒法，云游四海，锄强扶弱，赢得「北丐」的美名。
+
+    丐帮中分为净衣、污衣两派。净衣派除身穿打满补钉的丐服之外，平时起
+居与常人无异，这些人本来都是江湖上的豪杰，或佩服丐帮的侠义行径，或与
+帮中弟子交好而投入了丐帮，其实并非真是乞丐。污衣派却是真正以行乞为生，
+严守戒律：不得行使银钱购物，不得与外人共桌而食，不得与不会武功之人动
+手。丐帮的兴衰成败，倒有一大半决定于帮主是否有德有能。当年第十七代钱
+帮主昏暗懦弱，武功虽高，但处事不当，净衣派与污衣派纷争不休，丐帮声势
+大衰。直至洪七公接任帮主，强行镇压两派不许内讧，丐帮方得在江湖上重振
+雄风。
+
+──────────────────────────────────
+【丐帮武功简介】
+──────────────────────────────────
+叫化绝活 (begging)                       
+道听途说 (checking)                      
+基本爪法 (claw)                          
+基本棍法 (club)                          
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本杖法 (staff)                         
+基本掌法 (strike)                        
+驭兽术 (training)                        
+基本拳脚 (unarmed)                       
+
+缠丝擒拿手 (chansi-shou)                 
+打狗棒法 (dagou-bang)                    
+疯魔杖法 (fengmo-zhang)                  
+混天气功 (huntian-qigong)                
+六合掌 (liuhe-zhang)                     
+锁喉功 (suohou-gong)                     
+降龙十八掌 (xianglong-zhang)             
+逍遥游 (xiaoyaoyou)                      
+岳家枪法 (yuejia-qiang)                  
+
+────────────────────────────────────────
+【丐帮武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【混天气功】(huntian-qigong)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：huntian-qigong>=20，max_neili>=300，neili>=200，eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+shengang 混天神罡
+要求：neili>=200，force有效等级>=200，qi>=max_qi*0.4
+命中与威力相关：huntian-qigong
+
+【缠丝擒拿手】(chansi-shou)  可与suohou-gong互备
+学习要求：force有效等级>=60，max_neili>=500，hand>=80，hand>=chansi-shou
+自动特殊攻击：jifa force huntian-qigong
+自动特殊防御：
+
+特殊招式：
+qin 缠丝擒拿
+要求：chansi-shou>=120，neili>=500
+命中与威力相关：hand有效等级
+
+qinna 缠丝擒拿手
+要求：chansi-shou>=120，neili>=100
+命中与威力相关：hand有效等级
+
+【打狗棒法】(dagou-bang)
+学习要求：staff>=30，huntian-qigong>=120，liuhe-zhang+200>=dagou-bang，fengmo-zhang+100>=dagou-bang
+	xiaoyaoyou+300>=dagou-bang，max_neili>=1000，20以后需要begging>=101，并且begging+20>=dagou-bang
+自动特殊攻击：jifa force huntian-qigong
+自动特殊防御：jifa force huntian-qigong
+
+特殊招式：
+ban 绊字诀
+要求：jifa force huntian-qigong，huntian-qigong>=199，neili>=400，huntian-qigong>=70，staff>=199
+命中与威力相关：dagou-bang，force有效等级
+
+bangzhang 棒掌绝
+要求：有效内力>=2000，有效内力>=最大内力/7+200，dagou-bang>=500，huntian-qigong>=500，
+	xianglong-zhang>=500，jifa force huntian-qigong，不能有jiuyin-zhengong
+命中与威力相关：exp，dagou-bang，xianglong-zhang
+
+chan 缠字诀
+要求：neili>=100，dagou-bang>=100，huntian-qigong>=70
+命中与威力相关：exp，dagou-bang
+
+dagou 打狗阵法
+要求：jifa staff dagou-bang，不能对同门使用
+命中与威力相关：dagou-bang
+
+duo 獒口夺杖
+要求：jifa staff dagou-bang，force有效等级>=100，staff有效等级>=100， neili>=300
+命中与威力相关：exp，force有效等级，neili
+
+feng 封字诀
+要求：jifa force huntian-qigong，force有效等级>=250，staff有效等级>=200，dagou-bang>=100，neili>1000
+命中与威力相关：exp，force有效等级，staff有效等级
+
+luanda 乱打
+要求：neili>=300，dagou-bang>=80，huntian-qigong>=70
+命中与威力相关：dagou-bang
+
+wugou 天下无狗
+要求：max_neili>=2000，neili>=500，jing>=100，dagou-bang>=200，huntian-qigong>=70，
+命中与威力相关：dagou-bang
+
+zhuan 转字诀
+要求：jifa force huntian-qigong，huntian-qigong>=100，staff有效等级>=100，dagou-bang>=100，neili>1000
+	jing>600，
+命中与威力相关：exp，staff有效等级
+
+【疯魔杖法】(fengmo-zhang)
+学习要求：max_neili>=800，force有效等级>=90，staff>=30
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+luan 群魔乱舞
+要求：fengmo-zhang>=120，jifa staff fengmo-zhang，force有效等级>=150，neili>=200
+命中与威力相关：fengmo-zhang
+
+lun 风火轮
+要求：fengmo-zhang>=120，jifa staff fengmo-zhang，force有效等级>=150，neili>=300
+命中与威力相关：staff有效等级
+
+【六合掌】(liuhe-zhang)
+学习要求：force有效等级>=30，neili>=100
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+lei 雷霆万钧
+要求：liuhe-zhang>=60，jifa strike liuhe-zhang，neili>=400
+命中与威力相关：liuhe-zhang
+
+lian 峰连碧罗
+要求：liuhe-zhang>=60，jifa strike liuhe-zhang，neili>=200，force有效等级>=120
+命中与威力相关：liuhe-zhang
+
+tan 乌龙探海
+要求：liuhe-zhang>=60，jifa strike liuhe-zhang，neili>=100，force有效等级>=100
+	bei liuhe-zhang
+命中与威力相关：liuhe-zhang
+
+【锁喉功】(suohou-gong) 可与chansi-shou互备
+学习要求：force有效等级>=150，max_neili>=1500，claw>=80，claw>=suohou-gong
+自动特殊攻击：jifa force huntian-qigong
+自动特殊防御：
+
+特殊招式：
+suo 铁爪锁喉
+要求：suohou-gong>=150，jifa claw suohou-gong，neili>=500，
+命中与威力相关：claw有效等级，max_neili，suohou-gong
+
+【降龙十八掌】(xianglong-zhang)
+学习要求：huntian-qigong>=80，fengmo-zhang>=80，xiaoyaoyou>=80，liuhe-zhang>=80
+	max_neili>=100
+自动特殊攻击：jifa force huntian-qigong
+自动特殊防御：jifa force huntian-qigong
+
+特殊招式：
+fei 飞龙在天
+要求：xianglong-zhang>=150，force>=300，max_neili>=3000，neili>=500
+命中与威力相关：exp，xianglong-zhang
+
+hui 亢龙有悔
+要求：force有效等级>=380，max_neili>=6000，xianglong-zhang>=250，neili>=1000
+命中与威力相关：xianglong-zhang，先天臂力
+
+kanglongwuhui 亢龙无悔
+要求：xianglong-zhang>=200，jifa force huntian-qigong，jifa unarmed xianglong-zhang
+	huntian-qigong>=120，max_neili>=2000，neili>=1500
+命中与威力相关：xianglong-zhang，exp
+
+leiting 雷霆一击
+要求：huntian-qigong>=100，xianglong-zhang>=120，neili>=500
+命中与威力相关：exp，xianglong-zhang，huntian-qigong
+
+mielong 灭龙一击
+要求：force有效等级>=260，max_neili>=5000，xianglong-zhang>=300，jifa strike xianglong-zhang
+	huntian-qigong>=120，liuhe-zhang>=150，fengmo-zhang>=150，xiaoyaoyou>=150
+	dagou-bang>=150，chansi-shou>=150，suohou-gong>=150
+命中与威力相关：strike有效等级，先天臂力，force有效等级
+
+qu 双龙取水
+要求：xianglong-zhang>=150，force有效等级>=300，max_neili>=3000，neili>=500
+命中与威力相关：xianglong-zhang，先天臂力，打掉对方兵器
+
+xianglong 降龙大法
+要求：huntian-qigong>=70，neili>=300
+命中与威力相关：xianlgong-zhang
+
+zhen 震惊百里
+要求：xianglong-zhang>=150，force有效等级>=300，max_neili>=3000，neili>=500
+命中与威力相关：xianglong-zhang，先天臂力
+
+【逍遥游】(xiaoyaoyou)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+canghaiyixiao 沧海一笑
+要求：xiaoyaoyou>=70，neili>=400
+命中与威力相关：exp
+
+gjtq 狗急跳墙
+要求：max_neili>=2000，neili>=1500
+命中与威力相关：xiaoyaoyou
+
+miaoshou 妙手空空
+要求：huntian-qigong>=120，begging>=80，xiaoyaoyou>=80，checking>=80
+	neili>=200，qi>=50
+命中与威力相关：exp
+
+【岳家枪法】(yuejia-qiang)
+学习要求：max_neili>=1500，huntian-qigong>=120，liuhe-zhang>=150，fengmo-zhang>=150
+	xiaoyaoyou>=150，dagou-bang>=150，chansi-shou>=150，suohou-gong>=150
+自动特殊攻击：jifa force huntian-qigong
+自动特殊防御：jifa force huntian-qigong
+
+特殊招式：
+gong 与天比高
+要求：yuejia-qiang>=60，neili>=500
+命中与威力相关：exp，yuejia-jiang
+
+qldj 其力断金
+要求：yuejia-qiang>=50，neili>=1500
+命中与威力相关：exp，yuejia-jiang
+
+zhtx 纵横天下
+要求：yuejia-qiang>=280，neili>=1500
+命中与威力相关：exp，yuejia-jiang
+
+──────────────────────────────────
+【丐帮拜师指南】
+──────────────────────────────────
+丐帮袋位升级制度：
+一个丐帮弟子从拜第一个师傅起就自动成为一个一袋弟子，等到经验值达到两
+千以后，可以向简长老要求青竹令（计算方法：(2000+500*(n-1))*n*n；ｎ为
+袋的数目），凭此青竹令丐帮弟子可以向同袋位的NPC大师兄挑战（fight），
+如果获胜就可取到破布块，凭此向简长老要求晋级，反之就失去令牌，必须再
+次比划与挑战。晋级后获得经验值以及布袋等。
+
+空空儿，左全
+拜师条件：
+
+鲁有脚
+拜师条件：先天悟性<25
+
+洪七公
+拜师条件：后天臂力>=20，后天根骨>=20，解密
+
+乔峰，马大元
+拜师条件：huntian-qigong>=180，xianglong-zhang>=180，dagou-bang>=180
+	后天臂力>=20，后天根骨>=20
+
+────────────────────────────────────────────────────
+【丐帮门派任务】
+────────────────────────────────────────────────────
+有关丐帮的门派任务，参见
+
+〖gaibangjob 〗 丐帮抗敌任务（exp>100k）
+〖gbbegjob   〗 丐帮行乞任务（无限制）
+
+──────────────────────────────────
+【丐帮解密指南】
+──────────────────────────────────
+丐帮有极其秘密的地下通道，乃用丐帮几辈人之心血掘成
+洪七公喜欢吃叫花鸡
+降龙掌最厉害的那招需要洪帮主指点

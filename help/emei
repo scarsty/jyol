@@ -1,0 +1,312 @@
+──────────────────────────────────
+【峨嵋派简介】
+──────────────────────────────────
+
+峨嵋山在四川眉县城西南十五里，雄踞四川盆地西南缘，与浙江普陀山、安徽
+九华山、山西五台山并称佛教四大名山。因山势逶迤，如娥眉细而长，美而艳，
+故名。有大峨、二峨、三峨之分。主峰万佛顶。山脉峰峦起伏，重岩迭翠，气
+势磅礴，雄秀幽奇，素有『峨嵋天下秀』的称誉。
+
+山麓至峰顶，石径盘旋，直上云霄。山上寺庙创建于东汉，后历代续有增修。
+初流行道教。唐、宋以后佛教日趋兴盛，至明、清臻于极盛，一时梵宇琳宫，
+大小寺庙近百座，为佛教著名普贤道场。
+
+峨嵋派的创派祖师是郭襄女侠。郭襄女侠的父亲是郭靖，母亲是黄蓉。郭襄女
+侠早年心中念念不忘于神雕大侠杨过，走遍天下，找不到他。在她四十岁那年，
+她忽然大彻大悟，出家为尼，后来开创了峨嵋一派。郭襄死后，峨嵋弟子将她
+葬在峨嵋后山一处幽静之所。
+
+峨嵋派半数是尼姑，其余的有男有女。峨嵋派自创派师祖郭襄以来，掌门之位，
+惯例由女子担当。灭绝师太是继郭襄祖师、凌风师太后的第三代掌门。
+
+────────────────────────────────────────
+【峨嵋派武功简介】
+────────────────────────────────────────
+禅宗心法 (buddhism)                      
+大乘涅磐功 (mahayana)                    
+渡世济人 (persuading)                    
+
+基本刀法 (blade)                         
+基本轻功 (dodge)                         
+基本指法 (finger)                        
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本暗器 (throwing)                      
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+四像八卦刀 (bagua-dao)                   
+四像八卦掌 (bagua-zhang)                 
+回风拂柳剑 (huifeng-jian)                
+峨嵋催心掌 (huixin-strike)               
+金顶绵掌 (jinding-zhang)                 
+临济十二庄 (linji-zhuang)                
+飘雪穿云手 (piaoxue-hand)                
+天罡指穴法 (tiangang-zhi)                
+雁行刀 (yanxing-dao)                     
+峨嵋银龙鞭 (yinlong-whip)                
+倚天剑法 (yitian-jian)                   
+诸天化身步 (zhutian-bu)                  
+
+────────────────────────────────────────
+【峨嵋派武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【临济十二庄】(linji-zhuang)
+学习要求：女性，不出家只能学到30级，没有破戒，100以内不能超过mahayana等级，force>10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+daxiao 大小庄
+要求： linji-zhuang>=150，neili>=500，jing>=linji-zhuang+100，eff_qi>=max_qi/2
+命中与威力相关：linji-zhuang
+
+fengyun 风云庄
+要求：linji-zhuang>=120，neili>=400，eff_qi>=max_qi/2
+命中与威力相关：linji-zhuang
+
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+juemie 完全恢复并加强自己的气血
+要求：linji-zhuang>=300，neili>=max_neili/3
+命中与威力相关：直接完全恢复
+
+lifeheal 助人疗伤
+要求：linji-zhuang>=120，max_neili>=350，neili>=50，eff_qi>=max_qi/6
+命中与威力相关：force有效等级
+
+longhe 龙鹤庄
+要求：linji-zhuang>=90，neili>=300，eff_qi>=max_qi/2
+命中与威力相关：linji-zhuang
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+riyue 日月庄 
+要求：linji-zhuang>=120，neili>=150
+命中与威力相关：linji-zhang
+
+tiandi 天地庄
+要求：linji-zhang>=30，neili>=100，eff_qi>=max_qi/2 
+命中与威力相关：linji-zhang
+
+yinyang 阴阳庄
+要求：linji-zhuang>=120，neili>=120
+命中与威力相关：linji-zhang
+
+zhixin
+要求：linji-zhang>=60，neili>=200，eff_qi>=max_qi/2 
+命中与威力相关：linji-zhang
+
+【四像八卦刀】(bagua-dao)
+学习要求：neili>=1200，force有效等级>=150，bagua-zhang>=150，yanxing-dao>=150，
+	linji-zhuang>=120，blade>=100，bagua-dao<=blade
+自动特殊攻击：
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+feiyan 飞雁随风刃
+要求：linji-zhuang>=150，bagua-dao>=140，bagua-zhang>=150，max_neili>=2000，neili>=500，
+	jifa blade bagua-dao
+命中与威力相关：dodge有效等级，bagua-dao，bagua-zhang
+
+huan 阴阳环
+要求：dodge有效等级>=220，linji-zhuang>=120，bagua-dao>=140，neili>=270，jifa blade bagua-dao
+命中与威力相关：blade有效等级
+
+mang 劈天神芒
+要求：force有效等级>=200，linji-zhuang>=120，bagua-dao>=140，neili>=200，jifa blade bagua-dao
+命中与威力相关：blade有效等级
+ 
+sha 杀龙无悔
+要求：force有效等级>=250，bagua-dao>=180，linji-zhuang>=120，neili>=300，jifa blade bagua-dao
+命中与威力相关：后天臂力，blade有效等级
+
+tian 天刀八势
+要求：bagua-dao>=250，linji-zhuang>=120，bagua-zhang>=150，max_neili>=3000，neili>=500
+	jifa blade bagua-dao
+命中与威力相关：bagua-dao
+
+【四像八卦掌】(bagua-zhang)
+学习要求：max_neili>=150，linji-zhuang>=60，strike>=bagua-zhang
+自动特殊攻击：
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+ding 背心钉
+要求： force有效等级>=120，linji-zhuang>=50，bagua-zhang>=80，neili>=200，
+	jifa strike bagua-zhang
+命中与威力相关：strike有效等级
+
+jia 掌中夹镖
+要求： force有效等级>=150，linji-zhuang>=50，bagua-zhang>=120，neili>=150，
+	jifa strike bagua-zhang
+命中与威力相关：strike的有效等级，throwing的有效等级
+
+【回风拂柳剑】(huifeng-jian)
+学习要求：linji-zhuang>=20，max_neili>=50
+自动特殊攻击：jifa force linji-zhuang
+自动特殊防御：使用perform jue以后
+
+特殊招式：
+jue 绝剑
+要求：huifeng-jian>=150，linji-zhuang>=150，jing>=100，neili>=500
+命中与威力相关：huifeng-jian，linji-zhuang
+
+juemie 灭星绝， hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，huifeng-jian>=500，lingji-zhuang>=500，
+	jinding-zhang>=500，jifa force linji-zhuang，不能有jiuyin-zhengong
+命中与威力相关：自身经验，huifeng-jian，linji-zhuang，force有效等级
+
+liaoyuan 燎原百击
+要求：huifeng-jian>=120，jinding-zhang>=120，linji-zhuang>=120，sword>=120，max_neili>=1000，
+	neili>=500
+	jifa stirke jinding-zhang，bei jinding-zhang，jifa sword huifeng-jian
+命中与威力相关：huifeng-jian，jinding-zhang
+
+mie 灭剑
+要求：huifeng-jian>=200， linji-zhuang>=100 ，max_neili>=800，neili>=600
+命中与威力相关：自身经验，huifeng-jian，linji-zhuang，force有效等级，先天臂力
+
+sanqing 
+要求：huifeng-jian>=100 neili>=300 
+命中与威力相关：huifeng-jian，linji-zhuang
+
+【峨嵋催心掌】(huixin-strike) 可以和piaoxue-hand互备
+学习要求：jinding-zhang>=100，tiangang-zhi>=100，force有效等级>=100，max_neili>=1200，	
+	unarmed>=100，strike>=100，strike>=huixin-strike
+自动特殊攻击：有
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+cuixin 夺命催心
+要求： huixin-strike>=120，force有效等级>=120，neili>=800
+命中与威力相关：strike有效等级，huixin-strike
+
+gu 孤注一掷
+要求：huixin-strike>=60，neili>=300
+命中与威力相关：strike有效等级
+
+【金顶绵掌】(jinding-zhang) 可以和tiangang-zhi互备
+学习要求：linji-zhuang>=10，max_neili>=30
+自动特殊攻击：
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+bashi 八式合一
+要求：jinding-zhang>=100 ，linji-zhuang>=40 ，neili>=200，jifa strike jinding-zhang
+命中与威力相关：自身经验，linji-zhuang，jinding-zhang
+
+puzhao 佛光普照
+要求：jinding-zhang>=150 ，linji-zhuang>=120 ，neili>=300，jiali>=50
+命中与威力相关：自身经验，strike有效等级，force有效等级，jiali数
+
+【飘雪穿云手】(piaoxue-hand) 可以和huixin-strike互备
+学习要求：先天根骨>=28，先天臂力>=32，force有效等级>=200，hand>=100，max_neili>=1200，
+	hand>=piaoxue-hand
+自动特殊攻击：有
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+yun 云海明灯
+要求：force有效等级>=200，piaoxue-zhang>=150，max_neili>=2000，neili>=200，
+	jifa hand piaoxue-hand
+命中与威力相关：固定提升攻击力，hand有效等级
+
+zhao 佛光普照
+要求：force有效等级>=300，piaoxue-hand>=180，max_neili>=3500，neili>=1000，
+	jifa hand piaoxue-hand
+命中与威力相关：force有效等级，strike有效等级，先天臂力，可被jiuyang-shengong所克
+
+【天罡指穴法】(tiangang-zhi) 可与jinding-zhang互备
+学习要求：linji-zhuang>=20，max_neili>=100
+自动特殊攻击：
+自动特殊防御：jifa force jinli-zhuang
+
+特殊招式：
+lingkong 凌空指穴
+要求：linji-zhuang>=100 ，finger有效等级>=100 ，neili>=300 ，后天臂力>=25
+命中与威力相关：自身经验，tiangang-zhi
+
+【雁行刀】(yanxing-dao)
+学习要求：linji-zhuang>=20，max_neili>=50，blade>=yanxing-dao
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+huanying 无形幻影
+要求：yanxing-dao>=150 ，linji-zhuang>=90 ，max_neili>=300，neili>=200
+命中与威力相关：yanxing-dao，linji-zhuang
+
+【峨嵋银龙鞭】(yinlong-whip)
+学习要求：max_neili>=1200，force>=100，whip>=100，bagua-dao>=100，bagua-zhang>=100，
+	whip>=yinlong-whip
+自动特殊攻击：有
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+duoming 夺命银龙
+要求：force有效等级>=150，yinlong-whip>=150，neili>=500
+命中与威力相关：whip有效等级
+
+zhu 天诛龙蛟诀
+要求： force有效等级>=130，yinlong-whip>=100，neili>=300，jifa whip yinlong-whip
+命中与威力相关：force有效等级，whip有效等级
+
+【倚天剑法】(yitian-jian)
+学习要求：先天悟性>=30，先天根骨>=20，max_neili>=250，force>=50，bagua-dao>=100，
+	yanxing-dao>=100，bagua-zhang>=100，jinding-zhang>=100，tiangang-zhi>=100
+	zhutian-bu>=100，huifeng-jian>=100，sword>=50，sword>=yitian-jian
+自动特殊攻击：有，使用武器yitian-jian或者sky-sword时有特效
+自动特殊防御：jifa force linji-zhuang
+
+特殊招式：
+fumo 伏魔剑诀
+要求：yitian-jian>=120，neili>=200，jifa sword yitian-jian
+命中与威力相关：sword有效等级
+
+yitian 倚天剑决
+要求：max_neili>=1000，neili>=500，yitian-jian>=120，jifa sword yitian-jian
+命中与威力相关：yitian-jian，linji-zhuang，sword
+
+【诸天化身步】(zhutian-bu)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+──────────────────────────────────
+【峨嵋拜师指南】
+──────────────────────────────────
+峨嵋第四代俗家弟子
+拜师条件：zhengqi>=0
+
+峨嵋第四代出家弟子
+拜师条件：zhengqi>=100，mahayana>=50，女性
+
+灭绝师太 
+拜师条件：mahayana>=90，linji-zhuang>=90，zhengqi>=50000
+
+────────────────────────────────────────────────────
+【峨嵋门派任务】
+────────────────────────────────────────────────────
+有关峨嵋的门派任务，参见
+
+〖emeijob    〗 峨嵋除魔任务（exp>100k）
+〖xiuxingjob 〗 峨嵋修行任务（无限制）
+
+──────────────────────────────────
+【峨嵋解密指南】
+──────────────────────────────────
+舍身崖下有倚天剑
+峨眉的山路上可以练习force等基本武功
+灭绝师太和九阴速成篇解密有关
+
+

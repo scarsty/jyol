@@ -1,0 +1,251 @@
+──────────────────────────────────
+【姑苏慕容简介】
+──────────────────────────────────
+
+    苏州城南，是著名的太湖，碧波万顷，人们衣食丰足。湖心有一座小岛，
+岛上居住着一个大户人家，就是姑苏慕容世家。
+    慕容家的世代子孙在这里繁衍生息，到了第三十多代，出了一位叫慕容博
+的聪明绝顶的慕容子弟，创造了“以彼之道，还施彼身”的武林绝技，顿时名
+满江湖。当时有一句话：北乔峰，南慕容，指的是慕容博的儿子慕容复在武林
+之中与丐帮的帮主乔峰齐名。
+    一段时间以来，江湖上许多大门派的掌门被杀，令人惊奇的是他们都是为
+自己的成名绝技所戕。一时间江湖掀起巨大波澜，不知此事从何而起，也不知
+何时可以有一个了结。所有门派的门人弟子都找到姑苏慕容的头上，但是究竟
+是怎样一回事呢？
+    曼陀山庄的王语嫣姑娘饱读武籍，同时又暗恋着慕容公子，其中的重大玄
+机不知能否被你揭开。慕容世家有名满江湖的还施水阁和琅缳玉洞，其中收藏
+了天下各个门派的武功秘籍，使不少武林人士艳羡不已，争相去慕容家一睹为
+快。
+    后来，慕容博突然仙逝，江湖悬案未揭。武林人士议论纷纷，有人便想趁
+乱把慕容家的武学宝典据为己有。而慕容门人却从此走出太湖，去调查这悬而
+未决的武林奇案。
+
+──────────────────────────────────
+【姑苏慕容武功简介】
+──────────────────────────────────
+
+基本刀法 (blade)                         
+基本轻功 (dodge)                         
+基本指法 (finger)                        
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+
+参合指 (canhe-zhi)                       
+斗转星移 (douzhuan-xingyi)               
+慕容刀法 (murong-daofa)                  
+慕容剑法 (murong-jianfa)                 
+七星星移手 (qxxy-shou)                   
+神元功 (shenyuan-gong)                   
+六阴追魂剑 (six-sword)                   
+斗转星移掌 (xingyi-zhang)                
+燕灵身法 (yanling-shenfa)                
+
+────────────────────────────────────────
+【姑苏慕容武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【神元功】(shenyuan-gong)
+学习要求：force>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：max_neili>=300，neili>=100，eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 星移功
+要求：shenyuan-gong>=10，neili>=100
+命中与威力相关：force有效等级
+
+【参合指】(canhe-zhi) 可与qxxy-shou或者xingyi-zhang互备
+学习要求：shenyuan-gong>=15，neili>=100
+自动特殊攻击：有
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式：
+canshang 参商指
+要求：jifa finger canhe-zhi，force有效等级>=140，后天悟性>=22，finger有效等级>=100
+	neili>canhe-zhi*3/2，jing>=canhe-zhi
+命中与威力相关：后天臂力，后天身法，canhe-zhi，yanling-shenfa
+
+ci 刺字诀
+要求：canhe-zhi>=100，shenyuan-gong>=100，后天臂力>=30，max_neili>=1000
+	neili>=300，jifa finger canhe-zhi，bei canhe-zhi
+命中与威力相关：exp，canhe-zhi，douzhuan-xingyi，先天身法
+
+dianxue 拈花点穴
+要求：后天臂力>=25，finger有效等级>=100，neili>=300，shenyuan-gong>=70
+命中与威力相关：exp，canhe-zhi
+
+jin 金刚剑气
+要求：canhe-zhi>=260，jifa finger canhe-zhi，max_neili>=2500，neili>=500
+	murong-jianfa>=180，murong-daofa>=180，shenyuan-gong>=180，yanling-shenfa>=180
+	xingyi-zhang>=180，qxxy-shou>=180，douzhuan-xingyi>=180
+命中与威力相关：canhe-zhi，force有效等级，parry，finger有效等级，
+	对方bei six-finger为finger则可能相克
+
+lian 莲花指
+要求：canhe-zhi>=200，jifa finger canhe-zhi，neili>=70，douzhuan-xingyi>=180
+	murong-jianfa>=180，murong-daofa>=180，shenyuan-gong>=180，yanling-shenfa>=180
+	xingyi-zhang>=180，qxxy-shou>=180
+命中与威力相关：finger有效等级，canhe-zhi
+
+【斗转星移】(douzhuan-xingyi)
+学习要求：只能慕容弟子领悟
+自动特殊攻击：
+自动特殊防御：有
+
+特殊招式：
+tanyunshou 探云手
+要求：douzhuan-xingyi>=80，yanling-shenfa>=80，shenyuan-gong>=80，neili>=200，qi>=50
+命中与威力相关：exp，先天福缘
+
+xingyi 星移斗转
+要求：douzhuan-xingyi>=120，max_neili>=1200，neili>=600，parry>=120，jifa parry douzhuan-xingyi
+命中与威力相关：neili，后天臂力，parry有效等级，douzhuan-xingyi
+
+yihuajiemu 移花接木
+要求：douzhuan-xingyi>=80，yanling-shenfa>=80，shenyuan-gong>=100
+命中与威力相关：exp，douzhuan-xingyi，jiali数，neili
+
+【慕容刀法】(murong-daofa)
+学习要求：max_neili>=50，shenyuan-gong>=10
+自动特殊攻击：jifa finger canhe-zhi，bei canhe-zhi
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式：
+yingzhang 刀影掌
+要求：murong-daofa>=100，xingyi-zhang>=100，jifa blade murong-daofa，neili>=600
+	blade>=100，strike>=100
+命中与威力相关：murong-daofa
+
+【慕容剑法】(murong-jianfa)
+学习要求：max_neili>=100，shenyuan-gong>=80，murong-daofa>=80，yanling-shenfa>=80
+	xingyi-zhang>=80，parry>=10
+自动特殊攻击：jifa finger canhe-zhi，bei canhe-zhi
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式： 
+kuangjian 快剑
+要求：canhe-zhi>=100，murong-jianfa>=120，neili>=400，shenyuan-gong>=70
+命中与威力相关：murong-jianfa
+
+lianhuan 七剑连环指
+要求：murong-jianfa>=100，canhe-zhi>=100，jifa sword murong-jianfa，jifa finger canhe-zhi
+	neili>=500，shenyuan-gong>=70，sword>=100，finger>=100
+命中与威力相关：murong-jianfa，canhe-zhi，shenyuan-gong
+
+qixing 剑转七星
+要求：murong-jianfa>=100，neili>=300，sword>=100
+命中与威力相关：先天身法，parry有效等级，shenyuan-gong，murong-jianfa
+
+xingyi 星剑移，hslj专有
+要求：有效内力>=2000，有效内力>=最大内力/7+200，douzhuan-xingyi>=500，shenyuan-gong>=500，
+	murong-jianfa>=500，jifa force shenyuan-gong，不能有jiuyin-zhengong
+命中与威力相关：exp，neili，murong-jianfa，shenyuan-gong
+
+【七星星移手】(qxxy-shou) 可与canhe-zhi互备
+学习要求：douzhuan-xingyi>=180，murong-jianfa>=180，murong-daofa>=180，shenyuan-gong>=180
+	yanling-shenfa>=180，xingyi-zhang>=180，force有效等级>=100，max_neili>=800，hand>=80
+	hand>=qxxy-shou
+自动特殊攻击： 有
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式：
+po 破穹云蛟
+要求：qxxy-shou>=150，jifa hand qxxy-shou，force有效等级>=200，neili>=300
+命中与威力相关：hand有效等级，qxxy-shou
+
+xy 参合剑气
+要求：qxxy-shou>=180，force有效等级>=320，max_neili>=6000，neili>=900
+命中与威力相关：qxxys-shou，hand有效等级，对方bei six-finger为finger则可能相克
+
+zhai 摘星式
+要求：qxxy-shou>80，force有效等级>=80，neili>=200，
+命中与威力相关：cuff有效等级，force，qxxy-shou
+
+【六阴追魂剑】(six-sword)
+学习要求：douzhuan-xingyi>=180，murong-jianfa>=180，murong-daofa>=180，shenyuan-gong>=180
+	yanling-shenfa>=180，xingyi-zhang>=180，canhe-zhi>=180，parry>=10，qxxy-shou>=180，max_neili>=1000
+自动特殊攻击：jifa finger canhe-zhi，bei canhe-zhi
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式：
+lhj 连环剑
+要求：six-sword>=50，neili>=500
+命中与威力相关：six-sword
+
+nbajian 海渊八剑
+要求：six-sword>=150，neili>=500
+命中与威力相关：six-sword
+
+tx 金风细雨得天下
+要求：douzhuan-xingyi>=180，murong-jianfa>=180，murong-daofa>=180，shenyuan-gong>=180
+	yanling-shenfa>=180，xingyi-zhang>=180，canhe-zhi>=180，six-sword>=280，neili>=500
+命中与威力相关：six-sword
+
+wbajian 天下八剑
+要求：six-sword>=150，neili>=500
+命中与威力相关：six-sword
+
+【斗转星移掌】(xingyi-zhang) 可与canhe-zhi互备
+学习要求：shenyuan-gong>=150，max_neili>=50
+自动特殊攻击：
+自动特殊防御：jifa force shenyuan-gong
+
+特殊招式：
+riyue 日月同辉
+要求：xingyi-zhang>=180，shenyuan-gong>=180，后天身法>=25
+	jifa strike xingyi-zhang，bei xingyi-zhang，neili>=700，jing>=100
+命中与威力相关：exp，xingyi-zhang
+
+xingdian 星光点点
+要求：xingyi-zhang>=120，shenyuan-gong>=120，后天身法>=25
+	jifa strike xingyi-zhang，bei xingyi-zhang，neili>=700，jingli>=100
+命中与威力相关：exp，xingyi-zhang
+
+【燕灵身法】(yanling-shenfa)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+yanling 灵动如燕
+要求：yanling-shenfa>=120，后天身法>=20，shenyuan-gong>=50，dodge>=100
+	neili>=400，jifa dodge yanling-shenfa
+命中与威力相关：后天身法，yanling-shenfa
+
+
+──────────────────────────────────
+【姑苏慕容拜师指南】
+──────────────────────────────────
+阿朱，阿碧，四位庄主
+拜师条件：
+
+慕容复
+拜师条件： shenyuan-gong>=100，parry>=100
+
+慕容博
+拜师条件： 打赢慕容复
+
+────────────────────────────────────────────────────
+【姑苏慕容门派任务】
+────────────────────────────────────────────────────
+有关姑苏慕容的门派任务，参见
+
+〖mrjob      〗 慕容寻大燕国玉玺任务(exp>100k)
+〖mrjob2     〗 慕容浇花任务（无限制）
+
+──────────────────────────────────
+【姑苏慕容解密指南】
+──────────────────────────────────
+斗转星移是需要领悟的
+王语嫣可以指点武功
+慕容博在少林寺藏经阁

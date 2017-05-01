@@ -1,0 +1,263 @@
+──────────────────────────
+【星宿派简介】
+──────────────────────────
+星宿派的开山祖师丁春秋，师乘是逍遥派。逍遥派的武功是
+道家的一派，但是丁春秋一生精於炼毒，已不同於道家的炼
+丹。星宿派的功夫基本都是丁春秋叛师後自创，主要在"毒"
+字上下的功夫。掌上带毒、暗器上带毒、化功大法吸人内力，
+江湖上人提起，无不谈虎色变。
+
+──────────────────────────
+【星宿派武功简介】
+──────────────────────────
+基本毒技 (poison)                        
+
+基本刀法 (blade)                         
+基本爪法 (claw)                          
+基本轻功 (dodge)                         
+飞星术 (feixing-shu)                     
+基本内功 (force)                         
+基本招架 (parry)                         
+基本杖法 (staff)                         
+基本掌法 (strike)                        
+基本暗器 (throwing)                      
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+冰魄寒刀 (bingpo-blade)                  
+缠魂索 (chanhun-suo)                     
+抽髓掌 (chousui-zhang)                   
+化功大法 (huagong-dafa)                  
+三阴蜈蚣爪 (sanyin-wugongzhao)           
+天山杖法 (tianshan-zhang)                
+玄天冰蚕掌 (xuantian-strike)             
+摘星功 (zhaixinggong)                    
+
+────────────────────────────────────────────────
+【星宿派武功学习条件及特殊招式效果】
+────────────────────────────────────────────────
+【化功大法】(huagong-dafa)
+学习要求：大量负神，和buddhism，taoism冲突，force>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+jinglisuck 吸精
+要求：huagong-dafa>=100，neili>=20
+命中与威力相关：force有效等级，dodge有效等级，zhaixinggong，huagong-dafa
+
+jingsuck 吸精
+要求：huagong-dafa>=40，neili>=10
+命中与威力相关：force有效等级，dodge有效等级，zhaixinggong，huagong-dafa
+
+maxsuck 吸内力
+要求：huagong-dafa>=90，neili>=20，neili<20000，force有效等级>max_neili/10
+命中与威力相关：force有效等级，dodge有效等级，zhaixinggong，huagong-dafa
+
+neilisuck 吸内力
+要求：huagong-dafa>=60，neili>=20，neili<20000
+命中与威力相关：force有效等级，dodge有效等级，zhaixinggong，huagong-dafa
+
+powerup 提升攻击力
+要求：neili>=200
+命中与威力相关：force有效等级
+
+qisuck 吸真气
+要求：huagong-dafa>=30，neili>=10
+命中与威力相关：force有效等级，dodge有效等级，zhaixinggong，huagong-dafa
+
+【飞星术】(feixing-shu)
+学习要求：force>=20，dodge>=20，后天身法>=25
+自动特殊攻击：poison>=20
+自动特殊防御：
+
+特殊招式：
+huayu 满天花雨
+要求：feixing-shu>=150，huagong-dafa>=150，throwing>=150，neili>=500
+命中与威力相关：feixing-shu，带毒
+
+【摘星功】(zhaixinggong) 
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【抽髓掌】(chousui-zhang) 可与sanyin-wugongzhao互备
+学习要求： huagong-dafa>=10，max_neili>=60
+自动特殊攻击：jifa force huagong-dafa
+自动特殊防御：jifa force huagong-dafa
+
+特殊招式：
+biyan 碧焰
+要求：chousui-zhang>=80，huagong-dafa>=80，max_neili>=500，neili>=300
+命中与威力相关：后天福缘，exp，jiali数，poison，chousui-zhang
+
+duxian 毒仙法，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，chousui-zhang>=500，huagong-dafa>=500，
+	tianshan-zhang>=500，jifa force huagong-dafa，不能有jiuyin-zhengong
+命中与威力相关：tianshan-zhang，huagong-dafa，chousui-zhang，exp，带毒
+
+fushidu 腐尸毒
+要求：chousui-zhang>=220，huagong-dafa>=120，poison>=120，max_neili>=1000，neili>=300
+命中与威力相关：exp，带毒，chousui-zhang
+
+huoqiang 火墙
+要求：chousui-zhang>=250，huagong-dafa>=250，max_neili>=2000，neili>=1800
+命中与威力相关：后天福缘，exp，jiali数，poison，chousui-zhang，后天臂力
+
+huoqiu 火球
+要求：chousui-zhang>=180，huagong-dafa>=180，max_neili>=1500，neili>=1500
+命中与威力相关：后天福缘，exp，jiali数，poison，chousui-zhang，后天臂力
+
+sandu 散毒
+要求：huagong-dafa>=40，chousui-zhang>=40
+命中与威力相关：chousui-zhang，带毒
+
+throw 施毒
+要求：huagong-dafa>=40，chousui-zhang>=40
+命中与威力相关：chousui-zhang，exp，带毒
+
+yinhuo 银火
+要求：chousui-zhang>=140，huagong-dafa>=140，max_neili>=1200，neili>=900
+命中与威力相关：后天福缘，exp，jiali数，poison，chousui-zhang，后天臂力
+
+【三阴蜈蚣爪】(sanyin-wugongzhao) 可与chousui-zhang互备
+学习要求：max_neili>=200
+自动特殊攻击：有
+自动特殊防御：jifa force huagong-dafa
+
+特殊招式：
+zhua 三阴毒爪
+要求：sanying-wugongzhao>=180，huagong-dafa>=50，neili>=150
+命中与威力相关：sanyin-wugongzhao，claw
+
+【天山杖法】(tianshan-zhang)
+学习要求：max_neili>=80
+自动特殊攻击：
+自动特殊防御：huagong-dafa
+
+特殊招式：
+hushen 护身
+要求：neili>=200，tianshan-zhang>=40
+命中与威力相关：exp，tianshan-zhang
+
+jinxian 大罗金仙
+要求：huagong-dafa>=60，neili>=20，tianshan-zhang>=100
+命中与威力相关：force有效等级，dodge有效等级，后天福缘，exp
+
+tianshan 天山奇峰
+要求：huagong-dafa>=60，neili>=500，staff>=200，jifa staff tianshan-zhang
+命中与威力相关：tianshan-zhang，huagong-dafa，exp，带毒
+
+【缠魂索】(chanhun-suo)
+学习要求：huagong-dafa>=125，sanyin-wugongzhao>=120，chousui-zhang>=120
+	tianshan-zhang>=120，zhaixinggong>=120，max_neili>=400，force有效等级>=80
+	whip有效等级>=60，whip+150>=chanhun-suo
+自动特殊攻击：jifa force huagong-dafa
+自动特殊防御：jifa force huagong-dafa
+
+特殊招式：
+duo 夺魂势
+要求：huagong-dafa>=120，sanyin-wugongzhao>=120，chanhun-suo>=100，neili>=220
+	jifa whip chanhun-suo
+命中与威力相关：whip有效等级，force有效等级，exp，huagong-dafa，chanhun-suo
+
+huixuan 回旋十三式
+要求：neili>=300，chanhun-suo>=120，huagong-dafa>=125，sanyin-wugongzhao>=120
+	jifa whip chanhun-suo
+命中与威力相关：exp，whip
+
+suo 锁魂势
+要求：neili>=300，chanhun-suo>=120，huagong-dafa>=125，sanyin-wugongzhao>=120
+	force>=100，jifa whip chanhun-suo，neili>=350
+命中与威力相关：exp，chanhun-suo
+
+【玄天冰蚕掌】(xuantian-strike) 可与sanyin-wugongzhao或者chousui-zhang互备
+学习要求：huagong-dafa>=10，chousui-zhang>=120，sanyin-wugongzhao>=120，tianshan-zhang>=120
+	zhaixinggong>=120，chanhun-suo>=120，max_neili>=500
+自动特殊攻击：jifa force huagong-dafa
+自动特殊防御：jifa force huagong-dafa
+
+特殊招式：
+biyan 碧焰
+要求：xuantian-strike>=80，huagong-dafa>=80，max_neili>=500，neili>=300
+命中与威力相关：后天福缘，exp，jiali数，poison，xuantian-strike
+
+duxian 毒仙法，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，xuantian-strike>=500，huagong-dafa>=500，
+	tianshan-zhang>=500，jifa force huagong-dafa，不能有jiuyin-zhengong
+命中与威力相关：tianshan-zhang，huagong-dafa，xuantian-strike，exp，带毒
+
+fushidu 腐尸毒
+要求：xuantian-strike>=220，huagong-dafa>=120，poison>=120，max_neili>=1000，neili>=300
+命中与威力相关：exp，带毒，xuantian-strike
+
+huoqiang 火墙
+要求：xuantian-strike>=250，huagong-dafa>=250，max_neili>=2000，neili>=1800
+命中与威力相关：后天福缘，exp，jiali数，poison，xuantian-strike，后天臂力
+
+huoqiu 火球
+要求：xuantian-strike>=180，huagong-dafa>=180，max_neili>=1500，neili>=1500
+命中与威力相关：后天福缘，exp，jiali数，poison，xuantian-strike，后天臂力
+
+sandu 散毒
+要求：huagong-dafa>=40，xuantian-strike>=40
+命中与威力相关：xuantian-strike，带毒
+
+throw 施毒
+要求：huagong-dafa>=40，xuantian-strike>=40
+命中与威力相关：xuantian-strike，exp，带毒
+
+yinhuo 银火
+要求：xuantian-strike>=140，huagong-dafa>=140，max_neili>=1200，neili>=900
+命中与威力相关：后天福缘，exp，jiali数，poison，xuantian-strike，后天臂力
+
+zhaohuo 召火
+要求：neili>=300
+命中与威力相关：huagang-dafa，xuantian-strike
+
+【冰魄寒刀】(bingpo-blade)
+学习要求：max_neili>=100，huagong-dafa>=125，sanyin-wugongzhao>=120
+	chousui-zhang>=120，tianshan-zhang>=120，zhaixinggong>=120，chanhun-suo>=120
+	xuantian-strike>=120
+自动特殊攻击：jifa force huagong-dafa
+自动特殊防御：jifa force huagong-dafa
+
+特殊招式：
+kou 环环相扣
+要求：force有效等级>=100，bingpo-blade>=80，huagong-dafa>=125，neili>=350
+命中与威力相关：blade有效等级，unarmed有效等级，bingpo-blade，exp
+
+manakill 魔气杀
+要求：bingpo-blade>=300，huagong-dafa>=125，blade>=100，neili>=1000
+命中与威力相关：exp，bingpo-blade
+
+
+──────────────────────────────────
+【星宿派拜师指南】
+──────────────────────────────────
+丁春秋
+拜师条件：先拍马，zhengqi<-1000，exp>=10000
+
+摘星子
+拜师条件：
+
+──────────────────────────────────
+【星宿派门派任务】
+──────────────────────────────────
+有关星宿派的门派任务，参见
+
+〖xingxiujob 〗 星宿派抢富商任务(exp>100k)
+〖xxpaimajob 〗 星宿拍马屁任务(无限制)
+
+──────────────────────────────────
+【星宿派解密提示】
+──────────────────────────────────
+星宿的洞里有不少宝贝
+
+ 

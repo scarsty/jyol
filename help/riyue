@@ -1,0 +1,279 @@
+──────────────────────────────────
+                         【日月神教简介】
+──────────────────────────────────
+
+    日月神教源于西域波斯国，唐时传至中土。为光明圣火教的一支旁系。
+    明朝中叶，日月神教逐渐发展壮大，教众弟子逾万。俗话说：“树大有枯
+枝”，这么多徒众，教中首脑自是无法个个管束，只好任其自流，为非作歹。
+渐渐地，日月神教在江湖上的名声大不如前，到了任我行、东方不败这一辈，
+教主自身更是具有极大野心，都妄图称霸天下，千秋万载，一统江湖。各名门
+正派和日月神教的积怨也越来越深，日月神教便被称之为魔教。江湖上人人欲
+诛之而后快。
+    任我行和东方不败的一番争权夺势，最终以东方不败丧命于任我行、任盈
+盈、令狐冲、向问天四人之手而告终，不久后，任我行也暴病身亡。任盈盈接
+任教主，通过令狐冲和各大门派重修于好，日月神教遂重新为武林正道所接纳。
+
+──────────────────────────────────
+【日月神教武功简介】
+──────────────────────────────────
+
+基本刀法 (blade)                         
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本指法 (finger)                        
+基本内功 (force)                         
+基本招架 (parry)                         
+基本杖法 (staff)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+
+太祖长拳 (changquan)                     
+葵花大法 (kuihua-dafa)                   
+葵花飞影 (kuihua-feiying)                
+葵花心法 (kuihua-xinfa)                  
+辟邪剑法 (pixie-jian)                    
+飘渺身法 (pmshenfa)                      
+天魔大法 (tmdafa)                        
+天魔刀 (tmdao)                           
+天魔剑 (tmjian)                          
+天魔拳法 (tmquan)                        
+天魔掌 (tmzhang)                         
+
+────────────────────────────────────────
+【日月神教武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【葵花心法】(kuihua-xinfa)
+学习要求：force>=10，大量的负神，与buddhsim和taoism冲突
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：kuihua-xinfa>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+kuihuawudi 葵花无敌功
+要求：kuihua-dafa>=200，neili>=500，
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：kuihua-xinfa>=20，max_neili>=300，neili>=100，目标eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=200，kuihua-xinfa>=50
+命中与威力相关：force有效等级
+
+roar 葵花心法吟
+要求：kuihua-xinfa>=20，neili>=150
+命中与威力相关：force有效等级
+
+【天魔大法】(tmdafa)
+学习要求：force>=10，大量的负神
+自动特殊攻击：有
+自动特殊防御：
+
+特殊招式：
+特殊招式：exert
+heal 疗伤
+要求：tmdafa>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：tmdafa>=20，max_neili>=300，neili>=100，目标eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=200，tmdafa>=50
+命中与威力相关：force有效等级
+
+xixing 吸星大法
+要求：tmdafa>=100，不能吸木人，neili>=100，neili<20000，日月神教任我行弟子
+命中与威力相关：force有效等级，dodge有效等级，tmdafa
+
+【飘渺身法】(pmshenfa)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+lianhuanbabu 连环八步
+要求：pmshenfa>=60
+命中与威力相关：pmshenfa，exp
+
+【天魔刀】(tmdao) 可与tmjian互备
+学习要求：max_neili>=30，tmdafa>=10
+自动特殊攻击：jifa force tmdafa或者jifa force kuihua-xinfa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+moxiao 魔笑击
+要求：日月神教弟子，后天悟性>=30，tmdao>=199，tmdafa>=101，neili>=500
+命中与威力相关：tmdao
+
+tiandirenmo 天地人魔
+要求：tmdao>=190，neili>=500
+命中与威力相关：tmdao
+
+xuan 眩刀
+要求：neili>=500，blade有效等级>=160，jifa blade tmdao，tmdao>=160
+命中与威力相关：exp，tmdao
+
+yueshen 月神一刀
+要求：tmdao>300，后天身法>=50，tmjian>=199，tmquan>=199，tmzhang>=199
+	tmdafa>=199，pmshenfa>=199，neili>=500
+命中与威力相关：tmdao，exp
+
+【天魔剑】(tmjian) 可与tmdao互备
+学习要求：max_neili>=100
+自动特殊攻击：jifa force tmdafa或者jifa force kuihua-xinfa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+diansha 点杀
+要求：日月神教弟子，后天悟性>=30，tmjian>=199，tmdafa>=70，neili>=500
+命中与威力相关：tmjian，strike有效等级，先天臂力，unarmed
+
+jianshen 剑神
+要求：neili>=500，tmjian>=200
+命中与威力相关：tmjian
+
+moshen 十方神魔
+要求：tmjian>=280，后天悟性>=50，tmdao>=199，tmquan>=199，tmzhang>=199
+	tmdafa>=199，pmshenfa>=199，neili>=500
+命中与威力相关：exp，tmjian
+
+tmbiao 天魔飚
+要求：日月神教弟子，后天身法>=30，tmjian>=181，tmdafa>=101，neili>=500
+命中与威力相关：dodge有效等级，parry有效等级，exp，tmjian
+
+xuan 天旋地转
+要求：tmjian>=180，neili>=400，jifa sword tmjian
+命中与威力相关：exp，tmjian
+
+【天魔拳法】(tmquan) 可与tmzhang互备
+学习要求：max_neili>=60，tmdafa>=10
+自动特殊攻击：jifa force tmdafa或者jifa force kuihua-xinfa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+dimo 地魔式
+要求：tmquan>=70
+命中与威力相关：exp，tmquan
+
+renmo 人魔式
+要求：tmquan>=160
+命中与威力相关：exp，tmquan
+
+tianmo 天魔式
+要求：tmquan>=80
+命中与威力相关：exp，tmquan
+
+【天魔掌】(tmzhang) 可与tmquan互备
+学习要求：max_neili>=60，tmdafa>=10
+自动特殊攻击：jifa force tmdafa或者jifa force kuihua-xinfa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+huashen 化身千万
+要求：后天根骨>=30，日月神教弟子，tmzhang>=70，neili>=300
+命中与威力相关：exp，tmzhang
+
+tmduan 天魔断
+要求：tmzhang>=140，后天臂力>=30，max_neili>=1500，neili>=800
+命中与威力相关：strike有效等级，tmzhang
+
+zhen 反璞归真
+要求：force有效等级>=300，max_neili>=3600，tmzhang>=220，jifa strike tmzhang
+	neili>=500
+命中与威力相关：exp，tmzhang
+
+【葵花大法】(kuihua-dafa)
+学习要求：无性，neili>=1500，kuihua-feiying+100>=kuihua-dafa，kuihua-xinfa+100>=kuihua-dafa
+	tmdao+200>=kuihua-dafa，tmjian+200>=kuihua-dafa，changquan+200>=kuihua-dafa，tmjian+200>=kuihua-dafa
+	tmdafa+200>=kuihua-dafa，pixie-jian>180
+自动特殊攻击：jifa froce kuihua-xinfa，jifa sword kuida-dafa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+gui 鬼魅身法
+要求：kuihuda-dafa>=100，neili>=100，jifa sword kuihua-dafa
+命中与威力相关：kuihua-dafa
+
+pi 群邪辟易
+要求：kuihuda-dafa>=120，neili>=200，jifa sword kuihua-dafa
+命中与威力相关：kuihua-dafa
+
+po 破元剑闪
+要求：kuihua-dafa>=180，max_neili>=2600，neili>=300，jifa sword kuihua-dafa
+命中与威力相关：sword有效等级，dodge有效等级
+
+tonggui 同归于尽
+要求：kuihua-dafa>=150，eff_qi>=100，qi>=max_qi/3.5，neili>=300
+命中与威力相关：exp，kuihua-dafa
+
+yinrou 阴柔杀，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，pixie-jian>=500，kuihua-dafa>=500，
+	kuihua-xinfa>=500，jifa force kuihua-xinfa，不能有jiuyin-zhengong，无性
+命中与威力相关：kuihua-dafa，kuihua-xinfa，strike有效等级，先天臂力，后天臂力，unarmed
+
+【葵花飞影】(kuihua-feiying)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+feiying 葵花飞影术
+要求：neili>=500，jing>=200，pixie-jian>=120，后天身法>=30，kuihua-feiying>=50
+命中与威力相关：kuihua-feiying，pixie-jian
+
+jue 绝命针
+要求：neili>=600，kuihua-xinfa>=60，pixie-jian>=140，后天身法>=35，kuihua-feiying>=50
+	qi<=max_qi/2
+命中与威力相关：exp
+
+kuihuashenzhang 葵花神掌
+要求：neili>=400，无性，kuihua-feiying>=50，kuihua-xinfa>=60
+命中与威力相关：kuihua-feiying，kuihua-xinfa
+
+【辟邪剑法】(pixie-jian)
+学习要求：无性，max_neili>=50
+自动特殊攻击：jifa force tmdafa或者jifa force kuihua-xinfa
+自动特殊防御：jifa force tmdafa或者jifa force kuihua-xinfa
+
+特殊招式：
+cimu 刺目
+要求：kuihua-xinfa>=80，pixie-jian>=80，max_neili>=400，neili>=200
+命中与威力相关：force有效等级，exp
+
+huanying 幻影
+要求：pixie-jian>=100，neili>=200，kuihua-xinfa>=80
+命中与威力相关：sword有效等级，pixie-jian，exp
+
+sanlianci 三连刺
+要求：kuihua-xinfa>=80，neili>=100，pixie-jian>=100
+命中与威力相关：pixie-jian
+
+──────────────────────────────────
+【日月神教拜师指南】
+──────────────────────────────────
+任我行
+拜师条件： 后天悟性>=30，后天身法>=25，zhengqi在-100000和100000之间
+
+东方不败
+拜师条件： 后天悟性>=30，无性，zhengqi在-100000和100000之间
+
+────────────────────────────────────────────────────
+【日月神教门派任务】
+────────────────────────────────────────────────────
+有关日月神教的门派任务，参见
+
+〖riyuejob   〗 日月护法任务(无限制)
+〖ryjob2     〗 日月游说任务.(无限制)
+
+──────────────────────────────────
+【日月神教解密指南】
+──────────────────────────────────
+任我行被囚禁在梅庄
+东方不败住的地方很隐蔽

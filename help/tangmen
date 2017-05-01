@@ -1,0 +1,287 @@
+─────────────────────────────────
+【唐门简介】　　　　　　　　　　　　　　　　　　　　　　　　　　　
+─────────────────────────────────
+    叁百年来，能够在江湖中始终屹立不倒的力量，除了少林武当昆
+仑点苍崆峒，这些历史辉煌悠久的门派外，还有些声势显赫的武林世
+家。
+
+    这些武林世家，有些虽然是因为他们的先人为了江湖道义而牺牲，
+才换来别人对他们的尊敬，大多却还是因为他们本身有某种特殊的才
+能和武功，才能够存在。蜀中唐门便是其中最为辉煌的一个。
+
+    蜀中唐门，意味着什么？ 
+
+　　那是毒药与暗器的巅峰。它的历史太悠久了，远的几乎没人能记
+的清。人们只知道，自有了江湖始，唐门，就一直是江湖人又敬又畏
+的代名词。盛名千年不衰。 
+
+　　这几百年来英雄辈出，江湖风波频起，风雨飘摇。但唐门仍然屹
+立不倒。
+ 
+    “蜀中唐门”并不是一个武功的门派，也不是一个秘密帮会，而
+是一个家族。  
+
+    但是这个家族却已经雄踞川中两百多年，从没有任何一个门派任
+何一个帮会的子弟门人，敢妄入他们的地盘一步。因为他们的毒药暗
+器实在太可怕。
+
+    他们的暗器据说有七种，江湖常见的却只有毒针、毒蒺藜，和断
+魂砂叁种。
+
+    虽然只有叁种，却已令江湖中人闻风而丧胆，因为无论任何人中
+了他们的任何一种暗器，都只有等死，等着伤口溃烂，慢慢的死，死
+得绝对此其他任何一种死法都痛苦。
+
+    他们的暗器并不是没有解药，只是唐家的解药，也和唐家的毒药
+暗器一样，永远是江湖中最大的秘密之一，除了唐家的嫡系子孙外，
+绝对没有人知道它的秘密，就连唐家的嫡系子弟中，能有这种独门解
+药的，也绝对不会超过叁个人。如果你受了伤，你只有去找这叁个人
+才能求到解药。
+
+    那时候你就遇到一个不但非常严重且根本无法解决的问题，你根
+本就不知道这叁个人是谁？
+
+    所以你如果中了唐家的毒药暗器，就只有等死，等着伤口溃烂，
+慢慢的死。很慢很慢。
+
+    唐家的独门暗器威震天下，至今还没有第二种暗器能取代它的地
+位。
+
+─────────────────────────────────
+【唐门武功简介】　　　　　　　　　　　　　　　　　　　　　　　　　
+─────────────────────────────────
+
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本暗器 (throwing)                      
+基本拳脚 (unarmed)                       
+
+碧叶随风舞 (biye-wu)                     
+碧云心法 (biyun-xinfa)                   
+毒砂掌 (dusha-zhang)                     
+蓝砂手 (lansha-shou)                     
+流星赶月镖 (liuxing-biao)                
+霹雳镖 (pili-biao)                       
+秋林拾叶 (qiulinshiye)                   
+追魂夺命镖 (zhuihun-biao)                
+子母针法 (zimu-zhen)                     
+五展梅(wuzhan-mei)
+────────────────────────────────────────
+【唐门武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【碧云心法】(biyun-xinfa)
+学习要求：唐门弟子，无性只能学到50，force>=30
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：biyun-xinfa>=30，neili>=50，eff_qi>max_qi/2
+命中与威力相关：force有效等级
+
+jiedu 解毒
+要求：biyun-xinfa>=250，neili>=50，eff_qi>max_qi/2
+命中与威力相关：可解大部分的毒
+
+jingheal 助人疗精
+要求：neili>=150，max_neili>=300
+命中与威力相关：biyun-xinfa，force有效等级
+
+lifeheal 助人疗伤
+要求：neili>=150，max_neili>=400，eff_qi>max_qi/5
+命中与威力相关：biyun-xinfa，force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+【碧叶随风舞】(biye-wu)
+学习要求：biyun-xinfa>=30，neili>=100
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：
+huimeng 回梦
+要求：biye-wu>=40，biyun-xinfa>=30，neili>=100
+命中与威力相关：force有效等级，biyun-xinfa
+
+meng 回梦
+要求：biye-wu>=40，biyun-xinfa>=30，neili>=100
+命中与威力相关：
+
+wandu 万毒
+要求：qiulinshiye>=60，biyun-xinfa>=60，neili>=500
+命中与威力相关：biye-wu，exp
+
+【毒砂掌】(dusha-zhang) 可与lansha-shou互备
+学习要求：force有效等级>=100，max_neili>=450，strike>=dusha-zhang
+	biyun-xinfa或者wudu-shengong>=50
+自动特殊攻击：jifa force biyun-xinfa或者wudu-shengong
+自动特殊防御：jifa force biyun-xinfa或者wudu-shengong
+
+特殊招式：
+hantian 九重寒天掌
+要求：dusha-zhang>=10，neili>=600
+命中与威力相关：exp，dusha-zhang
+
+tianxie 天邪六式
+要求：neili>=600，dusha-zhang>=180
+命中与威力相关：exp，dusha-zhang
+
+【蓝砂手】(lansha-shou) 可与dusha-zhang互备
+学习要求：force有效等级>=100，max_neili>=800，hand>=lansha-shou
+	biyun-xinfa或者wudu-shengong>=50
+自动特殊攻击：jifa force biyun-xinfa或者wudu-shengong
+自动特殊防御：jifa force biyun-xinfa或者wudu-shengong
+
+特殊招式：
+canglong 苍龙乍现
+要求：lansha-shou>=80，neili>=600
+命中与威力相关：exp，lansha-shou
+
+luanpo 乱泼风
+要求：lansha-shou>=50，neili>=600
+命中与威力相关：lansha-shou
+
+xiangyi 帝王长相忆
+要求：lansha-shou>=300，neili>=600
+命中与威力相关：lansha-shou
+
+【流星赶月镖】(liuxing-biao)
+学习要求：max_neili>=400，biye-wu>=30，biyun-xinfa>=80
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：无
+
+【霹雳镖】(pili-biao)
+学习要求：max_neili>=400，biye-wu>=30，biyun-xinfa>=80
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：有
+
+特殊招式：
+lianhuan 连环镖
+要求：biyun-xinfa>=60，neili>=300
+命中与威力相关：pili-biao，带毒
+
+【秋林拾叶】(qiulinshiye)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+rain 雨雾
+要求：qiulinshiye>=50，neili>=300
+命中与威力相关：exp
+
+wu 雾
+要求：qiulinshiye>=60，biyun-xinfa>=60，neili>=400
+命中与威力相关：后天身法
+
+【追魂夺命镖】(zhuihun-biao)
+学习要求：max_neili>=100，biyun-xinfa>=20，biye-wu>=20
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：
+lianhuan 连环镖
+要求：biyun-xinfa>=60，neili>=500
+命中与威力相关：zhuihun-biao，带毒
+
+【子母针法】(zimu-zhen)
+学习要求：max_neili>=500，biyun-xinfa>=100，zhuihun-biao>=200
+	pili-biao>=200，liuxing-biao>=200
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：
+dinhun 定魂
+要求：zimu-zhen>=30，biyun-xinfa>=60，neili>=300
+命中与威力相关：exp，zimu-zhen，带毒
+
+dusha 毒砂射，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，zimu-zhen>=500，biyun-xinfa>=500，
+	biye-wu>=500，jifa force biyun-xinfa，不能有jiuyin-zhengong
+命中与威力相关：exp，throwing有效等级，zimu-zhen，带毒
+
+poqizhen 破气针
+要求：biyun-xinfa>=100，neili>=300，zimu-zhen>=80
+命中与威力相关：exp，throwing有效等级，zimu-zhen，带毒
+
+qizigangbiao 七子钢镖
+要求：biyun-xinfa>=60，neili>=400，zimu-zhen>=200
+命中与威力相关：exp，zimu-zhen，带毒
+
+tanghua 唐花
+要求：biyun-xinfa>=60，neili>=300
+命中与威力相关：zimu-zhen，exp，带毒
+
+【五展梅】(wuzhan-mei)
+学习要求：max_neili>=400
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：
+luohua 落花剑
+要求：neili>=500，wuzhan-mei>=300
+命中与威力相关：wuzhan-mei
+
+mkwd 梅开五度
+要求：neili>=500，wuzhan-mei>=300
+命中与威力相关：wuzhan-mei
+
+wumei 五梅吐蕊
+要求：neili>=500，sword有效等级>=100，jifa sword wuzhan-mei
+命中与威力相关：wuzhan-mei
+
+yumei 雨激梅花半瓣香
+要求：neili>=300，wuzhan-mei>=100
+命中与威力相关：exp，biyun-xinfa
+
+────────────────────────────────────────────
+【唐门拜师指南】　　　　　　　　　　　　　　　　　　　　　　　　　
+────────────────────────────────────────────
+唐门第六代掌门「霹雳夫人」唐老太太
+拜师条件：唐门各项武功不小于200级，后天悟性不小于30点。
+
+唐门第六代精益堂堂主「千手千眼」唐亮
+拜师条件：碧云心法不小于80级，后天悟性不小于25点。
+
+唐门第七代弟子「霹雳火」唐猛
+拜师条件：碧云心法不小于80级，后天臂力与后天悟性不小于25
+　　点。需要正气不小于10000
+
+唐门第七代刑堂堂主「铁石心肠」唐无情
+拜师条件：碧云心法不小于70级，后天悟性不小于25点。
+
+
+唐门第七代弟子「不温不火」唐无火
+拜师条件：碧云心法不小于70级，后天悟性不小于22点
+
+唐门第七代弟子 唐方
+拜师条件：碧云心法与基本闪躲不小于100级，后天悟性不小于30。
+
+唐门第八代弟子「闪电手」唐不平
+拜师条件：除太监之外，男女不限。
+
+────────────────────────────────────────────────────
+【唐门门派任务】
+────────────────────────────────────────────────────
+有关唐门的门派任务，参见
+
+〖tmhuchenjob〗 唐门护城任务(exp>100k)
+〖tangmenjob 〗 唐门做暗器任务（无限制）
+
+─────────────────────────────────
+【唐门解密指南】　　　　　　　　　　　　　　　　　　　　　　　　　
+─────────────────────────────────
+暗器总诀，唐门弟子可以找唐方索取，不过需要帮唐方找到萧秋水才可以。
+飞镖暗器，就要看在如何在唐门里找了。
+
+唐门内设置练毒室可于制造毒药，需采集药材，毒草一并使用，毒性中等。
+─────────────────────────────────
+
+─────────────────────────────────

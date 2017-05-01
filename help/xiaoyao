@@ -1,0 +1,333 @@
+──────────────────────────────────
+【逍遥派简介】
+──────────────────────────────────
+    段誉在“无量剑”东西宗的比武大会上无心得罪了东宗掌门左子穆，从此
+被卷入险恶江湖，也机缘巧合踏进逍遥派创始人隐居的秘洞，得以一窥逍遥派
+的武学秘籍，学到北冥神功和凌波微步的皮毛。逍遥派的武功渊源是《庄子》
+《逍遥游》一书中载有：“穷发之北有冥海者，天池也。有鱼焉，其广数千里，
+未有知其修也。。。且夫水之积也不厚，则其负大舟也无力。覆杯水于坳堂之
+上，则芥为之舟；置杯焉则胶，水浅而舟大也。”是故本派武功，以积蓄内力
+为第一要义。内力既厚，天下武功无不为其所用，犹之北冥，大舟小舟无不载，
+大鱼小鱼无不容。是故内力为本，招数为末。世人练功，皆自云门而至少商，
+逍遥派则反其道而行之，自少商而至云门，拇指与人相接，彼之内力即入其身，
+贮于云门等诸穴。
+    逍遥派是武林中的一个秘密门派，但是密而不邪，所有功夫均为正大光明
+的武功。掌门人逍遥子与天山童姥师出同门，逍遥子创逍遥派，天山童姥创天
+山灵鹫宫。因此两派虽不同名但武功中有着许多相同之处，两派弟子可以互相
+拜师，学习对方武功。
+    逍遥子有两大弟子：丁春秋和苏星河。丁春秋精于武技，而苏星河则沉迷
+于琴棋书画、机关制造、医术等杂学中。丁春秋为人奸诈狡猾，终于反叛师门
+把逍遥子打成重伤，下落不明，自创星宿派。为保逍遥派，苏星河和丁春秋约
+定，逍遥派弟子不在江湖走动。所以武林中人很少见到逍遥派弟子，因此觉得
+神秘。
+
+逍遥派是一个很隐密的门派，江湖上很少有人知道这一派。
+逍遥派和灵鹫宫是两个很有联系的门派，武功技能也有相似之处。
+
+──────────────────────────────────
+【逍遥派武功简介】
+──────────────────────────────────
+土木机关 (construction)                  
+梨园旧艺 (dramaturgy)                    
+纹枰手谈 (goplaying)                     
+园艺莳花 (horticulture)                  
+读书写字 (literate)                      
+绕梁琴艺 (luteplaying)                   
+济世之术 (medicine)                      
+泼墨丹青 (painting)                      
+美容术 (yangyanshu)                      
+
+基本刀法 (blade)                         
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+
+八荒六合唯我独尊功 (bahuang-gong)        
+北冥神功 (beiming-shengong)              
+凌波微步 (lingboweibu)                   
+天山六阳掌 (liuyang-zhang)               
+流月剑舞 (liuyue-jian)                   
+攀阳掌 (panyang-zhang)                   
+青云手 (qingyun-shou)                    
+如意刀 (ruyi-dao)                        
+天山折梅手 (zhemei-shou)                 
+──────────────────────────────────
+【逍遥派武功学习条件及特殊招式效果】
+──────────────────────────────────
+【北冥神功】(beiming-shengong)
+学习要求：无性只能学到50级，
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：beiming-shengong>=20 ，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+maxsuck 吸取内力上限
+要求：beiming-shengong>=90
+命中与威力相关：force有效等级，dodge的有效等级，lingboweibu，beiming-shengong
+
+neilisuck 吸取内力
+要求：beiming-shengong>=50
+命中与威力相关：force有效等级，dodge的有效等级，lingboweibu，beiming-shengong，
+	对方jiali数
+
+shield  护体真气
+要求：beiming-shengong>=40， neili>=100
+命中与威力相关：beiming-shengong
+
+【八荒六合唯我独尊功】(bahuang-gong)
+学习要求：force>=10
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+duzun 唯我独尊
+要求：bahuang-gong>=160，neili>=400
+命中与威力相关：bahuang-gong
+
+heal 疗伤
+要求：bahuang-gong>=20 ，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+shield 护体真气
+要求：neili>=100，bahuang-gong>=50
+命中与威力相关：force有效等级
+
+【凌波微步】(lingboweibu)
+学习要求：literate>=100， 非逍遥派弟子需先天悟性>30 
+自动特殊攻击：
+自动特殊防御：jifa dodge lingboweibu，beiming-shengong>=100
+
+特殊招式：
+lingbo  落神凌波
+要求：beiming-shengong>=100， lingboweibu>=100 ，neili>=400 无性之人不能用
+命中与威力相关：exp，固定busy值
+
+【如意刀】(ruyi-dao)
+学习要求：beiming-shengong>=10， qingyun-shou>=80， panyang-zhang>=80， 
+	liuyue-jian>=80 ，max_neili>=50 
+自动特殊攻击：jifa force beiming-shengong
+自动特殊防御：
+
+特殊招式：
+ruyi 如意连环刀 
+要求：ruyi-dao>=60 ，beiming-shengong>=60， neili>=400
+命中与威力相关：ruyi-dao
+
+shishiruyi 事事如意 
+要求：ruiyi-dao>=200 neili>=200 ，max_neili>=800
+命中与威力相关：force有效等级，先天臂力，ruyi-dao，有打飞武器效果
+
+xiaoyao 逍遥斩，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，ruyi-dao>=500，beiming-shengong>=500，
+	liuyang-zhang>=500，jifa force beiming-shengong，不能有jiuyin-zhengong
+命中与威力相关：exp，先天臂力，ruyi-dao，有打飞武器效果
+
+【天山折梅手】(zhemei-shou)
+学习要求：qingyun-shou>=80 ，panyang-zhang>=80 ，max_neili>=50
+自动特殊攻击：jifa force bahuang-gong或者jifa force beiming-shengong
+自动特殊防御：jifa force bahuang-gong
+
+特殊招式：
+duo 空手入白刃 
+要求：zhemei-shou>=50 ，beiming-shengong 或者bahuang-gong>=50，neili>=50
+命中与威力相关：zhemei-shou
+
+hai 海渊式
+要求：zhemei-shou>=130， force有效等级>=200 ，neili>=300
+命中与威力相关：hand有效等级
+
+hua 化妖功 
+要求：beiming-shengong或者xiaowuxiang 或者 bahuang-gong>=220 ，zhemei-shou>=220 ，
+	neili>=800 ，max_neili>=4000，zhougong-jian>=150 ，wuliang-jian>=150 ，
+	pidi-shenzhen>=150 ，wudoumi-shengong>=150 
+命中与威力相关：exp，hand有效等级
+
+jiubu 九部式 
+要求：zhemei-shou>=120 ，force>=200 ，neili>=100 ， jifa hand zhemei-shou
+命中与威力相关：hand有效等级，先天臂力
+
+tanmei 弹梅.落雪.散花香 
+要求：bahuang-gong>=150 ，force>=150， zhemei-shou>=120， neili>=500 
+		max_neili>=2000 ，jing>=200，jifa hand zhemei-shou
+命中与威力相关：exp，zhemei-shou
+
+zhe 折梅式 
+要求：zhemei-shou>=80， force有效等级>=120 ，neili>=200
+命中与威力相关：hand有效等级，zhemei-shou
+
+zhemei 折梅展
+要求：zhemei-shou>=80， beiming-shengong 或者bahuang-gong>=120，neili>=350
+命中与威力相关：exp，zhemei-shou，force有效等级
+
+【天山六阳掌】(liuyang-zhang)
+学习要求：qingyun-shou>=80， panyang-zhang>=80 ，max_neili>=50
+自动特殊攻击：jifa force beiming-shengong或者jifa force bahuang-gong
+自动特殊防御：jifa force bahuang-gong
+
+特殊招式：
+baihong 白虹掌力 
+要求：strike>=120 ，force>=120， neili>=500， max_neili>=1500， jing>=200，
+	jifa force beiming-shengong或者xiaowuxiang或者bahuang-gong
+命中与威力相关：strike有效等级
+
+huanyang 寰阳式 
+要求：force>=200， liuyang-zhang>=130 ，neili>=300
+命中与威力相关：strike有效等级
+
+jie 解生死符 
+要求：liuyang-zhang>=40， beiming-shengong 或者 bahuang-gong>=40 需携带酒袋
+命中与威力相关：
+
+jiutian 九天式
+要求：liuyang-zhang>=120， force有效等级>=300 ，neili>=300
+命中与威力相关：strike有效等级
+
+lianzhong 连种生死符
+要求：liuyang-zhang>=200 ，beiming-shengong或者 bahuang-gong>=200
+命中与威力相关：exp，bahuang-gong，liuyang-zhang，带生死符毒
+
+po 破神诀 
+要求：bahuang-gong或者beiming-shengong>=220 ，liuyang-zhang>=220
+	neili>=800， max_neili>=3500，jifa force bahuang-gong或者beiming-shengong
+命中与威力相关：strike有效等级，force有效等级
+
+zhen 一掌震天
+要求：liuyang-zhang>=200 ，strike>=180 ，force>=220 ，bahuang-gong>=240 ，
+	后天臂力>=38 ，后天根骨>=38 ，zhougong-jian>=50 ，wuliang-jian>=50 ，
+	wudoumi-shengong>=50，pidi-shenzhen>=50， neili>=2000 ，max_neili>=4000
+	jiali>=50
+命中与威力相关：strike有效等级，先天根骨
+
+zhong 种生死符
+要求：liuyang-zhang>=40， beiming-shengong或者 bahuang-gong>=40
+命中与威力相关：exp，bahuang-gong，liuyang-zhang
+
+【青云手】(qingyun-shou)
+学习要求：force有效等级>=20 ，max_neili>=50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+zhuo  捕风捉影 
+要求：force有效等级>=100， qingyun-shou>=50 ，neili>=100
+命中与威力相关：exp，strike有效等级
+
+【攀阳掌】(panyang-zhang)
+学习要求：force有效等级>=20 ，max_neili>=50
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+pan  攀阳邀月
+要求：force有效等级>=100， panyang-zhang>=60 ，neili>=100
+命中与威力相关：exp，strike有效等级
+
+【流月剑舞】(liuyue-jian)
+学习要求：force有效等级>=120， sword有效等级>=80 ，max_neili>=1000 ，
+	sword>=liuyue-jian
+自动特殊攻击：enable force beiming-shengong
+自动特殊防御：
+
+特殊招式：
+liu 流月剑诀 
+要求：force有效等级>=180， liuyue-jian>=120 ，neili>250， 
+	jifa sword liuyue-jian 
+命中与威力相关：sword有效等级
+
+sheng 天升剑诀 
+要求：force有效等级>=150， liuyue-jian>=150， neili>=300， 
+	jifa sword liuyue-jian 
+命中与威力相关：sword有效等级
+
+xiao 剑气冲霄 
+要求：force有效等级>=120 ，iuyue-jian>=140 ，neili>=300， 
+	jifa sword liuyue-jian
+命中与威力相关：sword有效等级
+
+【周公剑】(zhougong-jian)
+学习要求：force>=100， sword>=100 ，max_neili>=1200 ，
+	zhougong-jian<=sword，zhougong-jian<=force
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+mang 剑芒
+要求：force有效等级>=200，zhougong-jian>=140 ，neili>500， max_neili>2200
+命中与威力相关：sword有效等级
+
+【辟地神针】(pidi-shenzhen)
+学习要求：throwing>=40，pidi-shenzhen<=throwing
+自动特殊攻击：有
+自动特殊防御：
+
+特殊招式：
+huan 幻遁寒星 
+要求：暗器数量>=20，pidi-shenzhen>=140，force有效等级>=200，neili>=100
+命中与威力相关：exp，pidi-shenzhen
+
+【五斗米神功】(wudoumi-shengong)
+学习要求：先天根骨>=24，force>=50，unarmed=50，max_neili>=500
+	force>=wudoumi-shengong
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+exert：
+powerup 提升攻击力
+要求：neili>100
+命中与威力相关：force有效等级
+
+perform：
+gui 归去来兮
+要求：force有效等级>=200，neili>800，wudoumi-shengong>=140
+	jifa force wudoumi-shengong，jifa unarmed wudoumi-shengong
+命中与威力相关：wudoumi-shengoong，先天根骨，force有效等级
+
+【无量剑法】(wuliang-jian)
+学习要求：force有效等级>=30， sword>=20 ，max_neili>=200 ，
+	wuliang-jian<=sword
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+qian 乾坤无量
+要求：force有效等级>=150，wuliang-jian>=100 ，neili>300
+命中与威力相关：sword有效等级
+
+──────────────────────────────────
+【逍遥派拜师指南】
+──────────────────────────────────
+逍遥子：逍遥派的开山祖师，也是天山童姥的师兄。
+拜师条件：beiming-shengong>=250，后天悟性>=35
+
+苏星河：逍遥派的第二代人杰，可惜被师弟丁春秋暗算，成为残废。
+拜师条件：后天悟性>=30
+
+函谷八友：是逍遥的第三代弟子，每人各有独特技艺。
+只有薛慕华收徒
+拜师条件：
+──────────────────────────────────
+【逍遥派门派任务】
+──────────────────────────────────
+有关逍遥派的门派任务，参见
+
+〖xiaoyaojob 〗 逍遥寻七宝指环任务(exp>100k）
+〖xysingjob  〗 逍遥练琴任务(无限制）
+
+──────────────────────────────────
+【逍遥派解密提示】
+──────────────────────────────────
+逍遥派弟子可以问苟读要掌法总谱读，问康广陵要棋谱读，薛慕华会替逍遥派的
+人疗伤，酒家可以order要吃喝，据说华山有逍遥派失落的秘籍不知是真是假！
+ 

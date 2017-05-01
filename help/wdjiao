@@ -1,0 +1,252 @@
+【五毒教简介】
+──────────────────────────────────
+    五毒教是一个十分隐蔽的门派，因为它地处苗疆蛮荒之地，所以江湖上知
+道的很少。关于五毒教的种种传说也大多是捕风捉影，因为一来五毒教徒的活
+动范围一般都限与苗疆，很少外出；而且五毒教的弟子也很少正面和人打斗，
+与五毒教为敌的人许多都会莫名其妙的死掉，所以江湖上也只是知道存在着这
+个神秘门派而已。
+    但是由于传说五毒教新教主刚刚即位，有意广收门徒，扩展势力，所以经
+常派一些教徒到中原来物色根骨好的弟子，所以关于五毒教的一切才逐渐为人
+所知。
+    五毒教的功夫不同与中土的释道儒等各个流派，居传当年五毒教祖师原是
+一个汉人，为躲避仇家追杀逃往苗疆，终日在深山密林中躲藏，谁知竟被他以
+绝顶聪明，在日夜与毒虫为伍中逐渐悟出了一套大异常理，鬼魅莫测的武功。
+但当他再出江湖企图报仇雪恨之时，却发现仇家都已归黄土，原来这时离他逃
+离中土已经三十年了。这人失望之下重回苗疆，收苗人为徒，奉五毒为尊，自
+创了五毒教。其后经过历代三祖七子的不断发扬光大，门徒弟子已遍布苗疆。
+    五毒的功夫不同于正派的循序渐进，而是突出一个阴、毒、狠，练功不走
+正途而专走捷径，所以初期易学易练。但到练到最后则越来越难。五毒教在江
+湖中并不是一个以武功称雄的门派，许多人畏惧五毒教主要是因为它防不胜防
+的毒药和毒虫。五毒教徒都是些化外之人，根本不理会什么江湖规矩，为达到
+目的从来就不择手段。许多与五毒教为敌的人都死的不明不白，根本没有施展
+他自己功夫的机会。
+
+──────────────────────────────────
+【五毒教武功简介】
+──────────────────────────────────
+
+毒技 (duji)                              
+读书写字 (literate)                      
+基本毒技 (poison)                        
+
+基本轻功 (dodge)                         
+基本指法 (finger)                        
+基本内功 (force)                         
+基本手法 (hand)                          
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+赤练神掌 (chilian-shenzhang)             
+毒砂掌 (dusha-zhang)                     
+绝情鞭法 (jueqing-bian)                  
+蓝砂手 (lansha-shou)                     
+千蛛万毒手 (qianzhu-wandushou)           
+软红蛛索 (ruanhong-zhusuo)               
+蛇毒奇巧 (shedu-qiqiao)                  
+五毒钩法 (wudu-goufa)                    
+五毒神功 (wudu-shengong)                 
+五毒烟萝步 (wudu-yanluobu)               
+────────────────────────────────────────
+【五毒教武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【五毒神功】(wudu-shengong)
+学习要求：force>=20
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+bxarrow 碧血箭
+要求：不能对木人使用，max_neili>=400，max_jing>=200，force>=50，wudu-shengong>=50
+命中与威力相关：force，wudu-shengong
+
+heal 疗伤
+要求：wudu-shengong>=30，neili>=50，eff_qi>=max_qi/3
+命中与威力相关：force有效等级，解五毒
+
+powerup 提升攻击力
+要求：neili>=220
+命中与威力相关：wudu-shengong
+
+【赤练神掌】(chilian-shenzhang)
+学习要求：max_neili>=100
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：无
+
+【毒砂掌】(dusha-zhang) 可与lansha-shou互备
+学习要求：force有效等级>=100，max_neili>=450，strike>=dusha-zhang
+	biyun-xinfa或者wudu-shengong>=50
+自动特殊攻击：jifa force biyun-xinfa或者wudu-shengong
+自动特殊防御：jifa force biyun-xinfa或者wudu-shengong
+
+特殊招式：
+hantian 九重寒天掌
+要求：dusha-zhang>=10，neili>=600
+命中与威力相关：exp，dusha-zhang
+
+tianxie 天邪六式
+要求：neili>=600，dusha-zhang>=180
+命中与威力相关：exp，dusha-zhang
+
+【蓝砂手】(lansha-shou) 可与dusha-zhang互备
+学习要求：force有效等级>=100，max_neili>=800，hand>=lansha-shou
+	biyun-xinfa或者wudu-shengong>=50
+自动特殊攻击：jifa force biyun-xinfa或者wudu-shengong
+自动特殊防御：jifa force biyun-xinfa或者wudu-shengong
+
+特殊招式：
+canglong 苍龙乍现
+要求：lansha-shou>=80，neili>=600
+命中与威力相关：exp，lansha-shou
+
+luanpo 乱泼风
+要求：lansha-shou>=50，neili>=600
+命中与威力相关：lansha-shou
+
+xiangyi 帝王长相忆
+要求：lansha-shou>=300，neili>=600
+命中与威力相关：lansha-shou
+
+【绝情鞭法】(jueqing-bian)
+学习要求：
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：
+sanwu 三无三不手
+要求：jueqing-bian>=100，neili>=800，max_neili>=1000，jing>=300
+命中与威力相关：whip有效等级
+
+【千蛛万毒手】(qianzhu-wandushou)
+学习要求：max_neili>=500，学会后随机减先天容貌
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：
+qzwd 千蛛万毒
+要求：qianzhu-wandushou>=150，max_neili>=700，neili>=500，
+命中与威力相关：wudu-shengong，qianzhu-wandushou，duji，带毒，可被hunyuan-yiqi所克，五毒弟子额外加成
+
+suck 吸取毒素
+要求：qianzhu-wandushou>=50，wudu-shengong>=50，duji>=50，neili>=200
+	qi>=50，jing>=50
+命中与威力相关：qianzhu-wandushou
+
+【软红蛛索】(ruanhong-zhusuo)
+学习要求：max_neili>=1000，force有效等级>=150，whip>=100，chilian-shenzhang>=150
+	jueqing-bian>=150，whip+100>=ruanhong-zhusuo
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：
+bohu 搏虎诀
+要求：ruanhong-zhusuo>=150，wudu-shengong>=100，poison>=100，neili>=300
+	jifa whip ruanhong-zhusuo
+命中与威力相关：whip有效等级，force有效等级，exp，，带毒
+
+pan 盘鹰诀
+要求：ruanhong-zhusuo>=80，wudu-shengong>=100，poison>=100，neili>=100
+	jifa whip ruanhong-zhusuo
+命中与威力相关：exp，带毒
+
+suo 锁龙诀
+要求：ruanhong-zhusuo>=200，wudu-shengong>=100，poison>=100，neili>=350
+	jifa whip ruanhong-zhusuo
+命中与威力相关：whip有效等级，exp，带毒
+
+teng 腾蛇诀
+要求：ruanhong-zhusuo>=60，wudu-shengong>=100，poison>=100，neili>=200
+	jifa whip ruanhong-zhusuo
+命中与威力相关：whip有效等级，force有效等级，exp，，带毒
+
+【蛇毒奇巧】(shedu-qiqiao)
+学习要求：force有效等级>=80，max_neili>=350，poison>=30，finger有效等级*3>=shedu-qiqiao
+	poison*2>=shedu-qiqiao
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：
+da 打蛇
+要求：wudu-shengong>=10，shedu-qiqiao>=20，neili>=100，force有效等级>=30
+命中与威力相关：shedu-qiqiao，dodge有效等级
+
+huan 千幻神诀
+要求：wudu-shengong>=100，poison>=100，shedu-qiqiao>=100，dodge有效等级>=150
+	neili>=200
+命中与威力相关：shedu-qiqiao，exp，dodge有效等级，带毒
+
+liandu 炼制毒药
+要求：shedu-qiqiao>=80，wudu-shengong>=50，neili>=200，
+命中与威力相关：shedu-qiqiao，poison，wudu-shengong
+
+sandu 施毒
+要求：wudu-shengong>=100，poison>=100，shedu-qiqiao>=100，neili>=500
+命中与威力相关：exp，duji，shedu-qiqiao，带毒
+
+shi 万毒噬体
+要求：force有效等级>=200，wudu-shengong>=100，poison>=100，shedu-qiqiao>=100
+	neili>=120，
+命中与威力相关：finger有效等级，exp，带毒
+
+【五毒钩法】(wudu-goufa)
+学习要求：max_neili>=100，wudu-shengong>=20，force>=20
+自动特殊攻击：jifa force wudu-shengong
+自动特殊防御：
+
+特殊招式：
+luanpifeng 乱披风
+要求：neili>=100，wudu-shengong>=50，sword>=50，jifa sword wudu-goufa
+	wudu-goufa>=50
+命中与威力相关：wudu-goufa
+
+suo 金钩锁魂
+要求：neili>=100，wudu-shengong>=50，sword>=50，jifa sword wudu-goufa
+	wudu-goufa>=50
+命中与威力相关：wudu-goufa，exp
+
+wandu 万毒散，hslj专有
+要求：neili>=2000，neili>=max_neili/7+200，wudu-goufa>=500，qianzhu-wandushou>=500，
+	wudu-shengong>=500，jifa force wudu-shengong，不能有jiuyin-zhengong
+命中与威力相关：wudu-shengong，qianzhu-wandushou，wudu-goufa，exp，带毒
+
+【五毒烟萝步】(wudu-yanluobu)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+snake 金蛇游身
+要求：wudu-yanluobu>=50，neili>=300，wudu-shengong>=50
+命中与威力相关：wudu-yanluobu，dodge，exp
+
+──────────────────────────────────
+【五毒教拜师指南】
+──────────────────────────────────
+何铁手
+拜师条件：无性不收，zhengqi<1000，wudu-shengong>=100，poison>=120
+
+齐云敖
+拜师条件：无性不收，zhengqi<-10000，wudu-shengong>=100，poison>=100
+
+沙千里
+拜师条件：无性不收，zhengqi<1000
+
+──────────────────────────────────
+【五毒教门派任务】
+──────────────────────────────────
+有关五毒教的门派任务，参见
+
+〖wdjiaojob  〗 五毒教捉毒物任务(exp>10000)
+〖wdyingjijob〗 五毒教迎击任务（exp>100000）
+
+──────────────────────────────────
+【五毒教解密提示】
+──────────────────────────────────
+五毒教的百毒窟里好像有什么东西
+外人要拿诸葛行军散才能进五毒教
+
+ 

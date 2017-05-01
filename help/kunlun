@@ -1,0 +1,271 @@
+───────────────────────────────
+【昆仑派简介】
+───────────────────────────────
+    昆仑派本来远处西域，从来不履中土，一直也不大为中原武林所知。
+后来昆仑派出了个百年不遇号称“琴剑棋”三绝的“昆仑三圣”何足道，
+受人所托，亲赴少林欲替人了却一桩旧事，不料因种种缘故却惹下了一
+桩恩怨。三个西域少林派的俗家弟子潘天耕、方天劳、卫天望闻知“昆
+仑三圣”名头，容不下“剑圣”二字，想逼何足道去了这个名头不可，
+何足道为人疏狂，颇有书呆子的痴气，便派人和这三人约好在少林寺相
+见，想两番功夫一番做，在少林留下纸笺，欲领教少林派七十二项绝技，
+虽最终为张君宝九阳神功所击退，但以武功一举震惊中原武林，至此昆
+仑派开始闻名。其后昆仑派又出了几位得力掌门，不断壮大昆仑派，使
+之渐渐成为江湖上一大门派，雄据西域，与中原各大门派分庭抗礼。再
+之后的几代掌门却是传非其人，虽然昆仑派弟子众多，但武功一代不如
+一代。尽管如此，由于前人留下了不少武功著述，昆仑派武功仍然不可
+小觑。
+
+───────────────────────────────
+【昆仑派武功简介】
+───────────────────────────────
+纹枰手谈 (goplaying)                     
+绕梁琴艺 (luteplaying)                   
+
+基本拳法 (cuff)                          
+基本轻功 (dodge)                         
+基本指法 (finger)                        
+基本内功 (force)                         
+基本手法 (hand)                          
+基本腿法 (leg)                           
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本暗器 (throwing)                      
+
+琴棋书画 (art)                           
+穿云腿 (chuanyun-tui)                    
+昆仑身法 (kunlun-shenfa)                 
+昆仑掌 (kunlun-zhang)                    
+两仪剑法 (liangyi-jian)                  
+漫天花雨 (mantian-huayu)                 
+琴道 (music)                             
+棋道 (qidao)                             
+七弦五音剑 (qixian-jian)                 
+太极神功 (taiji-shengong)                
+踏雪无痕 (taxue-wuhen)                   
+玄天无极功 (xuantian-wuji)               
+迅雷剑法 (xunlei-jian)                   
+震天拳 (zhentian-quan)                   
+
+──────────────────────────────────────────────────
+【昆仑派武功学习条件及特殊招式效果】
+──────────────────────────────────────────────────
+【玄天无极功】(xuantian-wuji)
+学习要求：force>=10，大量正气
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：xuantian-wuji>=35，max_neili>=300，neili>=100，目标eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=100
+命中与威力相关：force有效等级
+
+【琴棋书画】(art)
+学习要求：shen>=-10000，先天悟性>=24，后天悟性>=32，可以用play来练习
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+shimianmaifu 十面埋伏
+要求：neili>=300，art>=100
+命中与威力相关：exp，art
+
+tianwaifeiyin 天外飞音
+要求：neili>=500，art>=100，xuantian-wuji>=100，qi>=100
+命中与威力相关：art
+
+【穿云腿】(chuanyun-tui) 可与zhentian-quan互备
+学习要求：xuantian-wuji>=20，max_neili>=50
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：
+shuangjue 拳腿双绝
+要求：jifa unarmed chuanyun-tui，jifa cuff zhentian-quan，zhentian-quan>=100
+	chuanyun-tui>=150，max_neili>=1000，neili>=1000
+命中与威力相关：chuanyun-tui，zhentian-quan
+
+【昆仑身法】(kunlun-shenfa)
+学习要求：师傅是何足道时并且kunlun-shenfa<=120时，kunlun-shenfa要求>art
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【昆仑掌】(kunlun-zhang)
+学习要求：只能跟何足道学，xuantian-wuji>=120，女性要求zhentian-quan>=120，男性要求chuanyun-tui>=120
+	max_neili>=800
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：
+diezhang 昆山叠掌
+要求：kunlun-zhang>=30，xuantian-wuji>=140，后天臂力>=26，jifa force xuantian-wuji，max_neili>=1500
+	neili>=200，neili>=100*kunlun-zhang/40
+命中与威力相关：exp，kunlun-zhang
+
+liuyun 流云水袖
+要求：neili>=400，xuantian-wuji>=60，strike>=80，jifa strike kunlun-zhang，jifa force xuantian-wuji
+命中与威力相关：kunlun-zhang
+
+yixing 移形大法
+要求：kunlun-zhang>=100，xuantian-wuji>=100，neili>=600，jifa force xuantian-wuji
+命中与威力相关：exp，kunlun-zhang
+
+【两仪剑法】(liangyi-jian)
+学习要求：max_neili>=800，xuantian-wuji>=100，xunlei-jian>=100，jifa force xuantian-wuji
+自动特殊攻击：jifa force liangyi-jian
+自动特殊防御：
+
+特殊招式：
+feixue 漫天飞雪
+要求：jifa force xuantian-wuji，liangyi-jian>=60，xuantian-wuji>=70，neili>=500
+命中与威力相关：art，liangyi-jian，xuantian-wuji
+
+hebi 双剑合璧
+要求：jifa forcexuantian-wuji，男女双方，双方jifa sword liangyi-jian，双方neili>=300，双方liangyi-jian>=160
+	双方max_neili>=500
+命中与威力相关：双方liangyi-jian
+
+jianqin 琴剑双绝
+要求：art>=200，liangyi-jian>=200，xuantian-wuji>=100，neili>=60
+命中与威力相关：xuantian-wuji，force有效等级，exp
+
+juedi 绝地逢生
+要求：liangyi-jian>=180，xuantian-wuji>=80，neili>=500
+命中与威力相关：neili，art，liangyi-jian
+
+qinjian 琴剑破，hslj专有
+要求：有效内力>=2000，有效内力>=最大内力/7+200，liangyi-jian>=500，
+	xuantian-wuji>=500，kunlun-zhang>=500，jifa force xuantian-wuji，不能有jiuyin-zhengong
+命中与威力相关：liangyi-jian，exp，kunlun-zhang，force有效等级，art
+
+ren 天地同仁
+要求：liangyi-jian>=50，xuantian-wuji>=50，max_neili>=400，neili>=210
+命中与威力相关：liangyi-jian
+
+【漫天花雨】(mantian-huayu)
+学习要求：max_neili>=100，xuantian-wuji>=30
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：
+huayu 漫天花雨
+要求：mantian-huayu>=80，xuantian-wuji>=40，max_neili>=400，neili>=200
+命中与威力相关：mantian-huayu
+
+【琴道】(music) 可与qidao互备
+学习要求：force>=20，max_neili>=250，xuantian-wuji>=100，xunlei-jian<=100，chuanyun-tui>=100
+	kunlun-zhang>=100，mantian-huayu>=100，zhentian-quan>=100，art>=100，taxue-wuhen>=100
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：有
+
+特殊招式：
+gong 瑶琴七弦
+要求：music>=30，xuantian-wuji>=50，neili>=600
+命中与威力相关：exp
+
+libie 离别
+要求：music>=280，xuantian-wuji>=50，neili>=600
+命中与威力相关：music，exp
+
+lv 乐律十二律
+要求：music>=180，xuantian-wuji>=50，neili>=600
+命中与威力相关：exp，music
+
+【棋道】(qidao) 可与music互备
+学习要求：force>=20，max_neili>=250，xuantian-wuji>=100，xunlei-jian<=100，chuanyun-tui>=100
+	kunlun-zhang>=100，mantian-huayu>=100，zhentian-quan>=100，art>=100，taxue-wuhen>=100
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：有：
+
+特殊招式：
+xb 大雪崩型定式
+要求：qidao>=250，xuantian-wuji>=150，neili>=600
+命中与威力相关：exp，qidao
+
+【七弦五音剑】(qixian-jian)
+学习要求：force有效等级>=270，max_neili>=3000，force>=220，sword>=180，xuantian-wuji>=160
+	xunlei-jian>=180，liangyi-jian>=180，jifa force xuantian-wuji
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：
+ni 逆转乾坤
+要求：force有效等级>=300，neili>=500，qixian-jian>=180，jifa sword qixian-jian
+命中与威力相关：sword有效等级，force有效等级
+
+shan 七弦黄龙闪
+要求：qixian-jian>=160，jifa sword qixian-jian，force有效等级>=250，neili>=600
+命中与威力相关：force有效等级，max_neili
+
+yin 七弦无形音
+要求：qixian-jian>=160，jifa sword qixian-jian，force有效等级>=250，neili>=600
+命中与威力相关：force有效等级，max_neili
+
+zhu 七弦连环诛
+要求：qixian-jian>=180，jifa sword qixian-jian，force有效等级>=300，neili>=500
+命中与威力相关：force有效等级，max_neili
+
+【踏雪无痕】(taxue-wuhen)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【迅雷剑法】(xunlei-jian)
+学习要求：max_neili>=100，xuantian-wuji>=30，sword>=20
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：
+ren 天地同仁
+要求：xunlei-jian>=20，xuantian-wuji>=20，max_neili>=200，neili>=200
+命中与威力相关：xunlei-jian
+
+【震天拳】(zhentian-quan) 可与chuanyu-tui互备
+学习要求：xuantian-wuji>=25，max_neili>=50
+自动特殊攻击：jifa force xuantian-wuji
+自动特殊防御：
+
+特殊招式：无
+
+──────────────────────────────────
+【昆仑派拜师指南】
+──────────────────────────────────
+昆仑男女分开拜师
+
+昆仑派第五代弟子
+拜师条件：
+
+西华子
+拜师条件：xuantian-wuji>=60
+
+何太冲，班淑娴
+拜师条件：xuantian-wuji>=100
+
+何足道
+拜师条件：xuantian-wuji>=85，max_neili>=500
+────────────────────────────────────────────────────
+【昆仑派门派任务】
+────────────────────────────────────────────────────
+有关昆仑派的门派任务，参见
+
+〖kunlunjob  〗 昆仑派抓武林高手任务(exp>10k)
+〖klsmjob    〗 昆仑师门任务(无限制)
+
+──────────────────────────────────
+【昆仑派解密指南】
+──────────────────────────────────
+昆仑山是九阳解密所在。
+何太冲的小老婆最近病了
+何足道的地方很隐蔽

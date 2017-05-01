@@ -1,0 +1,255 @@
+───────────────────────────
+【大理简介】
+───────────────────────────
+
+大理段氏本是中原武人，在南诏衰败之时于五代后晋天福二年
+得国称帝，建立了大理国。成为当时天下五国之一，地处西南，
+与大宋接壤。大理段氏虽然已经成为金枝玉叶，但仍然保持中
+原武人本色，督促子弟勤练武功，而且对江湖的是非过结仍旧
+以江湖人的身份对待，不以势欺人。大理国镇南王、保国大将
+军段正淳身为今上保定帝胞弟，精忠体国，喜好结交江湖豪客。
+自己也是江湖上闻名的高手。所以府中家丁卫士都有一身武功。
+段氏的一阳指和六脉神剑，皆是江湖上赫赫有名的武功。
+
+段氏既然贵为皇族，自然择徒极为严格，基本上不收江湖人士
+为徒。玩家的经验值大于一万的，就没什么希望了。做为标准
+的名门正派，有负神的人自然绝不会收。附合条件的玩家第一
+步应该先去大理城内拜褚万里、古笃诚、傅思归、朱丹臣为师，
+向他们学习武功，等级稍高后，可拜高升泰及段正淳。段氏的
+一阳指已经是江湖上一等一的武功，如果你有毅力也有好的运
+气的话，将可能得以进入天龙寺，修练六脉神剑。
+                          
+入段氏门下为奴，首先要投身镇南王府(ask zhu about 投身)
+成为家丁。自然是要为段氏王府义务工作的。玩家只有义务工
+作足够的次数才可以享受王府的各种待遇。既然段氏是大理皇
+族，玩家工作于王府是可以加官晋级的，在工作足够的次数以
+后，所有武功高于30并打败家丁(ask jia ding about 指点武
+功) 可以升为家臣，所有武功均高于50并打败褚万里(ask zhu
+about 指点武功) 将会升为卫士，所有武功高于80并打败高升
+泰(ask gao about 指点武功)可以升为武将，进一步还有可能
+封侯。作了官后可从大理官家领取一定的薪金。并有其它一些
+待遇。
+
+一灯大师早已退位隐居了，想找到他很不容易，但只有他在天
+龙寺之外教授高等级的一阳指，对于进不了天龙寺的大理弟子
+来说，找到他的隐居之所是进一步提高功夫所必须的。
+
+──────────────────────────
+【大理武功简介】
+──────────────────────────
+
+禅宗心法 (buddhism)                    
+
+基本拳法 (cuff)                        
+基本轻功 (dodge)                       
+基本指法 (finger)                      
+基本内功 (force)                       
+基本招架 (parry)                       
+基本杖法 (staff)                       
+基本掌法 (strike)                      
+基本剑法 (sword)                       
+基本拳脚 (unarmed)                     
+
+段家剑 (duanjia-sword)                 
+飞凤鞭 (feifeng-whip)                  
+金玉拳 (jinyu-quan)                    
+枯荣禅功 (kurong-changong)             
+六脉神剑 (six-finger)                  
+一阳指 (sun-finger)                    
+天南步法 (tiannan-step)                
+五罗轻烟掌 (wuluo-zhang)               
+段氏一阳指 (yiyang-zhi)                
+
+────────────────────────────────────────
+【大理武功学习条件及特殊招式效果】
+────────────────────────────────────────
+【枯荣禅功】(kurong-changong)
+学习要求：无性不能学
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：kurong-changong>=20，有效气血>=最大气血/2
+命中与威力相关：force有效等级
+
+ku 枯字大法
+要求：kurong-changong>=180，后天根骨>=35，有效内力>=600，最大内力>=2000
+命中与威力相关：kurong-changong
+
+powerup 提升攻击力
+要求：有效内力>=150
+命中与威力相关：force有效等级
+
+rong 荣字大法
+要求：kurong-changong>=180，后天臂力>=25，有效内力>=600，最大内力>=2000
+命中与威力相关：kurong-changong
+
+【天南步法】(tiannan-step)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：
+huadie 化蝶
+要求：kurong-changong>= 80，duanjia-sword>= 80，jinyu-quan>= 80，wuluo-zhang>= 80
+	feifeng-whip>= 80，有效内力>=500
+命中与威力相关：tiannan-step
+
+【金玉拳】(jinyu-quan) 可与wuluo-zhang互备
+学习要求：kurong-changong>=20，最大内力>=100
+自动特殊攻击：有
+自动特殊防御：jifa kurong-changong
+
+特殊招式：无
+
+【五罗轻烟掌】(wuluo-zhang) 可与jinyu-quan互备
+学习要求：kurong-changong>=20，最大内力>=100
+自动特殊攻击：有
+自动特殊防御：jifa kurong-changong
+
+特殊招式：无
+
+【段家剑】(duanjia-sword)
+学习要求：kurong-changong>=20，最大内力>=100
+自动特殊攻击：
+自动特殊防御：jifa kurong-changong
+
+特殊招式：
+ailao 哀牢山剑意
+要求：force有效等级>=70，kurong-changong>=100，sword>=100，duanjia-sword>=200，有效内力>=500
+命中与威力相关：自身经验，sword有效等级
+
+fenglei 风雷四击
+要求：有效内力>=500，kurong-changong>=70，duanjia-sword>=150，jifa sword duanjia-sword
+命中与威力相关：duanjia-sword
+
+jingtian 惊天一击
+要求：duanjia-sword>=70，kurong-changong>=70，有效内力>=300
+命中与威力相关：force有效等级，kurong-changong，duanjia-sword
+
+xswy 相思无用
+要求：duanjia-sword>=300，kurong-changong>=180，duanjia-sword>=180，jinyu-quan>=180，
+	wuluo-zhang>=180，feifeng-whip>=180，有效内力>=500
+命中与威力相关：sword有效等级，duanjia-sword
+
+【段氏一阳指】(yiyang-zhi)
+学习要求：男性，kurong-changong>=150，jinyu-quan>=80，wuluo-zhang>=80，有效内力>=800
+自动特殊攻击：jifa parry yiyang-zhi，jifa unarmed yiyang-zhi
+自动特殊防御：jifa force kurong-changong
+
+特殊招式：
+dian 神指点穴
+要求：yiyang-zhi>=120，force有效等级>=160，jifa force kurong-changong，kurong-changong>=100
+	最大内力>=1800，有效内力>=200
+命中与威力相关：unarmed有效等级，finger有效等级
+
+dragon 六脉龙气
+要求：kurong-changong>=180，duanjia-sword>=180，jinyu-quan>=180，wuluo-zhang>=180，
+	feifeng-whip>=180，sun-finger>=180，yiyang-zhi>=300，有效内力>=300
+命中与威力相关：finger有效等级，带yiyang-zhi伤
+
+heal 起死回生
+要求：kurong-changong>=100，jifa force kurong-changong，yiyang-zhi>=100，最大内力>=1500
+	jifa finger yiyang-zhi，有效内力>=1000，精>=100
+命中与威力相关：force有效等级，yiyang-zhi
+
+jian 先天功乾阳剑气
+要求：kurong-changong>=100，jifa force kurong-changong，yiyang-zhi>=280，最大内力>=5000
+	jifa unarmed yiyang-zhi，jifa finger yiyang-zhi，有效内力>=1000
+命中与威力相关：force有效等级，unarmed有效等级，finger有效等级
+
+jianzhi 剑指灭，hslj专有
+要求：有效内力>=2000，有效内力>=最大内力/7+200，yiyang-zhi>=500，kurong-changong>=500
+	six-finger>=500，jifa force kurong-changong，不能有jiuyin-zhengong
+命中与威力相关：six-finger，yiyang-zhi，force，force有效等级，parry有效等级，dodge有效等级
+	可破hamagong
+
+qian 一指乾坤
+要求：kurong-changong>=100，jifa force kurong-changong，yiyang-zhi>=160，jifa finger yiyang-zhi
+	force有效等级>=220，最大内力>=2400，有效内力>=500
+命中与威力相关：finger有效等级，force有效等级
+
+sandie 阳关三叠
+要求：yiyang-zhi>=100，finger>=100，后天臂力>=25，kurong-changong>=180，jifa finger yiyang-zhi
+	jifa parry yiyang-zhi，最大内力>=1200，有效内力>=800
+命中与威力相关：自身经验，force，yiyang-zhi，可破hamagong，force有效等级，parry有效等级，dodge有效等级
+
+【一阳指】(sun-finger)
+学习要求：男性，最大内力>=700，kurong-changong或者xiantian-qigong>=80
+自动特殊攻击：
+自动特殊防御：jifa force kurong-changong
+
+特殊招式：
+qiankun 一指乾坤
+要求：后天臂力>=28，kurong-changong>=90，sun-finger>=90，最大内力>=850，有效内力>=200
+命中与威力相关：自身经验，sun-finger
+
+【飞凤鞭】(feifeng-whip)
+学习要求：kurong-changong>=20
+自动特殊攻击：jifa force kurong-changong
+自动特殊防御：
+
+特殊招式：无
+
+【六脉神剑】(six-finger)
+学习要求：最大内力>=1000，kurong-changong>=100，duanjia-sword>=80，tiannan-step>=80
+自动特殊攻击：jifa force kurong-changong
+自动特殊防御：
+
+特殊招式：
+liumaijingshen 六脉惊神
+要求：jifa force kurong-changong，kurong-changong>=70，six-finger>=80，有效内力>=600
+	force>=150
+命中与威力相关：six-finger
+
+qi 无形剑气
+要求：force有效等级>=360，six-finger>=180，最大内力>=8000，kurong-changong>=100
+	有效内力>=500，jifa finger six-finger
+命中与威力相关：force有效等级
+
+zong 纵横天下
+要求：jifa finger six-finger，force有效等级>=280，six-finger>=320，最大内力>=6500，
+	kurong-changong>=180，有效内力>=1250，duanjia-sword>=180，jinyu-quan>=180
+	wuluo-zhang>=180，feifeng-whip>=180，sun-finger>=180，yiyang-zhi>=180
+命中与威力相关：six-finger，force，finger有效等级
+
+zongheng 纵横
+要求：six-finger>=120，有效内力>=100，kurong-changong>=100，jifa finger six-finger
+命中与威力相关：finger，six-finger
+
+──────────────────────────────────
+【大理拜师指南】
+──────────────────────────────────
+首先要在褚万里那里投身大理为奴，ask zhu about 投身
+褚万里等四大家臣
+拜师条件：无性不能拜，僧人不能拜，后天臂力>=20
+
+高升泰 
+拜师条件：kurong-changong>=30，zhengqi>=10000
+
+段正淳 
+拜师条件：kurong-changong>=100，zhengqi>=10000
+
+枯荣大师
+拜师条件：男性，出家人，kurong-changong>=150
+
+一灯大师
+拜师条件：投身大理，zhengqi>=10000，解密
+
+────────────────────────────────────────────────────
+【大理门派任务】
+────────────────────────────────────────────────────
+有关大理的门派任务，参见
+
+〖dalijob    〗 大理送军机任务(exp>100k）
+〖dalijob2   〗 大理义工任务 (无限制）
+
+──────────────────────────────────
+【大理解密指南】
+──────────────────────────────────
+天龙寺的舍利子最近丢了
+枯荣大师那里有一阳指和六脉神剑谱
+拜一灯需要先解开和一灯和瑛姑的感情纠葛
+段誉离家出走了，要找回来
+

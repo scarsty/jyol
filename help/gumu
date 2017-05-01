@@ -1,0 +1,428 @@
+───────────────────────────
+【古墓派简介】
+───────────────────────────
+
+    古墓派始创于宋朝末年的旷世女侠林朝英。林朝英与全真教
+主持王重阳道长有着一段十分复杂微妙的感情故事( 故事详细情
+节请参看金庸先生的小说《神雕侠侣》) 。两人本为一对天造地
+设的佳偶，只因此二人的性格和志向以及自持身分，结果却是一
+人在终南山全真教出家做了道士，整日念经，先前的一番济世救
+国之心尽皆化去；另一人则终生守在不见天日的古墓里，最后郁
+郁而终。
+    林朝英也是一代武学奇才，生时世上罕逢敌手，她将自己的
+全身武功传给了她的贴身丫缳，丫缳再传下去，如此古墓派武功
+终于得以保存。
+    古墓派的最后一任掌门人是小龙女。小龙女冰清玉洁，美丽
+绝世，本来守于古墓，不与世争，收下了从全真教叛出的杨过，
+授以古墓派武功。这时李莫愁已出走江湖，古墓中并无他人，龙
+杨二人朝夕相处，日久生情。杨过少年心性，按捺不住，终又投
+入五光十色、扑朔迷离的滚滚尘世，小龙女思念杨过，也随之走
+出了古墓。岂料二人的一生也并非如意，其间的种种曲折坎坷、
+是非恩怨、悲欢离合尽数记载于《神雕侠侣》中，不必多言。龙
+杨二人三聚三离，最后一次相聚竟是在相隔十八年后，杨过终于
+明白了小龙女的心思，人近中年，对红尘也不再那么执着了，华
+山论剑后携小龙女从此退隐江湖，不知所终。
+    后来峨嵋派开山祖师，大侠郭靖次女郭襄遍历江湖，只想寻
+找到这二人的一点消息，数年而不得，失望之际剃发出家，从此
+青灯伴古佛，无声无息了此一生。真是：
+
+              一切恩爱会  无常难得久
+              生世多畏惧  命危於晨露
+              由爱故生忧  由爱故生怖
+              若离於爱者  无忧亦无怖
+
+    又云:
+
+              问人间  情是何物  直教生死相许
+              天南地北双飞客  老翅几回寒暑
+              欢乐趣  离别苦  是中更有痴儿女
+              君应有语  渺万里层云  千山幕景  只影为谁去
+              横汾路  寂寞当年萧鼓  荒烟依旧平楚
+              招魂楚些何磋及  山鬼自啼风雨
+              天也妒  未信与  莺儿燕子俱黄土
+              千秋万古  为留待骚人  狂歌痛饮  来访雁丘处
+
+    至此古墓虽在，却是冷冷清清，不如其它门派有师父、师娘、
+同门师兄弟姐妹照顾。古墓派弟子应当耐得住寂寞，奋发努力，
+重兴古墓。
+
+    又及：若想成为古墓派传人，需得有相当的福缘，容貌欠佳
+者还是及早拜入其它门派为好。另外的一些条件都会给出提示，
+试试就知道了。古墓派收徒颇严，对膂力，悟性，身法均有一定
+要求。
+
+
+────────────────────────────────────────────────────
+【古墓派武功简介】
+────────────────────────────────────────────────────
+驱蜂术 (qufeng)                          
+美容术 (yangyanshu)                      
+
+基本轻功 (dodge)                         
+基本内功 (force)                         
+基本招架 (parry)                         
+基本掌法 (strike)                        
+基本剑法 (sword)                         
+基本暗器 (throwing)                      
+基本拳脚 (unarmed)                       
+基本鞭法 (whip)                          
+
+黯然消魂掌 (anranxiaohun-zhang)          
+美女拳 (meinv-quan)                      
+天罗地网势 (tianluo-diwang)              
+五展梅 (wuzhan-mei)                      
+先天气功 (xiantian-qigong)               
+玄铁剑法 (xuantie-sword)                 
+银索金铃 (yinsuo-jinling)                
+玉女剑法 (yunv-jian)                     
+玉女身法 (yunv-shenfa)                   
+玉女心法 (yunv-xinfa)                    
+左右互搏 (hubo)                          
+
+────────────────────────────────────────────────────
+【古墓派武功学习条件及特殊招式效果】
+────────────────────────────────────────────────────
+【玉女心法】(yunv-xinfa)
+学习要求：无性不能学，force>=20
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：exert
+heal 疗伤
+要求：yunv-xinfa>=20，neili>=50，eff_qi>max_qi/2
+命中与威力相关：force有效等级
+
+lifeheal 助人疗伤
+要求：max_neili>=300，neili>=100，目标的eff_qi>=max_qi/5
+命中与威力相关：force有效等级
+
+powerup 提升攻击力
+要求：neili>=200，yunv-xinfa>=20
+命中与威力相关：force有效等级
+
+roar 黯然销魂吟
+要求：neili>=150，qi>=10
+命中与威力相关：force有效等级
+
+【玉女剑法】(yunv-jian)
+学习要求：yunv-xinfa>=85，yunv-shenfa>=80，tianluo-diwang>=80，meinv-quan>=80
+	yinsuo-jinling>=80
+自动特殊攻击：有
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+he 双剑合璧
+要求：yunv-xinfa>=80，yunv-jian>=80，quanzhen-jian>=50，neili>=400
+命中与威力相关：exp，yunv-jian
+
+hebi 双剑和璧左右互搏
+要求：jifa force yunv-xinfa，男女双方，双方jifa sword yunv-jian，双方neili>=300，双方yunv-jian>=160
+	双方max_neili>=500
+命中与威力相关：双方yunv-jian
+
+hubo 双剑和璧左右互搏
+要求：quanzhen-jian>=120，yunv-jian>=180，jifa force yunv-xinfa，yunv-xinfa>=180
+	neili>400，jing>100
+命中与威力相关：yunv-jian，quanzhen-jian，yunv-xinfa
+
+poyuji 破玉斩，hslj专有
+要求：quanzhen-jian>=120，有效内力>=2000，有效内力>=最大内力/7+200，yunv-jian>=500，
+	yunv-xinfa>=500，	meinv-quan>=500，jifa force yunv-xinfa，不能有jiuyin-zhengong
+命中与威力相关：yunv-jian，meinv-quan，exp，jiali数，force，cuff
+
+suxin 玉女素心
+要求： yunv-xinfa>=60，sword>=135，neili>400，jing>100
+命中与威力相关：yunv-jian，yunv-xinfa
+
+【全真剑法】(quanzhen-jian)
+学习要求：xiantian-qigong>=15或者yunv-xinfa>=15，学了xiantian-qigong后要求qixing-jian>=80，
+	qixing-shou>=80，haotian-zhang>=80，jinyan-gong>=80
+自动特殊攻击：jifa force xiantian-qigong
+自动特殊防御：jifa force xiantian-qigong
+
+特殊招式：
+chunyang 纯阳决，hslj专有
+要求：有效内力>=2000，有效内力>=最大内力/7+200，quanzhen-jian>=500，
+	xiantian-qigong>=500，qixing-array>=500，jifa force xiantian-qigong，不能有jiuyin-zhengong
+命中与威力相关：quanzhen-jian，exp，qixing-array，sword有效等级
+
+ding 定阳针
+要求：quanzhen-jian>=50，neili>=150
+命中与威力相关：quanzhen-jian，force
+
+jianqi 剑气
+要求：quanzhen-jian>=150，sword<=150，后天臂力>25，xiantian-qigong>=150
+	jifa sword quanzhen-jian，jifa parry quanzhen-jian，max_neili>2000，neili>600
+	jing>200
+命中与威力相关：sword有效等级
+
+jianzhen 七星剑阵
+要求：全真弟子，不能打同门，qixing-array>=150，quanzhen-jian>=150，neili>=300
+	jing>=60
+命中与威力相关：qi
+
+qixing 七星绝命剑
+要求：quanzhen-jian>=150，jifa sword quanzhen-jian，neili>=200
+命中与威力相关：exp，quanzhen-jian，qixing-array
+
+qixinggongyue 七星拱月
+要求：quanzhen-jian>=280，xiantian-qigong>=280，qixing-array>=200
+	jifa force xiantian-qigong，neili>=2000，jing>=80，
+命中与威力相关：sword有效等级，quanzhen-jian
+
+qixinglianzhen 七星连阵
+要求：jifa force xiantian-qigong，jifa array qixing-array，组队，队员jifa sword quanzhen-jian，
+	neili>=300
+命中与威力相关：qixing-array
+
+sanqing 一剑化三清
+要求：neili>=300，quanzhen-jian>=135，xiantian-qigong>=60，jifa force xiantian-qigong
+命中与威力相关：quanzhen-jian，qixing-array
+
+tonggui 同归剑法
+要求：quanzhen-jian>=135，xiantian-qigong>=100，jifa force xiantian-qigong
+	neili>=800
+命中与威力相关：qixing-array，quanzhen-jian
+
+【玉女身法】(yunv-shenfa)
+学习要求：
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【左右互搏】(hubo)
+学习要求：force>=30，max_neili>=200，int<=24
+自动特殊攻击：
+自动特殊防御：
+
+特殊招式：无
+
+【美女拳】(meinv-quan) 可与tianluo-diwang互备
+学习要求：yunv-xinfa>=10，max_neili>=30
+自动特殊攻击：jifa parry meinv-quan
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+wuqing 玉女无情
+要求：yunv-xinfa>=40，meinv-quan>=120，force>=120，neili>=400
+	jing>=200
+命中与威力相关：exp，force，cuff，jiali数
+
+you 古墓幽居
+要求：meinv-quan>=50，yunv-xinfa>=40，neili>=150
+命中与威力相关：meinv-quan
+
+youju 古墓幽居
+要求：yunv-xinfa>=40，meinv-quan>=120，force>=120，jifa force yunv-xinfa
+	neili>=1000，jing>=500，jiali<=50
+命中与威力相关：exp，force有效等级，cuff有效等级，jiali数
+
+【五展梅】(wuzhan-mei)
+学习要求：max_neili>=400
+自动特殊攻击：jifa force biyun-xinfa
+自动特殊防御：
+
+特殊招式：
+luohua 落花剑
+要求：neili>=500，wuzhan-mei>=300
+命中与威力相关：wuzhan-mei
+
+mkwd 梅开五度
+要求：neili>=500，wuzhan-mei>=300
+命中与威力相关：wuzhan-mei
+
+wumei 五梅吐蕊
+要求：neili>=500，sword有效等级>=100，jifa sword wuzhan-mei
+命中与威力相关：wuzhan-mei
+
+yumei 雨激梅花半瓣香
+要求：neili>=300，wuzhan-mei>=100
+命中与威力相关：exp，biyun-xinfa
+
+【天罗地网势】(tianluo-diwang) 可与meinv-quan互备
+学习要求：yunv-xinfa>=20
+自动特殊攻击：
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+luowang 天罗地网
+要求：后天臂力>=25，yunv-xinfa>=100，tianluo-diwang>=120，neili>=300
+命中与威力相关：exp，tianluo-diwang
+
+【银索金铃】(yinsuo-jinling)
+学习要求：max_neili>=500，yunv-xinfa>=50
+自动特殊攻击：有
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+dian 点穴
+要求：yinsuo-jinling>=120，yunv-xinfa>=135，max_neili>=1000，neili>=300
+命中与威力相关：exp
+
+feng 封穴
+要求：yunv-xinfa>=100，yinsuo-jinling>=150，neili>=800
+命中与威力相关：exp，yinsuo-jinling
+
+【黯然消魂掌】(anranxiaohun-zhang)
+学习要求：已婚，max_neili>=2000，后天臂力>=30，后天根骨>=30，dodge有效等级>=100
+	yunv-jian>=80，yunv-shenfa>=80，tianluo-diwang>=80，meinv-quan>=80，yinsuo-jinling>=80
+自动特殊攻击：jifa force yunv-xinfa，jifa unarmed anranxiaohun-zhang
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+anran 黯然
+要求：max_neili>=1500，jifa force yunv-xinfa，jing>=200，neili>=800，jing>=800
+	anranxiaohun-zhang>=150，eff_qi+1000<max_qi，yunv-xinfa>=200
+命中与威力相关：anranxiaohun-zhang，yunv-xinfa，unarmed有效等级
+
+jingtao 怒海惊涛
+要求：jifa force yunv-xinfa，yunv-jian>=80，yunv-shenfa>=80，tianluo-diwang>=80
+	meinv-quan>=80，wuzhan-mei>=80，yinsuo-jinling>=80，anranxiaohun-zhang>=150
+	neili>1000，
+命中与威力相关：force有效等级，unarmed有效等级，jiali数，anranxiaohun-zhang
+
+sad 黯然销魂
+要求：neili>=1500，anranxiaohun-zhang>=250，force有效等级>=300，yunv-jian>=80
+	yunv-shenfa>=80，tianluo-diwang>=80，meinv-quan>=80，wuzhan-mei>=80，yinsuo-jinling>=80
+命中与威力相关：unarmed有效等级，force有效等级
+
+tuo 拖泥带水
+要求：jifa force yunv-xinfa，force有效等级>=250，anranxiaohun-zhang>=180，yunv-jian>=80
+	yunv-shenfa>=80，tianluo-diwang>=80，meinv-quan>=80，wuzhan-mei>=80，yinsuo-jinling>=80
+	neili>=500
+命中与威力相关：eff_qi，unarmed有效等级，force有效等级，anranxiaohun-zhang
+
+xiaohun 黯然消魂
+要求：neili>=1000，jifa force yunv-xinfa，anranxiaohun-zhang>=300，xuantie-sword>=100
+	force>=200
+命中与威力相关：exp，anranxiaohun-zhang
+
+【玄铁剑法】(xuantie-sword)
+学习要求：max_neili>=500
+自动特殊攻击：jifa force yunv-xinfa，jifa sword xuantie-sword
+自动特殊防御：jifa force yunv-xinfa
+
+特殊招式：
+botao 波涛汹涌
+要求：neili>=400，xuantie-sword>=50
+命中与威力相关：xuantie-sword
+
+chan 缠字诀
+要求：xuantie-sword>=40，neili>=100
+命中与威力相关：exp，xuantie-sword
+
+dang 力荡群魔
+要求：xuantie-sword>=120，yunv-xinfa>=120，后天臂力>=40，neili>=300
+命中与威力相关：后天臂力，sword有效等级，xuantie-sword
+
+dong 大江东去
+要求：force有效等级>=150，xuantie-sword>=200，neili>=800，jifa sword xuantie-sword
+命中与威力相关：sword有效等级，后天臂力
+
+feihongrudian 飞虹如电
+要求：装备xuantiesword，sword有效等级>=205，neili>=500
+命中与威力相关：xuantie-sword
+
+hai 海潮汹涌
+要求：xuantie-sword>=150，yunv-xinfa>=130，force有效等级>=180，后天臂力>=33
+	jifa sword xuantie-sword，jifa parry xuantie-sword，max_neili>=force有效等级+200+xuantie-sword/5
+命中与威力相关：sword有效等级，xuantie-sword，yunv-xinfa
+
+juan 卷字诀
+要求：xuantie-sword>=70，force有效等级>=120，neili>=100，jifa sword xuantie-sword
+命中与威力相关：sword有效等级。
+
+lei 迅雷
+要求：jifa parry xuantie-sword，xuantie-sword>=160，force>=200，yunv-xinfa>=160
+	后天臂力>=32，后天身法>=30，max_neili>=1800，neili>=900，
+命中与威力相关：xuantie-sword，yunv-xinfa
+
+qianjun 千均一击
+要求：force有效等级>=300，sword有效等级>=300，max_neili>3000，neili>1000
+命中与威力相关：exp，force有效等级，sword有效等级，先天悟性
+
+xunlei 迅雷
+要求：jifa sword xuantie-sword，force有效等级>=200，后天臂力>=32，后天身法>=30，max_neili>=1800
+	neili>=200
+命中与威力相关：xuantie-sword
+
+【先天气功】(xiantian-qigong)
+学习要求：无性不能学，佛家弟子不能学，force>=10，大量的正气
+自动特殊攻击： 有
+自动特殊防御：
+
+特殊招式：
+exert：
+heal 疗伤
+要求：xiantian-qigong>=20，neili>=50，eff_qi>=max_qi/2
+命中与威力相关：force有效等级。
+
+hup 五气朝元
+要求：xiantian-qigong>=200，max_neili>=1000，neili>=200，
+命中与威力相关：eff_qi，max_qi
+
+powerup 提升攻击力
+要求：neili>=150
+命中与威力相关：force有效等级。
+
+shield 护体真气
+要求：xiantian-qigong>=50，neili>=200
+命中与威力相关：force有效等级
+
+xiantiandafa 先天大法
+要求：xiantian-qigong>=200，neili>=500
+命中与威力相关：xiantian-qigong
+
+perform：
+dang 神威浩荡
+要求：xiantian-qigong>=240，max_neili>=4000，jifa unarmed xiantian-qigong，jifa force xiantian-qigong
+	neili>=800，
+命中与威力相关：unarmed有效等级，force有效等级，max_neili
+
+fen 五阴焚灭
+要求：xiantian-qigong>=240，max_neili>=4000，jifa unarmed xiantian-qigong，jifa force xiantian-qigong
+	neili>=600
+命中与威力相关：unarmed有效等级，force有效等级，max_neili
+
+hun 天地混元
+要求：xiantian-qigong>=200，max_neili>=4000，jifa unarmed xiantian-qigong，jifa force xiantian-qigong
+	neili>=500
+命中与威力相关：unarmed有效等级，先天根骨
+
+jian 先天功乾阳剑气
+要求：xiantian-qigong>=280，max_neili>=5000，jifa unarmed xiantian-qigong，jifa force xiantian-qigong
+	neili>=1000
+命中与威力相关：force有效等级，finger有效等级，unarmed有效等级
+
+shen 纯阳神通功
+要求：xiantian-qigong>=240，max_neili>=4000，jifa unarmed xiantian-qigong，jifa force xiantian-qigong
+	neili>=1000
+命中与威力相关：unarmed有效等级，force有效等级，max_neili，xiantian-qigong
+
+──────────────────────────────────
+【古墓拜师指南】
+──────────────────────────────────
+小龙女
+拜师条件：先天容貌>=20
+
+杨过
+拜师条件：zhengqi<50000，zhengqi>-50000，exp>=1000000，先切磋
+
+林朝英
+拜师条件：后天悟性>=30，yunv-xinfa>=300
+
+────────────────────────────────────────────────────
+【古墓门派任务】
+────────────────────────────────────────────────────
+有关古墓的门派任务，参见
+
+〖gumujob    〗 古墓刺杀敌元帅任务(exp>100k)
+〖longnvjob  〗 古墓捉玉蜂制作玉蜂浆任务(无限制)
+
+──────────────────────────────────
+【古墓解密指南】
+──────────────────────────────────
+古墓里有九阴真经可读
+古墓的很多房间都可以练习基本武功
+杨过身上有把玄铁剑
